@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>살림노트 링크</title>
+    <meta name="description" content="살림노트 프로필 링크 모음">
+    <style>
+      :root {
+        --bg: #f6f0e8;
+        --card: rgba(255, 255, 255, 0.84);
+        --ink: #2f241d;
+        --muted: #726257;
+        --accent: #d84f3c;
+        --accent-dark: #b53e2d;
+        --line: rgba(47, 36, 29, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(216, 79, 60, 0.14), transparent 34%),
+          radial-gradient(circle at top right, rgba(120, 92, 62, 0.12), transparent 28%),
+          linear-gradient(180deg, #f9f5ef 0%, var(--bg) 100%);
+      }
+
+      main {
+        width: min(100%, 520px);
+        margin: 0 auto;
+        padding: 28px 18px 48px;
+      }
+
+      .hero {
+        padding: 28px 22px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72));
+        box-shadow: 0 24px 60px rgba(80, 54, 32, 0.08);
+        backdrop-filter: blur(14px);
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 14px;
+        padding: 7px 12px;
+        border-radius: 999px;
+        background: rgba(216, 79, 60, 0.1);
+        color: var(--accent-dark);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 34px;
+        line-height: 1.15;
+      }
+
+      .lead {
+        margin: 12px 0 0;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .links {
+        display: grid;
+        gap: 14px;
+        margin-top: 22px;
+      }
+
+      .card {
+        display: block;
+        padding: 18px 18px 16px;
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        background: var(--card);
+        color: inherit;
+        text-decoration: none;
+        box-shadow: 0 14px 30px rgba(80, 54, 32, 0.06);
+      }
+
+      .card:hover {
+        transform: translateY(-1px);
+        transition: transform 140ms ease;
+      }
+
+      .label {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 12px;
+        font-weight: 800;
+        color: var(--accent-dark);
+      }
+
+      .title {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1.35;
+      }
+
+      .desc {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.55;
+      }
+
+      .cta {
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 800;
+        color: var(--accent);
+      }
+
+      .note {
+        margin-top: 16px;
+        color: #8a7a6f;
+        font-size: 12px;
+        line-height: 1.6;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="eyebrow">@sa.lim_note</div>
+        <h1>살림노트 링크</h1>
+        <p class="lead">인스타에서 소개한 살림템과 큐레이션 링크를 한곳에 모아뒀어요.</p>
+
+        <div class="links">
+          <a class="card" href="https://store.ohou.se/goods/1026292" target="_blank" rel="noopener noreferrer">
+            <div class="label">첫 구매링크</div>
+            <div class="title">깐깐공주 항균 방수 가죽 식탁보</div>
+            <div class="desc">올렸던 식탁보 상품 상세 페이지로 바로 이동합니다.</div>
+            <div class="cta">상품 보러가기 →</div>
+          </a>
+
+          <a class="card" href="https://ozip.me/n6y982u?af" target="_blank" rel="noopener noreferrer">
+            <div class="label">큐레이터 모음</div>
+            <div class="title">오늘의집 살림노트 추천 링크</div>
+            <div class="desc">살림노트 계정에서 활용하는 오늘의집 큐레이션 링크입니다.</div>
+            <div class="cta">추천 링크 보러가기 →</div>
+          </a>
+        </div>
+
+        <p class="note">링크를 통해 구매가 이루어질 경우 제휴 수수료를 제공받을 수 있습니다.</p>
+      </section>
+    </main>
+  </body>
+</html>

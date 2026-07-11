@@ -13,6 +13,7 @@
         --muted: #726257;
         --accent: #d84f3c;
         --accent-dark: #b53e2d;
+        --accent-soft: rgba(216, 79, 60, 0.1);
         --line: rgba(47, 36, 29, 0.08);
       }
 
@@ -32,54 +33,138 @@
       }
 
       main {
-        width: min(100%, 520px);
+        width: min(100%, 760px);
         margin: 0 auto;
-        padding: 28px 18px 48px;
+        padding: 24px 16px 56px;
       }
 
-      .hero {
-        padding: 28px 22px;
+      .hero,
+      .panel {
         border: 1px solid var(--line);
         border-radius: 28px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72));
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.78));
         box-shadow: 0 24px 60px rgba(80, 54, 32, 0.08);
         backdrop-filter: blur(14px);
       }
 
-      .eyebrow {
+      .hero {
+        padding: 28px 22px;
+      }
+
+      .panel {
+        margin-top: 16px;
+        padding: 20px 18px;
+      }
+
+      .eyebrow,
+      .chip {
         display: inline-block;
-        margin-bottom: 14px;
         padding: 7px 12px;
         border-radius: 999px;
-        background: rgba(216, 79, 60, 0.1);
+        background: var(--accent-soft);
         color: var(--accent-dark);
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 0.04em;
       }
 
-      h1 {
+      .eyebrow {
+        margin-bottom: 14px;
+      }
+
+      h1,
+      h2 {
         margin: 0;
+      }
+
+      h1 {
         font-size: 34px;
         line-height: 1.15;
       }
 
-      .lead {
-        margin: 12px 0 0;
+      h2 {
+        font-size: 22px;
+        line-height: 1.25;
+      }
+
+      .lead,
+      .section-copy,
+      .empty,
+      .pending-note,
+      .note {
         color: var(--muted);
-        font-size: 15px;
         line-height: 1.6;
       }
 
-      .links {
+      .lead {
+        margin: 12px 0 0;
+        font-size: 15px;
+      }
+
+      .stats {
         display: grid;
-        gap: 14px;
-        margin-top: 22px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .stat {
+        padding: 14px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.86);
+        border: 1px solid var(--line);
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 24px;
+      }
+
+      .stat span {
+        display: block;
+        margin-top: 6px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .section-copy {
+        margin: 10px 0 0;
+        font-size: 14px;
+      }
+
+      .search {
+        width: 100%;
+        margin-top: 16px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.86);
+        color: var(--ink);
+        font-size: 15px;
+      }
+
+      .search:focus {
+        outline: 2px solid rgba(216, 79, 60, 0.2);
+        border-color: rgba(216, 79, 60, 0.3);
+      }
+
+      .cards,
+      .pending-list {
+        display: grid;
+        gap: 12px;
+        margin-top: 16px;
       }
 
       .card {
         display: block;
-        padding: 18px 18px 16px;
+        padding: 18px;
         border: 1px solid var(--line);
         border-radius: 22px;
         background: var(--card);
@@ -102,15 +187,15 @@
       }
 
       .title {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 800;
-        line-height: 1.35;
+        line-height: 1.4;
       }
 
       .desc {
         margin-top: 8px;
-        color: var(--muted);
         font-size: 14px;
+        color: var(--muted);
         line-height: 1.55;
       }
 
@@ -121,12 +206,68 @@
         color: var(--accent);
       }
 
+      .pending-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.72);
+      }
+
+      .pending-item strong {
+        display: block;
+        font-size: 15px;
+        line-height: 1.45;
+      }
+
+      .pending-actions {
+        flex: none;
+      }
+
+      .pending-actions a {
+        display: inline-block;
+        padding: 10px 12px;
+        border-radius: 12px;
+        background: var(--accent-soft);
+        color: var(--accent-dark);
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .pending-note,
+      .empty,
       .note {
-        margin-top: 16px;
-        color: #8a7a6f;
         font-size: 12px;
-        line-height: 1.6;
+      }
+
+      .pending-note {
+        margin: 14px 0 0;
+      }
+
+      .note {
+        margin-top: 18px;
         text-align: center;
+        color: #8a7a6f;
+      }
+
+      @media (max-width: 640px) {
+        .stats {
+          grid-template-columns: 1fr;
+        }
+
+        .section-head,
+        .pending-item {
+          display: block;
+        }
+
+        .pending-actions {
+          margin-top: 10px;
+        }
       }
     </style>
   </head>
@@ -135,26 +276,138 @@
       <section class="hero">
         <div class="eyebrow">@sa.lim_note</div>
         <h1>살림노트 링크</h1>
-        <p class="lead">인스타에서 소개한 살림템과 큐레이션 링크를 한곳에 모아뒀어요.</p>
+        <p class="lead">큐레이터 링크가 붙은 상품은 바로 열리고, 아직 링크를 수집 중인 상품은 아래 대기 목록에서 관리합니다.</p>
 
-        <div class="links">
-          <a class="card" href="https://store.ohou.se/goods/1026292" target="_blank" rel="noopener noreferrer">
-            <div class="label">첫 구매링크</div>
-            <div class="title">깐깐공주 항균 방수 가죽 식탁보</div>
-            <div class="desc">올렸던 식탁보 상품 상세 페이지로 바로 이동합니다.</div>
-            <div class="cta">상품 보러가기 →</div>
-          </a>
-
-          <a class="card" href="https://ozip.me/n6y982u?af" target="_blank" rel="noopener noreferrer">
-            <div class="label">큐레이터 모음</div>
-            <div class="title">오늘의집 살림노트 추천 링크</div>
-            <div class="desc">살림노트 계정에서 활용하는 오늘의집 큐레이션 링크입니다.</div>
-            <div class="cta">추천 링크 보러가기 →</div>
-          </a>
+        <div class="stats" id="stats">
+          <div class="stat">
+            <strong id="linked-count">-</strong>
+            <span>큐레이터 링크 완료</span>
+          </div>
+          <div class="stat">
+            <strong id="pending-count">-</strong>
+            <span>링크 수집 대기</span>
+          </div>
+          <div class="stat">
+            <strong id="total-count">-</strong>
+            <span>전시 전체 상품</span>
+          </div>
         </div>
-
-        <p class="note">링크를 통해 구매가 이루어질 경우 제휴 수수료를 제공받을 수 있습니다.</p>
       </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2>바로 열기</h2>
+          <span class="chip">링크 완료 상품</span>
+        </div>
+        <p class="section-copy">큐레이터 링크가 확보된 상품만 위쪽에 자동으로 노출됩니다.</p>
+        <div class="cards" id="linked-products"></div>
+        <p class="empty" id="linked-empty" hidden>아직 큐레이터 링크가 연결된 상품이 없습니다.</p>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2>수집 대기</h2>
+          <span class="chip">원본 상품 목록</span>
+        </div>
+        <p class="section-copy">아래 상품들은 원본 상품 페이지로 먼저 들어가고, `공유하기 > 주소 복사`로 큐레이터 링크를 확보하면 자동 노출 대상으로 옮길 수 있습니다.</p>
+        <input id="search" class="search" type="search" placeholder="상품명 검색">
+        <div class="pending-list" id="pending-products"></div>
+        <p class="pending-note">현재는 대기 상품 중 앞 24개만 보여줍니다. 검색하면 바로 좁혀볼 수 있습니다.</p>
+      </section>
+
+      <p class="note">링크를 통해 구매가 이루어질 경우 제휴 수수료를 제공받을 수 있습니다.</p>
     </main>
+
+    <script>
+      async function loadJson(path) {
+        const response = await fetch(path, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(path + " load failed");
+        }
+        return response.json();
+      }
+
+      function normalizeText(value) {
+        return (value || "").toLowerCase().replace(/\s+/g, " ").trim();
+      }
+
+      function linkedCard(item, rank) {
+        return [
+          '<a class="card" href="' + item.curatorUrl + '" target="_blank" rel="noopener noreferrer">',
+          '<div class="label">' + (rank === 0 ? "첫 링크 확보" : "큐레이터 링크 완료") + "</div>",
+          '<div class="title">' + item.name + "</div>",
+          '<div class="desc">원본 상품 페이지 대신 제휴 추적이 붙은 큐레이터 링크로 이동합니다.</div>',
+          '<div class="cta">큐레이터 링크 열기 →</div>',
+          "</a>"
+        ].join("");
+      }
+
+      function pendingCard(item) {
+        return [
+          '<div class="pending-item">',
+          "<div>",
+          "<strong>" + item.name + "</strong>",
+          '<div class="desc">원본 상품 페이지에서 주소 복사로 큐레이터 링크를 확보하면 상단으로 자동 이동시킬 수 있습니다.</div>',
+          "</div>",
+          '<div class="pending-actions"><a href="' + item.url + '" target="_blank" rel="noopener noreferrer">상품 페이지 열기</a></div>',
+          "</div>"
+        ].join("");
+      }
+
+      async function main() {
+        const products = await loadJson("./products.json");
+        const links = await loadJson("./curator-links.json");
+        const linkedById = new Map(links.map((item) => [String(item.id), item]));
+
+        const merged = products.map((product) => {
+          const linked = linkedById.get(String(product.id));
+          return {
+            ...product,
+            curatorUrl: linked ? linked.curatorUrl : "",
+            note: linked ? linked.note || "" : ""
+          };
+        });
+
+        const linkedProducts = merged.filter((item) => item.curatorUrl);
+        const pendingProducts = merged.filter((item) => !item.curatorUrl);
+
+        document.getElementById("linked-count").textContent = String(linkedProducts.length);
+        document.getElementById("pending-count").textContent = String(pendingProducts.length);
+        document.getElementById("total-count").textContent = String(merged.length);
+
+        const linkedContainer = document.getElementById("linked-products");
+        const linkedEmpty = document.getElementById("linked-empty");
+        if (linkedProducts.length) {
+          linkedContainer.innerHTML = linkedProducts.map(linkedCard).join("");
+        } else {
+          linkedEmpty.hidden = false;
+        }
+
+        const pendingContainer = document.getElementById("pending-products");
+        const searchInput = document.getElementById("search");
+
+        function renderPending(filter) {
+          const keyword = normalizeText(filter);
+          const filtered = pendingProducts.filter((item) => normalizeText(item.name).includes(keyword));
+          const limited = filtered.slice(0, 24);
+          pendingContainer.innerHTML = limited.map(pendingCard).join("");
+          if (!limited.length) {
+            pendingContainer.innerHTML = '<p class="empty">검색 결과가 없습니다.</p>';
+          }
+        }
+
+        searchInput.addEventListener("input", (event) => {
+          renderPending(event.target.value);
+        });
+
+        renderPending("");
+      }
+
+      main().catch((error) => {
+        const linkedContainer = document.getElementById("linked-products");
+        linkedContainer.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.</p>';
+        console.error(error);
+      });
+    </script>
   </body>
 </html>

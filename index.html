@@ -140,6 +140,37 @@
         line-height: 1.7;
       }
 
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 22px;
+      }
+
+      .hero-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 52px;
+        padding: 0 20px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 800;
+      }
+
+      .hero-button.primary {
+        background: #bf5c3f;
+        color: #fffdf9;
+        box-shadow: 0 12px 24px rgba(191, 92, 63, 0.22);
+      }
+
+      .hero-button.secondary {
+        background: rgba(255, 255, 255, 0.72);
+        color: #6b5849;
+        border: 1px solid rgba(74, 51, 33, 0.1);
+      }
+
       .hero-stats {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -406,6 +437,10 @@
           인스타에서 자주 물어보셨던 제품만 보기 좋게 모아뒀어요.
           기간 한정 딜은 따로 모아두고, 제목이나 가격이 바뀌면 다시 반영되도록 관리합니다.
         </p>
+        <div class="hero-actions">
+          <a class="hero-button primary" href="https://store.ohou.se/exhibitions/12912?airbridge_referrer=airbridge%3Dtrue%26client_id%3Dbeaafd72-315d-4436-8752-067a5beecffb%26event_uuid%3D6c7d3add-1bc7-4d1b-a02f-4cf4a15c2383%26referrer_timestamp%3D1783606751691%26short_id%3Driblsz%26custom_short_id%3Dshort_recom%26channel%3Dohouseapp%26campaign%3Dbrand_affiliate%26tracking_template_id%3D9b7dba799b0ee1850bfff5f8ba18f9a3%26ad_group%3Drecomproduct%26ad_creative%3Dshortcut%26og_tag_id%3D85690767%26routing_short_id%3Dsfuiva&utm_source=ohouseapp&utm_campaign=brand_affiliate" target="_blank" rel="noopener noreferrer">이번 기획전 전체 보기</a>
+          <a class="hero-button secondary" href="#campaign-grid">기간성 딜 먼저 보기</a>
+        </div>
         <div class="hero-stats">
           <div class="stat">
             <strong id="campaign-count">0</strong>

@@ -8,8 +8,7 @@
     <style>
       :root {
         --bg: #f5efe6;
-        --bg-strong: #efe4d4;
-        --surface: rgba(255, 252, 247, 0.82);
+        --surface: rgba(255, 252, 247, 0.84);
         --surface-strong: #fffaf4;
         --ink: #2f241d;
         --muted: #74675c;
@@ -17,6 +16,7 @@
         --accent: #bf5c3f;
         --accent-soft: rgba(191, 92, 63, 0.1);
         --olive: #6b7a52;
+        --olive-soft: rgba(107, 122, 82, 0.12);
         --shadow: 0 24px 50px rgba(103, 76, 52, 0.1);
       }
 
@@ -99,16 +99,22 @@
         box-shadow: 0 14px 24px rgba(191, 92, 63, 0.24);
       }
 
-      .eyebrow {
+      .eyebrow,
+      .pill,
+      .tag {
         display: inline-flex;
         align-items: center;
-        gap: 8px;
-        padding: 8px 12px;
+        justify-content: center;
         border-radius: 999px;
-        background: var(--accent-soft);
-        color: var(--accent);
         font-size: 12px;
         font-weight: 800;
+      }
+
+      .eyebrow {
+        gap: 8px;
+        padding: 8px 12px;
+        background: var(--accent-soft);
+        color: var(--accent);
         letter-spacing: 0.04em;
       }
 
@@ -134,22 +140,38 @@
         line-height: 1.7;
       }
 
-      .hero-note {
-        margin-top: 20px;
-        padding: 16px 18px;
+      .hero-stats {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .stat {
+        padding: 16px;
         border-radius: 22px;
-        background: rgba(255, 255, 255, 0.64);
         border: 1px solid rgba(74, 51, 33, 0.08);
+        background: rgba(255, 255, 255, 0.68);
       }
 
-      .hero-note strong {
+      .stat strong {
         display: block;
-        font-size: 15px;
+        font-size: 24px;
       }
 
-      .hero-note span {
+      .stat span {
         display: block;
         margin-top: 6px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .sync-note {
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.64);
+        border: 1px solid rgba(74, 51, 33, 0.08);
         color: var(--muted);
         font-size: 13px;
         line-height: 1.6;
@@ -180,15 +202,9 @@
       }
 
       .pill {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
         padding: 9px 13px;
-        border-radius: 999px;
-        background: rgba(107, 122, 82, 0.1);
+        background: var(--olive-soft);
         color: var(--olive);
-        font-size: 12px;
-        font-weight: 800;
         white-space: nowrap;
       }
 
@@ -209,6 +225,7 @@
       }
 
       .featured-grid,
+      .campaign-grid,
       .all-grid,
       .category-grid {
         display: grid;
@@ -216,10 +233,8 @@
         margin-top: 18px;
       }
 
-      .featured-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
+      .featured-grid,
+      .campaign-grid,
       .all-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -241,6 +256,7 @@
       }
 
       .card {
+        display: block;
         padding: 18px;
       }
 
@@ -269,19 +285,20 @@
       }
 
       .tag {
-        display: inline-flex;
-        align-items: center;
         padding: 7px 10px;
-        border-radius: 999px;
         background: rgba(255, 255, 255, 0.82);
         border: 1px solid rgba(74, 51, 33, 0.08);
         color: var(--muted);
-        font-size: 12px;
-        font-weight: 700;
       }
 
       .tag.primary {
         background: var(--accent-soft);
+        border-color: transparent;
+        color: var(--accent);
+      }
+
+      .tag.alert {
+        background: rgba(191, 92, 63, 0.14);
         border-color: transparent;
         color: var(--accent);
       }
@@ -295,6 +312,19 @@
         margin-top: 10px;
         color: var(--muted);
         font-size: 14px;
+        line-height: 1.6;
+      }
+
+      .price {
+        margin-top: 14px;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .meta-line {
+        margin-top: 8px;
+        color: #8b7b6f;
+        font-size: 12px;
         line-height: 1.6;
       }
 
@@ -327,14 +357,6 @@
         line-height: 1.55;
       }
 
-      .footnote {
-        margin-top: 18px;
-        color: #857567;
-        font-size: 12px;
-        line-height: 1.7;
-        text-align: center;
-      }
-
       .empty {
         margin-top: 18px;
         padding: 20px;
@@ -344,8 +366,18 @@
         text-align: center;
       }
 
+      .footnote {
+        margin-top: 18px;
+        color: #857567;
+        font-size: 12px;
+        line-height: 1.7;
+        text-align: center;
+      }
+
       @media (max-width: 760px) {
+        .hero-stats,
         .featured-grid,
+        .campaign-grid,
         .all-grid,
         .category-grid {
           grid-template-columns: 1fr;
@@ -366,20 +398,41 @@
       <section class="hero">
         <div class="profile">
           <div class="avatar">살</div>
-          <div>
-            <div class="eyebrow">@sa.lim_note</div>
-          </div>
+          <div class="eyebrow">@sa.lim_note</div>
         </div>
         <h1>살림노트가<br>직접 모아둔 추천 살림템</h1>
         <p class="hero-copy">
           주방, 수납, 청소, 생활용품까지
           인스타에서 자주 물어보셨던 제품만 보기 좋게 모아뒀어요.
-          눌러서 바로 확인하고, 마음에 드는 건 저장해두세요.
+          기간 한정 딜은 따로 모아두고, 제목이나 가격이 바뀌면 다시 반영되도록 관리합니다.
         </p>
-        <div class="hero-note">
-          <strong>가장 먼저 보면 좋은 링크</strong>
-          <span>최근 피드에 올린 제품과 자주 찾는 살림템부터 위쪽에 정리해둘게요.</span>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong id="campaign-count">0</strong>
+            <span>기간성 프로모션</span>
+          </div>
+          <div class="stat">
+            <strong id="linked-count">0</strong>
+            <span>피드 연결 링크</span>
+          </div>
+          <div class="stat">
+            <strong id="changed-count">0</strong>
+            <span>최근 변경 감지</span>
+          </div>
         </div>
+        <div class="sync-note" id="sync-note">상품 정보를 불러오는 중입니다.</div>
+      </section>
+
+      <section class="section">
+        <div class="section-top">
+          <div>
+            <h2 class="section-title">지금 끝나기 전에 봐야 할 딜</h2>
+            <p class="section-copy">브랜드위크, 쿠폰, 특가처럼 한동안만 열리는 상품을 먼저 분리해뒀어요.</p>
+          </div>
+          <span class="pill" id="campaign-pill">프로모션 0개</span>
+        </div>
+        <div class="campaign-grid" id="campaign-grid"></div>
+        <p class="empty" id="campaign-empty" hidden>지금 표시할 기간성 프로모션이 없습니다.</p>
       </section>
 
       <section class="section">
@@ -424,26 +477,10 @@
 
     <script>
       const CATEGORY_META = {
-        kitchen: {
-          label: "주방",
-          icon: "🍽️",
-          description: "식탁, 조리도구, 식기처럼 집 분위기를 바꾸는 주방템"
-        },
-        storage: {
-          label: "수납",
-          icon: "🧺",
-          description: "정리함, 트롤리, 행거처럼 공간 정리에 도움 되는 제품"
-        },
-        cleaning: {
-          label: "청소/세탁",
-          icon: "🫧",
-          description: "청소기, 세제, 건조대처럼 집안일 부담 줄여주는 살림템"
-        },
-        living: {
-          label: "생활",
-          icon: "🏡",
-          description: "휴지통, 방향제, 욕실용품처럼 일상 만족도 높여주는 제품"
-        }
+        kitchen: { label: "주방", icon: "🍽️", description: "식탁, 조리도구, 식기처럼 집 분위기를 바꾸는 주방템" },
+        storage: { label: "수납", icon: "🧺", description: "정리함, 트롤리, 행거처럼 공간 정리에 도움 되는 제품" },
+        cleaning: { label: "청소/세탁", icon: "🫧", description: "청소기, 세제, 건조대처럼 집안일 부담 줄여주는 살림템" },
+        living: { label: "생활", icon: "🏡", description: "휴지통, 방향제, 욕실용품처럼 일상 만족도 높여주는 제품" }
       };
 
       async function loadJson(path) {
@@ -458,36 +495,8 @@
         return String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
       }
 
-      function guessCategory(name) {
-        const text = String(name || "");
-        if (/(식탁|식기|접시|파스타볼|그릇|테이블|에어프라이어|밥솥|주방|쿡웨어|가죽 식탁보)/.test(text)) {
-          return "kitchen";
-        }
-        if (/(트롤리|정리함|수납|행거|바구니|압축|박스|틈새|선반)/.test(text)) {
-          return "storage";
-        }
-        if (/(청소기|세탁|세제|건조대|건조기|빨래|키친타월|휴지|화장지)/.test(text)) {
-          return "cleaning";
-        }
-        return "living";
-      }
-
-      function shortCopy(item) {
-        const category = guessCategory(item.name);
-        if (category === "kitchen") {
-          return "주방 분위기나 식탁 무드를 정리하고 싶을 때 보기 좋은 제품";
-        }
-        if (category === "storage") {
-          return "좁은 공간도 깔끔하게 쓰고 싶을 때 먼저 눌러볼 만한 정리템";
-        }
-        if (category === "cleaning") {
-          return "집안일 동선을 조금 더 편하게 바꾸고 싶을 때 찾는 살림템";
-        }
-        return "생활 만족도를 올려주는 실사용 위주의 추천 아이템";
-      }
-
       function escapeHtml(value) {
-        return String(value)
+        return String(value || "")
           .replace(/&/g, "&amp;")
           .replace(/</g, "&lt;")
           .replace(/>/g, "&gt;")
@@ -495,23 +504,61 @@
           .replace(/'/g, "&#39;");
       }
 
+      function formatSyncTime(value) {
+        if (!value) {
+          return "동기화 시점 확인 중";
+        }
+        const date = new Date(value);
+        return new Intl.DateTimeFormat("ko-KR", {
+          dateStyle: "medium",
+          timeStyle: "short",
+          timeZone: "Asia/Seoul"
+        }).format(date);
+      }
+
+      function shortCopy(item) {
+        if (item.isCampaign) {
+          return "기간 한정 혜택이 붙어 있을 수 있어 지금 한 번 더 확인해볼 만한 딜";
+        }
+        if (item.category === "kitchen") {
+          return "주방 분위기나 식탁 무드를 정리하고 싶을 때 보기 좋은 제품";
+        }
+        if (item.category === "storage") {
+          return "좁은 공간도 깔끔하게 쓰고 싶을 때 먼저 눌러볼 만한 정리템";
+        }
+        if (item.category === "cleaning") {
+          return "집안일 동선을 조금 더 편하게 바꾸고 싶을 때 찾는 살림템";
+        }
+        return "생활 만족도를 올려주는 실사용 위주의 추천 아이템";
+      }
+
       function buildCard(item, featured) {
-        const categoryKey = guessCategory(item.name);
-        const category = CATEGORY_META[categoryKey];
         const url = item.curatorUrl || item.url;
+        const category = CATEGORY_META[item.category] || CATEGORY_META.living;
         const badges = [];
-        if (item.curatorUrl) {
+        if (item.hasCuratorLink) {
           badges.push('<span class="tag primary">피드 소개 링크</span>');
         } else if (featured) {
           badges.push('<span class="tag primary">추천 살림템</span>');
         }
+        if (item.isCampaign && item.campaignBadges.length) {
+          badges.push('<span class="tag alert">' + escapeHtml(item.campaignBadges[0]) + "</span>");
+        }
         badges.push('<span class="tag">' + escapeHtml(category.label) + "</span>");
+
+        const price = item.priceText ? '<div class="price">' + escapeHtml(item.priceText) + "</div>" : "";
+        const promoLine = item.promoText ? '<p>' + escapeHtml(item.promoText) + "</p>" : '<p>' + escapeHtml(shortCopy(item)) + "</p>";
+        const changedLine = item.changeDetected
+          ? '<div class="meta-line">최근 제목/가격 변경이 감지되어 새로 반영됐어요.</div>'
+          : '<div class="meta-line">마지막 확인: ' + escapeHtml(formatSyncTime(item.syncedAt)) + "</div>";
 
         return [
           '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">',
           '<div class="tag-row">' + badges.join("") + "</div>",
-          "<h3>" + escapeHtml(item.name) + "</h3>",
-          "<p>" + escapeHtml(shortCopy(item)) + "</p>",
+          "<h3>" + escapeHtml(item.currentName || item.name) + "</h3>",
+          price,
+          promoLine,
+          changedLine,
           '<div class="cta">제품 보러 가기 →</div>',
           "</a>"
         ].join("");
@@ -529,82 +576,65 @@
       }
 
       async function main() {
-        const [products, links] = await Promise.all([
-          loadJson("./products.json"),
-          loadJson("./curator-links.json")
-        ]);
+        const liveData = await loadJson("./live-products.json");
+        const meta = liveData.meta || {};
+        const items = Array.isArray(liveData.items) ? liveData.items : [];
 
-        const linkedById = new Map(links.map((item) => [String(item.id), item]));
-        const merged = products.map((product) => {
-          const linked = linkedById.get(String(product.id));
-          return {
-            ...product,
-            curatorUrl: linked ? linked.curatorUrl : "",
-            featured: Boolean(linked)
-          };
-        });
-
-        links.forEach((item) => {
-          if (!merged.find((product) => String(product.id) === String(item.id))) {
-            merged.unshift({
-              id: item.id,
-              name: item.name,
-              url: item.curatorUrl,
-              curatorUrl: item.curatorUrl,
-              featured: true
-            });
-          }
-        });
-
-        const curatedFirst = merged.filter((item) => item.curatorUrl);
-        const remaining = merged.filter((item) => !item.curatorUrl);
+        const campaignItems = items.filter((item) => item.isCampaign).slice(0, 8);
+        const curatedFirst = items.filter((item) => item.hasCuratorLink);
+        const remaining = items.filter((item) => !item.hasCuratorLink);
         const featuredItems = curatedFirst.concat(remaining.slice(0, Math.max(0, 8 - curatedFirst.length))).slice(0, 8);
+
+        document.getElementById("campaign-count").textContent = String(meta.campaignCount || campaignItems.length);
+        document.getElementById("linked-count").textContent = String(meta.curatorLinkedCount || curatedFirst.length);
+        document.getElementById("changed-count").textContent = String(meta.changedCount || 0);
+        document.getElementById("campaign-pill").textContent = "프로모션 " + String(meta.campaignCount || campaignItems.length) + "개";
+        document.getElementById("featured-count").textContent = "추천 " + featuredItems.length + "개";
+        document.getElementById("total-count").textContent = "전체 " + items.length + "개";
+        document.getElementById("sync-note").textContent =
+          "마지막 동기화: " + formatSyncTime(meta.generatedAt) + " · 제목, 가격, 프로모션 문구가 바뀌면 다시 반영됩니다.";
+
+        const campaignGrid = document.getElementById("campaign-grid");
+        const campaignEmpty = document.getElementById("campaign-empty");
+        if (campaignItems.length) {
+          campaignGrid.innerHTML = campaignItems.map((item) => buildCard(item, false)).join("");
+        } else {
+          campaignEmpty.hidden = false;
+        }
 
         const featuredGrid = document.getElementById("featured-grid");
         const featuredEmpty = document.getElementById("featured-empty");
-        const featuredCount = document.getElementById("featured-count");
-        const totalCount = document.getElementById("total-count");
-        const allGrid = document.getElementById("all-grid");
-        const allEmpty = document.getElementById("all-empty");
-        const searchInput = document.getElementById("search");
-        const categoryGrid = document.getElementById("category-grid");
-
-        featuredCount.textContent = "추천 " + featuredItems.length + "개";
-        totalCount.textContent = "전체 " + merged.length + "개";
-
         if (featuredItems.length) {
           featuredGrid.innerHTML = featuredItems.map((item) => buildCard(item, true)).join("");
         } else {
           featuredEmpty.hidden = false;
         }
 
-        const grouped = {
-          kitchen: [],
-          storage: [],
-          cleaning: [],
-          living: []
-        };
-
-        merged.forEach((item) => {
-          grouped[guessCategory(item.name)].push(item);
+        const grouped = { kitchen: [], storage: [], cleaning: [], living: [] };
+        items.forEach((item) => {
+          const key = grouped[item.category] ? item.category : "living";
+          grouped[key].push(item);
         });
 
+        const categoryGrid = document.getElementById("category-grid");
         categoryGrid.innerHTML = Object.keys(CATEGORY_META)
           .map((key) => buildCategoryCard(key, grouped[key]))
           .join("");
 
+        const allGrid = document.getElementById("all-grid");
+        const allEmpty = document.getElementById("all-empty");
+        const searchInput = document.getElementById("search");
         let currentCategory = "";
 
         function renderAll() {
           const keyword = normalizeText(searchInput.value);
-          let filtered = merged;
+          let filtered = items;
           if (currentCategory) {
-            filtered = filtered.filter((item) => guessCategory(item.name) === currentCategory);
+            filtered = filtered.filter((item) => item.category === currentCategory);
           }
           if (keyword) {
-            filtered = filtered.filter((item) => normalizeText(item.name).includes(keyword));
+            filtered = filtered.filter((item) => normalizeText(item.currentName || item.name).includes(keyword));
           }
-
           allGrid.innerHTML = filtered.map((item) => buildCard(item, false)).join("");
           allEmpty.hidden = filtered.length > 0;
         }
@@ -619,13 +649,11 @@
           event.preventDefault();
           const nextCategory = link.getAttribute("data-category");
           currentCategory = currentCategory === nextCategory ? "" : nextCategory;
-
           Array.from(categoryGrid.querySelectorAll(".category-card")).forEach((node) => {
             node.style.outline = node.getAttribute("data-category") === currentCategory
               ? "2px solid rgba(191, 92, 63, 0.22)"
               : "";
           });
-
           renderAll();
           document.getElementById("all-grid").scrollIntoView({ behavior: "smooth", block: "start" });
         });
@@ -634,8 +662,9 @@
       }
 
       main().catch((error) => {
-        const featuredGrid = document.getElementById("featured-grid");
-        featuredGrid.innerHTML = '<p class="empty">링크를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.</p>';
+        document.getElementById("sync-note").textContent = "상품 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.";
+        document.getElementById("featured-grid").innerHTML =
+          '<p class="empty">링크를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.</p>';
         console.error(error);
       });
     </script>

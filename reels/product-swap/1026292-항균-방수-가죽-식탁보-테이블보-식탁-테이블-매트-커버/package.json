@@ -1,0 +1,68 @@
+{
+  "createdAt": "2026-07-11T15:47:02",
+  "template": "reference-product-swap-v1",
+  "product": {
+    "id": "1026292",
+    "name": "항균 방수 가죽 식탁보 테이블보 식탁 테이블 매트 커버",
+    "url": "https://store.ohou.se/goods/1026292",
+    "link": "https://ozip.me/MOi5Obp?af",
+    "priceText": "12,900원",
+    "promoText": "-41% 12,900원. 리뷰 4.8점, 22,047개",
+    "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-415995895439360.jpg?w=720&h=480"
+  },
+  "angle": {
+    "problem": "식탁은 멀쩡한데 상판 생활감이 안 가려지는 상황",
+    "result_hook": "식탁 분위기 이걸로 바로 바뀌었어요",
+    "use_motion": "손으로 식탁보를 펼치고 모서리를 맞추는 장면",
+    "difference": "물자국은 닦아내고 양면 컬러로 분위기를 바꾸는 장면",
+    "why_now": "식탁 리폼 고민 중이면 행사할 때 확인해볼 만한 타이밍"
+  },
+  "videoPrompts": [
+    {
+      "scene": "result_hook",
+      "duration": "0-2s",
+      "overlay": "이거 하나로\n일이 줄었어요",
+      "prompt": "vertical smartphone video, Korean apartment home, realistic handheld footage, natural indoor light, ordinary lived-in home, no logo, no watermark, no text in image, show a beige waterproof leather tablecloth on a wooden dining table already improving the home scene, close product and hand interaction, result-first demo"
+    },
+    {
+      "scene": "problem",
+      "duration": "2-5s",
+      "overlay": "맨날 이게\n거슬렸는데",
+      "prompt": "vertical smartphone video, Korean apartment home, realistic handheld footage, natural indoor light, ordinary lived-in home, no logo, no watermark, no text in image, before shot of 식탁은 멀쩡한데 상판 생활감이 안 가려지는 상황, close-up of the annoying everyday problem, slightly imperfect real home texture"
+    },
+    {
+      "scene": "use_motion",
+      "duration": "5-10s",
+      "overlay": "그냥 이렇게\n쓰면 끝",
+      "prompt": "vertical smartphone video, Korean apartment home, realistic handheld footage, natural indoor light, ordinary lived-in home, no logo, no watermark, no text in image, a beige waterproof leather tablecloth on a wooden dining table, clear hand movement, 손으로 식탁보를 펼치고 모서리를 맞추는 장면, product visible, practical demonstration"
+    },
+    {
+      "scene": "difference",
+      "duration": "10-15s",
+      "overlay": "좋았던 건\n이 부분",
+      "prompt": "vertical smartphone video, Korean apartment home, realistic handheld footage, natural indoor light, ordinary lived-in home, no logo, no watermark, no text in image, 물자국은 닦아내고 양면 컬러로 분위기를 바꾸는 장면, close-up proof shot, slow handheld motion, product feature shown naturally"
+    },
+    {
+      "scene": "cta",
+      "duration": "15-20s",
+      "overlay": "필요하면\n저장해두세요",
+      "prompt": "vertical smartphone video, Korean apartment home, realistic handheld footage, natural indoor light, ordinary lived-in home, no logo, no watermark, no text in image, final tidy home result after using a beige waterproof leather tablecloth on a wooden dining table, calm satisfying after shot, product still visible but not salesy"
+    }
+  ],
+  "caption": "[살림노트] 식탁은 멀쩡한데 상판 생활감이 안 가려지는 상황 있죠.\n\n항균 방수 가죽 식탁보는 실제로 쓰는 장면으로 보면\n손으로 식탁보를 펼치고 모서리를 맞추는 장면 흐름이라 손이 가는 타입이에요.\n\n판매처 표기 기준으로는 지금 -41% 12,900원. 리뷰 4.8점, 22,047개라 확인해볼 만해요.\n\n물자국은 닦아내고 양면 컬러로 분위기를 바꾸는 장면 점도 보기 좋았고,\n식탁 리폼 고민 중이면 행사할 때 확인해볼 만한 타이밍이에요.\n\n제품 링크는 프로필 링크에 같이 정리해둘게요.\n\n※ 제휴/큐레이터 활동의 일환으로 일정액의 수수료를 제공받을 수 있습니다.",
+  "firstComment": "제품 링크는 프로필 링크에서 확인할 수 있어요 :)\n\nhttps://ozip.me/MOi5Obp?af",
+  "hashtags": [
+    "살림노트",
+    "살림템추천",
+    "오늘의집추천",
+    "생활용품추천",
+    "주방살림",
+    "정리수납",
+    "집꾸미기",
+    "살림꿀템",
+    "신혼살림",
+    "원룸살림",
+    "인테리어소품",
+    "제휴링크"
+  ]
+}

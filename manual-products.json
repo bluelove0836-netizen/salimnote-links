@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "coupang-mr9800",
+      "url": "https://link.coupang.com/a/fouf5wm6XA",
+      "name": "모피리처드 휴대용 주스 믹서 텀블러 MR9800",
+      "currentName": "모피리처드 휴대용 주스 믹서 텀블러 MR9800",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "큰 믹서기 없이 과일과 우유를 한 잔씩 간편하게 만드는 무선 휴대용 믹서 텀블러",
+      "imageUrl": "./assets/mr9800-thumbnail.jpg",
+      "category": "kitchen",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fouf5wm6XA",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "pinned": true,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-15T10:31:25+09:00"
+    }
+  ]
+}

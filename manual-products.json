@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "id": "coupang-deerma-zq610",
+      "url": "https://link.coupang.com/a/fo8lqq8Vsi",
+      "name": "디어마 ZQ610 다용도 스팀청소기",
+      "currentName": "디어마 ZQ610 다용도 스팀청소기",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "고온 스팀과 다양한 헤드로 바닥부터 주방 기름때까지 한 번에 관리하는 다용도 스팀청소기",
+      "imageUrl": "./assets/deerma-zq610-thumbnail.jpg",
+      "category": "cleaning",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fo8lqq8Vsi",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": true,
+      "postType": "reel",
+      "publishedAt": "2026-07-15T19:30:00+09:00",
+      "pinned": true,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-15T19:30:00+09:00"
+    },
+    {
       "id": "coupang-mr9800",
       "url": "https://link.coupang.com/a/fouf5wm6XA",
       "name": "모피리처드 휴대용 주스 믹서 텀블러 MR9800",

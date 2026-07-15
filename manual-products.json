@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "id": "coupang-mijia-lint-remover-2",
+      "url": "https://link.coupang.com/a/fpAljJb4Y8",
+      "name": "미지아 보풀제거기 2",
+      "currentName": "미지아 보풀제거기 2",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "넓은 메탈망과 가벼운 무선 디자인으로 니트와 자주 입는 옷의 잔보풀을 간편하게 정리하는 보풀제거기",
+      "imageUrl": "./assets/mijia-lint-remover-2-thumbnail.jpg",
+      "category": "cleaning",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fpAljJb4Y8",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": true,
+      "postType": "reel",
+      "publishedAt": "2026-07-16T01:40:38+09:00",
+      "pinned": true,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-16T01:40:38+09:00"
+    },
+    {
       "id": "coupang-deerma-zq610",
       "url": "https://link.coupang.com/a/fo8lqq8Vsi",
       "name": "디어마 ZQ610 다용도 스팀청소기",

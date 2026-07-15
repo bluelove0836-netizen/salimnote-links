@@ -255,7 +255,6 @@
         border-color: rgba(191, 92, 63, 0.28);
       }
 
-      .featured-grid,
       .campaign-grid,
       .all-grid,
       .category-grid {
@@ -264,10 +263,55 @@
         margin-top: 18px;
       }
 
-      .featured-grid,
       .campaign-grid,
       .all-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .carousel-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .carousel-button {
+        display: inline-grid;
+        place-items: center;
+        width: 38px;
+        height: 38px;
+        padding: 0;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.82);
+        color: var(--ink);
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .carousel-button:hover {
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .posted-carousel {
+        display: flex;
+        gap: 14px;
+        margin: 18px -18px 0;
+        padding: 0 18px 8px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+      }
+
+      .posted-carousel::-webkit-scrollbar {
+        display: none;
+      }
+
+      .posted-carousel .card {
+        flex: 0 0 min(360px, 82vw);
+        scroll-snap-align: start;
       }
 
       .category-grid {
@@ -417,7 +461,6 @@
 
       @media (max-width: 760px) {
         .hero-stats,
-        .featured-grid,
         .campaign-grid,
         .all-grid,
         .category-grid {
@@ -426,6 +469,14 @@
 
         .section-top {
           display: block;
+        }
+
+        .carousel-actions {
+          margin-top: 12px;
+        }
+
+        .carousel-actions .pill {
+          margin-top: 0;
         }
 
         .pill {
@@ -453,7 +504,7 @@
         </p>
         <div class="hero-actions">
           <a class="hero-button primary" href="https://store.ohou.se/exhibitions/12912?airbridge_referrer=airbridge%3Dtrue%26client_id%3Dbeaafd72-315d-4436-8752-067a5beecffb%26event_uuid%3D6c7d3add-1bc7-4d1b-a02f-4cf4a15c2383%26referrer_timestamp%3D1783606751691%26short_id%3Driblsz%26custom_short_id%3Dshort_recom%26channel%3Dohouseapp%26campaign%3Dbrand_affiliate%26tracking_template_id%3D9b7dba799b0ee1850bfff5f8ba18f9a3%26ad_group%3Drecomproduct%26ad_creative%3Dshortcut%26og_tag_id%3D85690767%26routing_short_id%3Dsfuiva&utm_source=ohouseapp&utm_campaign=brand_affiliate" target="_blank" rel="noopener noreferrer">이번 기획전 전체 보기</a>
-          <a class="hero-button secondary" href="#campaign-grid">기간성 딜 먼저 보기</a>
+          <a class="hero-button secondary" href="#featured-grid">릴스 속 제품 보기</a>
         </div>
         <div class="hero-stats">
           <div class="stat">
@@ -472,6 +523,22 @@
         <div class="sync-note" id="sync-note">상품 정보를 불러오는 중입니다.</div>
       </section>
 
+      <section class="section" aria-labelledby="posted-title">
+        <div class="section-top">
+          <div>
+            <h2 class="section-title" id="posted-title">릴스·피드에서 본 제품</h2>
+            <p class="section-copy">인스타에 올린 제품을 최신순으로 모았어요. 옆으로 넘겨서 확인해 보세요.</p>
+          </div>
+          <div class="carousel-actions">
+            <span class="pill" id="featured-count">게시 제품 0개</span>
+            <button class="carousel-button" id="carousel-prev" type="button" aria-label="이전 제품">‹</button>
+            <button class="carousel-button" id="carousel-next" type="button" aria-label="다음 제품">›</button>
+          </div>
+        </div>
+        <div class="posted-carousel" id="featured-grid" aria-label="인스타 게시 제품"></div>
+        <p class="empty" id="featured-empty" hidden>인스타 게시 제품을 준비 중입니다.</p>
+      </section>
+
       <section class="section">
         <div class="section-top">
           <div>
@@ -482,18 +549,6 @@
         </div>
         <div class="campaign-grid" id="campaign-grid"></div>
         <p class="empty" id="campaign-empty" hidden>지금 표시할 기간성 프로모션이 없습니다.</p>
-      </section>
-
-      <section class="section">
-        <div class="section-top">
-          <div>
-            <h2 class="section-title">지금 많이 보는 추천템</h2>
-            <p class="section-copy">피드에서 보고 들어오신 분들이 바로 눌러보기 좋은 링크부터 보여드려요.</p>
-          </div>
-          <span class="pill" id="featured-count">추천 0개</span>
-        </div>
-        <div class="featured-grid" id="featured-grid"></div>
-        <p class="empty" id="featured-empty" hidden>추천 링크를 준비 중입니다. 잠시 후 다시 확인해 주세요.</p>
       </section>
 
       <section class="section">
@@ -650,15 +705,21 @@
         });
 
         const campaignItems = items.filter((item) => item.isCampaign).slice(0, 8);
-        const curatedFirst = items.filter((item) => item.hasCuratorLink);
-        const remaining = items.filter((item) => !item.hasCuratorLink);
-        const featuredItems = curatedFirst.concat(remaining.slice(0, Math.max(0, 8 - curatedFirst.length))).slice(0, 8);
+        const postedItems = items
+          .filter((item) => item.instagramPosted || item.hasCuratorLink)
+          .sort((a, b) => {
+            const pinnedOrder = Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
+            if (pinnedOrder) {
+              return pinnedOrder;
+            }
+            return Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0);
+          });
 
         document.getElementById("campaign-count").textContent = String(meta.campaignCount || campaignItems.length);
-        document.getElementById("linked-count").textContent = String(curatedFirst.length);
+        document.getElementById("linked-count").textContent = String(postedItems.length);
         document.getElementById("changed-count").textContent = String(meta.changedCount || 0);
         document.getElementById("campaign-pill").textContent = "프로모션 " + String(meta.campaignCount || campaignItems.length) + "개";
-        document.getElementById("featured-count").textContent = "추천 " + featuredItems.length + "개";
+        document.getElementById("featured-count").textContent = "게시 제품 " + postedItems.length + "개";
         document.getElementById("total-count").textContent = "전체 " + items.length + "개";
         document.getElementById("sync-note").textContent =
           "마지막 동기화: " + formatSyncTime(meta.generatedAt) + " · 제목, 가격, 프로모션 문구가 바뀌면 다시 반영됩니다.";
@@ -673,11 +734,19 @@
 
         const featuredGrid = document.getElementById("featured-grid");
         const featuredEmpty = document.getElementById("featured-empty");
-        if (featuredItems.length) {
-          featuredGrid.innerHTML = featuredItems.map((item) => buildCard(item, true)).join("");
+        if (postedItems.length) {
+          featuredGrid.innerHTML = postedItems.map((item) => buildCard(item, true)).join("");
         } else {
           featuredEmpty.hidden = false;
         }
+
+        const carouselStep = () => Math.min(featuredGrid.clientWidth * 0.86, 374);
+        document.getElementById("carousel-prev").addEventListener("click", () => {
+          featuredGrid.scrollBy({ left: -carouselStep(), behavior: "smooth" });
+        });
+        document.getElementById("carousel-next").addEventListener("click", () => {
+          featuredGrid.scrollBy({ left: carouselStep(), behavior: "smooth" });
+        });
 
         const grouped = { kitchen: [], storage: [], cleaning: [], living: [] };
         items.forEach((item) => {

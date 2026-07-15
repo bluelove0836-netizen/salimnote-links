@@ -291,6 +291,16 @@
         padding: 18px;
       }
 
+      .card-image {
+        display: block;
+        width: calc(100% + 36px);
+        height: 220px;
+        margin: -18px -18px 16px;
+        object-fit: cover;
+        object-position: center;
+        background: #eee8e1;
+      }
+
       .card:hover,
       .category-card:hover {
         transform: translateY(-2px);
@@ -421,6 +431,10 @@
         .pill {
           margin-top: 12px;
         }
+
+        .card-image {
+          height: 280px;
+        }
       }
     </style>
   </head>
@@ -506,7 +520,8 @@
       </section>
 
       <p class="footnote">
-        일부 링크를 통해 구매가 이루어질 경우 제휴 수수료를 제공받을 수 있습니다.
+        쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.<br>
+        그 외 일부 링크를 통해 구매가 이루어질 경우에도 제휴 수수료를 제공받을 수 있습니다.
       </p>
     </main>
 
@@ -571,7 +586,9 @@
         const url = item.curatorUrl || item.url;
         const category = CATEGORY_META[item.category] || CATEGORY_META.living;
         const badges = [];
-        if (item.hasCuratorLink) {
+        if (item.source === "coupang") {
+          badges.push('<span class="tag primary">릴스 속 제품</span>');
+        } else if (item.hasCuratorLink) {
           badges.push('<span class="tag primary">피드 소개 링크</span>');
         } else if (featured) {
           badges.push('<span class="tag primary">추천 살림템</span>');
@@ -582,13 +599,17 @@
         badges.push('<span class="tag">' + escapeHtml(category.label) + "</span>");
 
         const price = item.priceText ? '<div class="price">' + escapeHtml(item.priceText) + "</div>" : "";
+        const image = item.imageUrl
+          ? '<img class="card-image" src="' + escapeHtml(item.imageUrl) + '" alt="' + escapeHtml(item.currentName || item.name) + '" loading="lazy">'
+          : "";
         const promoLine = item.promoText ? '<p>' + escapeHtml(item.promoText) + "</p>" : '<p>' + escapeHtml(shortCopy(item)) + "</p>";
         const changedLine = item.changeDetected
           ? '<div class="meta-line">최근 제목/가격 변경이 감지되어 새로 반영됐어요.</div>'
           : '<div class="meta-line">마지막 확인: ' + escapeHtml(formatSyncTime(item.syncedAt)) + "</div>";
 
         return [
-          '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">',
+          '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer">',
+          image,
           '<div class="tag-row">' + badges.join("") + "</div>",
           "<h3>" + escapeHtml(item.currentName || item.name) + "</h3>",
           price,
@@ -611,9 +632,22 @@
       }
 
       async function main() {
-        const liveData = await loadJson("./live-products.json");
+        const [liveData, manualData] = await Promise.all([
+          loadJson("./live-products.json"),
+          loadJson("./manual-products.json").catch(() => ({ items: [] }))
+        ]);
         const meta = liveData.meta || {};
-        const items = Array.isArray(liveData.items) ? liveData.items : [];
+        const liveItems = Array.isArray(liveData.items) ? liveData.items : [];
+        const manualItems = Array.isArray(manualData.items) ? manualData.items : [];
+        const seenIds = new Set();
+        const items = manualItems.concat(liveItems).filter((item) => {
+          const key = String(item.id || item.url || "");
+          if (!key || seenIds.has(key)) {
+            return false;
+          }
+          seenIds.add(key);
+          return true;
+        });
 
         const campaignItems = items.filter((item) => item.isCampaign).slice(0, 8);
         const curatedFirst = items.filter((item) => item.hasCuratorLink);
@@ -621,7 +655,7 @@
         const featuredItems = curatedFirst.concat(remaining.slice(0, Math.max(0, 8 - curatedFirst.length))).slice(0, 8);
 
         document.getElementById("campaign-count").textContent = String(meta.campaignCount || campaignItems.length);
-        document.getElementById("linked-count").textContent = String(meta.curatorLinkedCount || curatedFirst.length);
+        document.getElementById("linked-count").textContent = String(curatedFirst.length);
         document.getElementById("changed-count").textContent = String(meta.changedCount || 0);
         document.getElementById("campaign-pill").textContent = "프로모션 " + String(meta.campaignCount || campaignItems.length) + "개";
         document.getElementById("featured-count").textContent = "추천 " + featuredItems.length + "개";

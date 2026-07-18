@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "id": "coupang-mijia-dehumidifier-22l",
+      "url": "https://link.coupang.com/a/fum4q2TEs0",
+      "name": "미지아 스마트 제습기 22L",
+      "currentName": "미지아 스마트 제습기 22L",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "하루 최대 22L 제습량과 4.5L 물통, 건조 모드로 장마철 실내 습도와 빨래 건조를 관리하는 스마트 제습기",
+      "imageUrl": "./assets/mijia-dehumidifier-22l-thumbnail.jpg",
+      "category": "living",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fum4q2TEs0",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": false,
+      "postType": "reel",
+      "publishedAt": "2026-07-18T22:51:56+09:00",
+      "pinned": true,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-18T22:51:56+09:00"
+    },
+    {
       "id": "coupang-mijia-lint-remover-2",
       "url": "https://link.coupang.com/a/fpAljJb4Y8",
       "name": "미지아 보풀제거기 2",

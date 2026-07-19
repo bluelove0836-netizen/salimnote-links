@@ -790,10 +790,25 @@
         if (!TRACKING_ENABLED) {
           return Promise.resolve();
         }
-        return fetch(TRACKER_BASE_URL + path, {
+        const url = TRACKER_BASE_URL + path;
+        const body = JSON.stringify(payload);
+        // Product clicks immediately leave the page. Beacon survives that
+        // navigation more reliably in Instagram's mobile in-app browser.
+        try {
+          if (navigator.sendBeacon) {
+            const queued = navigator.sendBeacon(
+              url,
+              new Blob([body], { type: "text/plain;charset=UTF-8" })
+            );
+            if (queued) {
+              return Promise.resolve();
+            }
+          }
+        } catch (_) {}
+        return fetch(url, {
           method: "POST",
           headers: { "Content-Type": "text/plain" },
-          body: JSON.stringify(payload),
+          body,
           keepalive: true,
           mode: "cors"
         }).catch(() => {});

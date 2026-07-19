@@ -124,6 +124,31 @@
       "changedFields": [],
       "changeDetected": false,
       "syncedAt": "2026-07-19T11:50:00+09:00"
+    },
+    {
+      "id": "coupang-hoto-electric-spin-scrubber",
+      "url": "https://link.coupang.com/a/fvhLY971BQ",
+      "name": "HOTO 무선 전동 청소솔",
+      "currentName": "HOTO 무선 전동 청소솔",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "브러시를 바꿔 끼우고 손잡이 각도와 연장봉을 조절해 욕실·주방·바닥을 청소하는 무선 회전 청소솔",
+      "imageUrl": "./assets/hoto-electric-spin-scrubber-thumbnail.webp",
+      "category": "cleaning",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fvhLY971BQ",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": false,
+      "postType": "reel",
+      "publishedAt": "2026-06-30T00:00:00+09:00",
+      "pinned": false,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-19T12:07:04+09:00"
     }
   ]
 }

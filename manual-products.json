@@ -120,7 +120,7 @@
       "postType": "reel",
       "publishedAt": "2026-07-19T06:09:02+0000",
       "promotedAt": "2026-07-19T15:09:07+09:00",
-      "pinned": true,
+      "pinned": false,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
@@ -246,11 +246,12 @@
       "instagramPosted": false,
       "postType": "reel",
       "publishedAt": null,
-      "pinned": false,
+      "pinned": true,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-07-19T14:02:50+09:00"
+      "syncedAt": "2026-07-19T19:49:46+09:00",
+      "promotedAt": "2026-07-19T19:49:46+09:00"
     },
     {
       "id": "coupang-xiaomi-fan2-bplds02dm",

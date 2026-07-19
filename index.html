@@ -237,6 +237,13 @@
         border: 1px solid rgba(74, 51, 33, 0.1);
       }
 
+      .hero-disclosure {
+        width: 100%;
+        color: #8a7566;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+
       .hero-stats {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -655,8 +662,9 @@
           <span class="hero-detail">방금 본 영상의 제품을 맨 앞에 두고, 구매 전 확인할 특징도 함께 정리합니다.</span>
         </p>
         <div class="hero-actions">
-          <a class="hero-button primary" id="hero-product-link" href="#featured-grid">방금 본 제품 바로 보기 →</a>
+          <a class="hero-button primary" id="hero-product-link" href="#featured-grid">영상 속 제품 가격·재고 확인 →</a>
           <a class="hero-button secondary" href="#all-grid">전체 제품 보기</a>
+          <p class="hero-disclosure">쿠팡파트너스 활동으로 구매 시 수수료를 제공받을 수 있습니다.</p>
         </div>
         <div class="hero-stats">
           <div class="stat">
@@ -880,6 +888,7 @@
           ? '<div class="meta-line">최근 제목/가격 변경이 감지되어 새로 반영됐어요.</div>'
           : '<div class="meta-line">마지막 확인: ' + escapeHtml(formatSyncTime(item.syncedAt)) + "</div>";
 
+        const cta = item.source === "coupang" ? "쿠팡에서 가격·재고 확인 →" : "제품 보러 가기 →";
         return [
           '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer" data-track-product="' + escapeHtml(item.id) + '" data-track-placement="' + (featured ? "featured" : "grid") + '">',
           image,
@@ -888,7 +897,7 @@
           price,
           promoLine,
           changedLine,
-          '<div class="cta">제품 보러 가기 →</div>',
+          '<div class="cta">' + cta + "</div>",
           "</a>"
         ].join("");
       }
@@ -944,7 +953,10 @@
           || postedItems.find((item) => item.pinned)
           || postedItems[0];
         if (pinnedProduct) {
+          const heroCtaLabel = pinnedProduct.ctaLabel || "영상 속 제품 가격·재고 확인";
           heroProductLink.href = pinnedProduct.curatorUrl || pinnedProduct.url;
+          heroProductLink.textContent = heroCtaLabel + " →";
+          heroProductLink.setAttribute("aria-label", heroCtaLabel);
           heroProductLink.target = "_blank";
           heroProductLink.rel = "nofollow sponsored noopener noreferrer";
           heroProductLink.dataset.trackProduct = pinnedProduct.id;

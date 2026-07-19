@@ -750,6 +750,7 @@
 
     <script>
       const TRACKER_BASE_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1";
+      const SALIM_COUPANG_SUBID = "salimnote";
       const TRACKING_ENABLED = window.location.hostname === "bluelove0836-netizen.github.io";
       const VISIT_ID = (() => {
         try {
@@ -853,6 +854,18 @@
           .replace(/'/g, "&#39;");
       }
 
+      function salimAffiliateUrl(value) {
+        try {
+          const url = new URL(String(value || ""));
+          if (["link.coupang.com", "coupa.ng"].includes(url.hostname) && !url.searchParams.get("subid")) {
+            url.searchParams.set("subid", SALIM_COUPANG_SUBID);
+          }
+          return url.toString();
+        } catch (_) {
+          return String(value || "");
+        }
+      }
+
       function formatSyncTime(value) {
         if (!value) {
           return "동기화 시점 확인 중";
@@ -882,7 +895,7 @@
       }
 
       function buildCard(item, featured) {
-        const url = item.curatorUrl || item.url;
+        const url = salimAffiliateUrl(item.curatorUrl || item.url);
         const category = CATEGORY_META[item.category] || CATEGORY_META.living;
         const badges = [];
         if (item.pinned) {
@@ -979,14 +992,14 @@
           || postedItems[0];
         if (pinnedProduct) {
           const heroCtaLabel = pinnedProduct.ctaLabel || "영상 속 제품 가격·재고 확인";
-          heroProductLink.href = pinnedProduct.curatorUrl || pinnedProduct.url;
+          heroProductLink.href = salimAffiliateUrl(pinnedProduct.curatorUrl || pinnedProduct.url);
           heroProductLink.textContent = heroCtaLabel + " →";
           heroProductLink.setAttribute("aria-label", heroCtaLabel);
           heroProductLink.target = "_blank";
           heroProductLink.rel = "nofollow sponsored noopener noreferrer";
           heroProductLink.dataset.trackProduct = pinnedProduct.id;
           heroProductLink.dataset.trackPlacement = "hero";
-          stickyProductLink.href = pinnedProduct.curatorUrl || pinnedProduct.url;
+          stickyProductLink.href = salimAffiliateUrl(pinnedProduct.curatorUrl || pinnedProduct.url);
           stickyProductLink.target = "_blank";
           stickyProductLink.rel = "nofollow sponsored noopener noreferrer";
           stickyProductLink.dataset.trackProduct = pinnedProduct.id;

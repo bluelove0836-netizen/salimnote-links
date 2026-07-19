@@ -822,6 +822,7 @@
       }
 
       async function main() {
+        const requestedProductId = new URLSearchParams(window.location.search).get("product") || "";
         const [liveData, manualData] = await Promise.all([
           loadJson("./live-products.json"),
           loadJson("./manual-products.json").catch(() => ({ items: [] }))
@@ -841,8 +842,12 @@
 
         const campaignItems = items.filter((item) => item.isCampaign).slice(0, 8);
         const postedItems = items
-          .filter((item) => item.instagramPosted || item.pinned)
+          .filter((item) => item.instagramPosted || item.pinned || item.id === requestedProductId)
           .sort((a, b) => {
+            const requestedOrder = Number(b.id === requestedProductId) - Number(a.id === requestedProductId);
+            if (requestedOrder) {
+              return requestedOrder;
+            }
             const pinnedOrder = Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
             if (pinnedOrder) {
               return pinnedOrder;
@@ -851,7 +856,9 @@
           });
 
         const heroProductLink = document.getElementById("hero-product-link");
-        const pinnedProduct = postedItems.find((item) => item.pinned) || postedItems[0];
+        const pinnedProduct = postedItems.find((item) => item.id === requestedProductId)
+          || postedItems.find((item) => item.pinned)
+          || postedItems[0];
         if (pinnedProduct) {
           heroProductLink.href = pinnedProduct.curatorUrl || pinnedProduct.url;
           heroProductLink.target = "_blank";

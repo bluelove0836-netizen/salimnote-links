@@ -99,6 +99,31 @@
       "changedFields": [],
       "changeDetected": false,
       "syncedAt": "2026-07-15T10:31:25+09:00"
+    },
+    {
+      "id": "coupang-sothing-zero-shoe-dryer",
+      "url": "https://link.coupang.com/a/fvgq0kxSdU",
+      "name": "소싱 제로 신발 건조기 DSHJ-S-1904",
+      "currentName": "소싱 제로 신발 건조기 DSHJ-S-1904",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "젖은 운동화 안쪽에 하나씩 넣고 시간 버튼으로 작동하는 휴대용 신발 건조기",
+      "imageUrl": "./assets/sothing-zero-shoe-dryer-thumbnail.jpg",
+      "category": "living",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fvgq0kxSdU",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": false,
+      "postType": "reel",
+      "publishedAt": "2026-07-01T00:00:00+09:00",
+      "pinned": false,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-19T11:50:00+09:00"
     }
   ]
 }

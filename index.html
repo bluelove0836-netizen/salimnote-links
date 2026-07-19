@@ -782,12 +782,13 @@
           if (referrerHost.includes("instagram.com")) inferredSource = "instagram_profile";
           else if (referrerHost) inferredSource = "referral";
         } catch (_) {}
-        // Headless visual checks must never inflate real Instagram traffic.
-        // An explicit UTM source still wins below for deliberate test cases.
-        if (navigator.webdriver && !params.get("utm_source")) {
-          inferredSource = "qa";
+        // Headless visual checks must never inflate real Instagram traffic,
+        // even when the screenshot URL accidentally carries a production UTM.
+        const automatedBrowser = Boolean(navigator.webdriver);
+        if (automatedBrowser) {
+          inferredSource = "qa_visual";
         }
-        const rawSource = (params.get("utm_source") || inferredSource)
+        const rawSource = (automatedBrowser ? inferredSource : (params.get("utm_source") || inferredSource))
           .toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40);
         const source = ["ig", "instagram", "instagram_bio", "link_in_bio"].includes(rawSource)
           ? "instagram_profile"

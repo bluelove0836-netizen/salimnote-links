@@ -686,7 +686,7 @@
       <section class="section featured-section" aria-labelledby="posted-title">
         <div class="section-top">
           <div>
-            <h2 class="section-title" id="posted-title">영상·피드 연결 제품</h2>
+            <h2 class="section-title" id="posted-title">릴스 연결 제품</h2>
             <p class="section-copy">방금 본 제품을 맨 앞에 두었습니다. 옆으로 넘겨서 확인해 보세요.</p>
           </div>
           <div class="carousel-actions">
@@ -695,8 +695,8 @@
             <button class="carousel-button" id="carousel-next" type="button" aria-label="다음 제품">›</button>
           </div>
         </div>
-        <div class="posted-carousel" id="featured-grid" aria-label="인스타 게시 제품"></div>
-        <p class="empty" id="featured-empty" hidden>인스타 게시 제품을 준비 중입니다.</p>
+        <div class="posted-carousel" id="featured-grid" aria-label="인스타 릴스 연결 제품"></div>
+        <p class="empty" id="featured-empty" hidden>릴스 연결 제품을 준비 중입니다.</p>
       </section>
 
       <section class="section">
@@ -870,7 +870,7 @@
         } else if (item.source === "coupang" && item.instagramPosted) {
           badges.push('<span class="tag primary">릴스 속 제품</span>');
         } else if (item.hasCuratorLink) {
-          badges.push('<span class="tag primary">피드 소개 링크</span>');
+          badges.push('<span class="tag primary">제품 링크</span>');
         } else if (featured) {
           badges.push('<span class="tag primary">추천 살림템</span>');
         }

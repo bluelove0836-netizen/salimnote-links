@@ -657,9 +657,15 @@
 
       function trackingContext() {
         const params = new URLSearchParams(window.location.search);
+        let inferredSource = "direct";
+        try {
+          const referrerHost = document.referrer ? new URL(document.referrer).hostname : "";
+          if (referrerHost.includes("instagram.com")) inferredSource = "instagram";
+          else if (referrerHost) inferredSource = "referral";
+        } catch (_) {}
         return {
           visit_id: VISIT_ID,
-          source: (params.get("utm_source") || "direct").toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40),
+          source: (params.get("utm_source") || inferredSource).toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40),
           campaign: (params.get("utm_campaign") || "").slice(0, 80),
           content: (params.get("utm_content") || "").slice(0, 80),
           page_path: window.location.pathname

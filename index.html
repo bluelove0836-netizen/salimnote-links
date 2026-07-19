@@ -460,36 +460,54 @@
       }
 
       @media (max-width: 760px) {
+        main {
+          padding: 10px 10px 48px;
+        }
+
         .hero {
-          padding: 20px 18px 18px;
-          border-radius: 24px;
+          padding: 14px;
+          border-radius: 20px;
+        }
+
+        .profile {
+          gap: 10px;
         }
 
         .avatar {
-          width: 46px;
-          height: 46px;
-          border-radius: 16px;
-          font-size: 20px;
+          width: 38px;
+          height: 38px;
+          border-radius: 13px;
+          font-size: 17px;
+        }
+
+        .eyebrow {
+          padding: 6px 10px;
+          font-size: 11px;
         }
 
         h1 {
-          margin-top: 12px;
-          font-size: 30px;
+          margin-top: 8px;
+          font-size: 25px;
+          line-height: 1.05;
         }
 
         .hero-copy {
-          margin-top: 10px;
-          font-size: 14px;
-          line-height: 1.55;
+          margin-top: 8px;
+          font-size: 12.5px;
+          line-height: 1.45;
+        }
+
+        .hero-detail {
+          display: none;
         }
 
         .hero-actions {
-          margin-top: 14px;
+          margin-top: 10px;
         }
 
         .hero-button {
           width: 100%;
-          min-height: 46px;
+          min-height: 44px;
         }
 
         .hero-button.secondary,
@@ -499,12 +517,20 @@
         }
 
         .featured-section {
-          margin-top: 12px;
-          padding: 18px 14px;
+          margin-top: 10px;
+          padding: 14px 12px;
+        }
+
+        .featured-section .section-title {
+          font-size: 20px;
+        }
+
+        .featured-section .section-copy {
+          display: none;
         }
 
         .posted-carousel .card-image {
-          height: 200px;
+          height: 180px;
         }
 
         .posted-carousel .card p,
@@ -559,11 +585,11 @@
         </div>
         <h1>영상에서 본 살림템<br>바로 확인하세요</h1>
         <p class="hero-copy">
-          실사용 장면으로 확인한 주방·청소·생활 제품을 모았습니다.
-          방금 본 영상의 제품을 맨 앞에 두고, 구매 전 확인할 특징도 함께 정리합니다.
+          실사용 장면으로 확인한 제품만 모았습니다.
+          <span class="hero-detail">방금 본 영상의 제품을 맨 앞에 두고, 구매 전 확인할 특징도 함께 정리합니다.</span>
         </p>
         <div class="hero-actions">
-          <a class="hero-button primary" href="#featured-grid">방금 본 제품 확인</a>
+          <a class="hero-button primary" id="hero-product-link" href="#featured-grid">방금 본 제품 바로 보기 →</a>
           <a class="hero-button secondary" href="#all-grid">전체 제품 보기</a>
         </div>
         <div class="hero-stats">
@@ -824,6 +850,16 @@
             return Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0);
           });
 
+        const heroProductLink = document.getElementById("hero-product-link");
+        const pinnedProduct = postedItems.find((item) => item.pinned) || postedItems[0];
+        if (pinnedProduct) {
+          heroProductLink.href = pinnedProduct.curatorUrl || pinnedProduct.url;
+          heroProductLink.target = "_blank";
+          heroProductLink.rel = "nofollow sponsored noopener noreferrer";
+          heroProductLink.dataset.trackProduct = pinnedProduct.id;
+          heroProductLink.dataset.trackPlacement = "hero";
+        }
+
         document.getElementById("campaign-count").textContent = String(meta.campaignCount || campaignItems.length);
         document.getElementById("linked-count").textContent = String(postedItems.length);
         document.getElementById("changed-count").textContent = String(meta.changedCount || 0);
@@ -909,7 +945,7 @@
       }
 
       document.addEventListener("click", (event) => {
-        const link = event.target.closest("a.card[data-track-product]");
+        const link = event.target.closest("a[data-track-product]");
         if (!link) {
           return;
         }

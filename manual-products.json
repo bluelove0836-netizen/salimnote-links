@@ -176,6 +176,31 @@
       "changedFields": [],
       "changeDetected": false,
       "syncedAt": "2026-07-19T13:44:00+09:00"
+    },
+    {
+      "id": "coupang-alpicool-c15",
+      "url": "https://link.coupang.com/a/fvpxeCzYZM",
+      "name": "알피쿨 C15 차량용 냉장고 15L",
+      "currentName": "알피쿨 C15 차량용 냉장고 15L",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "여름 차 안과 차박에서 음료와 식재료를 보관할 때 15L 크기, 차량 전원, 통풍 공간을 먼저 확인하는 압축식 차량용 냉장고",
+      "imageUrl": "./assets/alpicool-c15-thumbnail.jpg",
+      "category": "living",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fvpxeCzYZM",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": false,
+      "postType": "reel",
+      "publishedAt": null,
+      "pinned": false,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-19T14:02:50+09:00"
     }
   ]
 }

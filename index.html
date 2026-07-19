@@ -742,6 +742,7 @@
 
     <script>
       const TRACKER_BASE_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1";
+      const TRACKING_ENABLED = window.location.hostname === "bluelove0836-netizen.github.io";
       const VISIT_ID = (() => {
         try {
           const key = "salimnote_visit_id";
@@ -773,6 +774,9 @@
       }
 
       function sendTrackingEvent(path, payload) {
+        if (!TRACKING_ENABLED) {
+          return Promise.resolve();
+        }
         return fetch(TRACKER_BASE_URL + path, {
           method: "POST",
           headers: { "Content-Type": "text/plain" },

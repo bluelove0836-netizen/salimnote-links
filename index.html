@@ -24,6 +24,10 @@
         box-sizing: border-box;
       }
 
+      [hidden] {
+        display: none !important;
+      }
+
       body {
         margin: 0;
         min-height: 100vh;
@@ -699,7 +703,7 @@
         <p class="empty" id="featured-empty" hidden>릴스 연결 제품을 준비 중입니다.</p>
       </section>
 
-      <section class="section">
+      <section class="section" id="campaign-section">
         <div class="section-top">
           <div>
             <h2 class="section-title">지금 끝나기 전에 봐야 할 딜</h2>
@@ -711,7 +715,7 @@
         <p class="empty" id="campaign-empty" hidden>지금 표시할 기간성 프로모션이 없습니다.</p>
       </section>
 
-      <section class="section">
+      <section class="section" id="category-section">
         <div class="section-top">
           <div>
             <h2 class="section-title">카테고리별로 보기</h2>
@@ -783,8 +787,13 @@
         if (navigator.webdriver && !params.get("utm_source")) {
           inferredSource = "qa";
         }
-        const source = (params.get("utm_source") || inferredSource)
+        const rawSource = (params.get("utm_source") || inferredSource)
           .toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40);
+        const source = ["ig", "instagram", "instagram_bio", "link_in_bio"].includes(rawSource)
+          ? "instagram_profile"
+          : ["ig_dm", "instagram_dm", "dm"].includes(rawSource)
+            ? "instagram_comment_dm"
+            : rawSource;
         return {
           visit_id: VISIT_ID,
           source,
@@ -1047,11 +1056,10 @@
           "마지막 동기화: " + formatSyncTime(meta.generatedAt) + " · 제목, 가격, 프로모션 문구가 바뀌면 다시 반영됩니다.";
 
         const campaignGrid = document.getElementById("campaign-grid");
-        const campaignEmpty = document.getElementById("campaign-empty");
         if (campaignItems.length) {
           campaignGrid.innerHTML = campaignItems.map((item) => buildCard(item, false)).join("");
         } else {
-          campaignEmpty.hidden = false;
+          document.getElementById("campaign-section").hidden = true;
         }
 
         const featuredGrid = document.getElementById("featured-grid");
@@ -1078,8 +1086,13 @@
 
         const categoryGrid = document.getElementById("category-grid");
         categoryGrid.innerHTML = Object.keys(CATEGORY_META)
+          .filter((key) => grouped[key].length > 0)
           .map((key) => buildCategoryCard(key, grouped[key]))
           .join("");
+        // With only a handful of visible products the category step adds more
+        // scrolling than discovery value. Show it once the catalog is large
+        // enough to need filtering.
+        document.getElementById("category-section").hidden = visibleItems.length <= 6;
 
         const allGrid = document.getElementById("all-grid");
         const allEmpty = document.getElementById("all-empty");

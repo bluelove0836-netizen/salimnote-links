@@ -534,7 +534,7 @@
 
       @media (max-width: 760px) {
         main {
-          padding: 10px 10px 48px;
+          padding: 10px 10px calc(110px + env(safe-area-inset-bottom));
         }
 
         .hero {
@@ -752,6 +752,8 @@
       const TRACKER_BASE_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1";
       const SALIM_COUPANG_SUBID = "salimnote";
       const TRACKING_ENABLED = window.location.hostname === "bluelove0836-netizen.github.io";
+      let validatedRequestedProductId = "";
+      let pageViewSent = false;
       const VISIT_ID = (() => {
         try {
           const key = "salimnote_visit_id";
@@ -787,7 +789,7 @@
           visit_id: VISIT_ID,
           source,
           campaign: (params.get("utm_campaign") || (source === "instagram_profile" ? "profile_link" : "")).slice(0, 80),
-          content: (params.get("utm_content") || "").slice(0, 80),
+          content: (params.get("utm_content") || validatedRequestedProductId).slice(0, 80),
           page_path: window.location.pathname
         };
       }
@@ -820,12 +822,16 @@
         }).catch(() => {});
       }
 
-      sendTrackingEvent("/view", {
-        event_id: crypto.randomUUID(),
-        ...trackingContext(),
-        placement: "landing",
-        viewed_at: new Date().toISOString()
-      });
+      function trackPageView() {
+        if (pageViewSent) return;
+        pageViewSent = true;
+        sendTrackingEvent("/view", {
+          event_id: crypto.randomUUID(),
+          ...trackingContext(),
+          placement: "landing",
+          viewed_at: new Date().toISOString()
+        });
+      }
       const CATEGORY_META = {
         kitchen: { label: "주방", icon: "🍽️", description: "식탁, 조리도구, 식기처럼 집 분위기를 바꾸는 주방템" },
         storage: { label: "수납", icon: "🧺", description: "정리함, 트롤리, 행거처럼 공간 정리에 도움 되는 제품" },
@@ -965,10 +971,17 @@
           return true;
         });
 
+        const requestedProduct = items.find((item) =>
+          item.id === requestedProductId && (item.instagramPosted || item.pinned)
+        );
+        validatedRequestedProductId = requestedProduct ? requestedProduct.id : "";
+        trackPageView();
+
         const postedItems = items
-          .filter((item) => item.instagramPosted || item.pinned || item.id === requestedProductId)
+          .filter((item) => item.instagramPosted || item.pinned)
           .sort((a, b) => {
-            const requestedOrder = Number(b.id === requestedProductId) - Number(a.id === requestedProductId);
+            const requestedOrder = Number(b.id === validatedRequestedProductId)
+              - Number(a.id === validatedRequestedProductId);
             if (requestedOrder) {
               return requestedOrder;
             }
@@ -980,14 +993,14 @@
           });
         // The profile landing page is a Reel conversion surface, not a catalog.
         // Keep unposted, rights-held, or identity-unverified products out of every
-        // default section. A requested product can appear only through an explicit
-        // product URL, and scheduled publishing pins it before the Reel goes live.
+        // default section. A requested product can move to the top only after it
+        // has passed the same posted-or-pinned gate as every other visible item.
         const visibleItems = postedItems;
         const campaignItems = visibleItems.filter((item) => item.isCampaign).slice(0, 8);
 
         const heroProductLink = document.getElementById("hero-product-link");
         const stickyProductLink = document.getElementById("sticky-product-link");
-        const pinnedProduct = postedItems.find((item) => item.id === requestedProductId)
+        const pinnedProduct = postedItems.find((item) => item.id === validatedRequestedProductId)
           || postedItems.find((item) => item.pinned)
           || postedItems[0];
         if (pinnedProduct) {
@@ -1121,7 +1134,7 @@
         document.getElementById("featured-grid").innerHTML =
           '<p class="empty">링크를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.</p>';
         console.error(error);
-      });
+      }).finally(trackPageView);
     </script>
   </body>
 </html>

@@ -581,6 +581,7 @@
     </main>
 
     <script>
+      const CLICK_TRACKER_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1/click";
       const CATEGORY_META = {
         kitchen: { label: "주방", icon: "🍽️", description: "식탁, 조리도구, 식기처럼 집 분위기를 바꾸는 주방템" },
         storage: { label: "수납", icon: "🧺", description: "정리함, 트롤리, 행거처럼 공간 정리에 도움 되는 제품" },
@@ -663,7 +664,7 @@
           : '<div class="meta-line">마지막 확인: ' + escapeHtml(formatSyncTime(item.syncedAt)) + "</div>";
 
         return [
-          '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer">',
+          '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer" data-track-product="' + escapeHtml(item.id) + '" data-track-placement="' + (featured ? "featured" : "grid") + '">',
           image,
           '<div class="tag-row">' + badges.join("") + "</div>",
           "<h3>" + escapeHtml(item.currentName || item.name) + "</h3>",
@@ -798,6 +799,31 @@
 
         renderAll();
       }
+
+      document.addEventListener("click", (event) => {
+        const link = event.target.closest("a.card[data-track-product]");
+        if (!link) {
+          return;
+        }
+        const params = new URLSearchParams(window.location.search);
+        const payload = {
+          event_id: crypto.randomUUID(),
+          product_id: link.dataset.trackProduct,
+          source: "profile",
+          placement: link.dataset.trackPlacement || "grid",
+          page_path: window.location.pathname,
+          campaign: params.get("utm_campaign") || "",
+          content: params.get("utm_content") || "",
+          clicked_at: new Date().toISOString()
+        };
+        fetch(CLICK_TRACKER_URL, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain" },
+          body: JSON.stringify(payload),
+          keepalive: true,
+          mode: "cors"
+        }).catch(() => {});
+      }, { capture: true });
 
       main().catch((error) => {
         document.getElementById("sync-note").textContent = "상품 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.";

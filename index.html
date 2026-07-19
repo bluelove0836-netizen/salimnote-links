@@ -750,7 +750,7 @@
 
     <script>
       const TRACKER_BASE_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1";
-      const SALIM_COUPANG_SUBID = "salimnote";
+      const TRACKER_REDIRECT_BASE_URL = new URL(TRACKER_BASE_URL).origin;
       const TRACKING_ENABLED = window.location.hostname === "bluelove0836-netizen.github.io";
       let validatedRequestedProductId = "";
       let pageViewSent = false;
@@ -860,16 +860,20 @@
           .replace(/'/g, "&#39;");
       }
 
-      function salimAffiliateUrl(value) {
-        try {
-          const url = new URL(String(value || ""));
-          if (["link.coupang.com", "coupa.ng"].includes(url.hostname) && !url.searchParams.get("subid")) {
-            url.searchParams.set("subid", SALIM_COUPANG_SUBID);
-          }
-          return url.toString();
-        } catch (_) {
-          return String(value || "");
-        }
+      function trackedAffiliateUrl(item, placement) {
+        const context = trackingContext();
+        const outboundSource = /^(?:qa|test|smoke)(?:_|$)/.test(context.source)
+          ? "smoke"
+          : context.source === "instagram_comment_dm"
+            ? "instagram_comment_dm"
+            : "instagram_profile";
+        const url = new URL("/go/" + encodeURIComponent(String(item.id || "")), TRACKER_REDIRECT_BASE_URL);
+        url.searchParams.set("source", outboundSource);
+        url.searchParams.set("placement", placement);
+        url.searchParams.set("visit_id", context.visit_id);
+        url.searchParams.set("campaign", context.campaign || "profile_link");
+        url.searchParams.set("content", context.content || String(item.id || ""));
+        return url.toString();
       }
 
       function formatSyncTime(value) {
@@ -901,7 +905,8 @@
       }
 
       function buildCard(item, featured) {
-        const url = salimAffiliateUrl(item.curatorUrl || item.url);
+        const placement = featured ? "featured" : "grid";
+        const url = trackedAffiliateUrl(item, placement);
         const category = CATEGORY_META[item.category] || CATEGORY_META.living;
         const badges = [];
         if (item.pinned) {
@@ -929,7 +934,7 @@
 
         const cta = item.source === "coupang" ? "쿠팡에서 가격·재고 확인 →" : "제품 보러 가기 →";
         return [
-          '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer" data-track-product="' + escapeHtml(item.id) + '" data-track-placement="' + (featured ? "featured" : "grid") + '">',
+          '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer" data-track-product="' + escapeHtml(item.id) + '" data-track-placement="' + placement + '" data-server-tracked="true">',
           image,
           '<div class="tag-row">' + badges.join("") + "</div>",
           "<h3>" + escapeHtml(item.currentName || item.name) + "</h3>",
@@ -1005,18 +1010,20 @@
           || postedItems[0];
         if (pinnedProduct) {
           const heroCtaLabel = pinnedProduct.ctaLabel || "영상 속 제품 가격·재고 확인";
-          heroProductLink.href = salimAffiliateUrl(pinnedProduct.curatorUrl || pinnedProduct.url);
+          heroProductLink.href = trackedAffiliateUrl(pinnedProduct, "hero");
           heroProductLink.textContent = heroCtaLabel + " →";
           heroProductLink.setAttribute("aria-label", heroCtaLabel);
           heroProductLink.target = "_blank";
           heroProductLink.rel = "nofollow sponsored noopener noreferrer";
           heroProductLink.dataset.trackProduct = pinnedProduct.id;
           heroProductLink.dataset.trackPlacement = "hero";
-          stickyProductLink.href = salimAffiliateUrl(pinnedProduct.curatorUrl || pinnedProduct.url);
+          heroProductLink.dataset.serverTracked = "true";
+          stickyProductLink.href = trackedAffiliateUrl(pinnedProduct, "sticky");
           stickyProductLink.target = "_blank";
           stickyProductLink.rel = "nofollow sponsored noopener noreferrer";
           stickyProductLink.dataset.trackProduct = pinnedProduct.id;
           stickyProductLink.dataset.trackPlacement = "sticky";
+          stickyProductLink.dataset.serverTracked = "true";
           document.getElementById("sticky-product-name").textContent =
             pinnedProduct.currentName || pinnedProduct.name || "가격·재고 확인";
           const updateStickyProduct = () => {
@@ -1117,6 +1124,9 @@
       document.addEventListener("click", (event) => {
         const link = event.target.closest("a[data-track-product]");
         if (!link) {
+          return;
+        }
+        if (link.dataset.serverTracked === "true") {
           return;
         }
         const payload = {

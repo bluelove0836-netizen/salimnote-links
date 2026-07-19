@@ -201,6 +201,31 @@
       "changedFields": [],
       "changeDetected": false,
       "syncedAt": "2026-07-19T14:02:50+09:00"
+    },
+    {
+      "id": "coupang-xiaomi-fan2-bplds02dm",
+      "url": "https://link.coupang.com/a/fvrfRp40NU",
+      "name": "샤오미 스마트 스탠딩 BLDC 선풍기2",
+      "currentName": "샤오미 스마트 스탠딩 BLDC 선풍기2",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "잠잘 때 사용할 선풍기를 고를 때 BLDC 모터, 앱 100단 조절, 유선 설치 위치와 리모컨 미포함 여부를 먼저 확인하는 스마트 선풍기",
+      "imageUrl": "./assets/xiaomi-fan2-bplds02dm-thumbnail.jpg",
+      "category": "living",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fvrfRp40NU",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": false,
+      "postType": "reel",
+      "publishedAt": null,
+      "pinned": false,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-19T14:25:00+09:00"
     }
   ]
 }

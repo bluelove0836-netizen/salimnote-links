@@ -151,6 +151,31 @@
       "changedFields": [],
       "changeDetected": false,
       "syncedAt": "2026-07-19T12:30:57+09:00"
+    },
+    {
+      "id": "coupang-lydsto-food-waste-yy-cyclq01",
+      "url": "https://link.coupang.com/a/fvnO90lIlg",
+      "name": "샤오미 라이드스토 음식물처리기 3L",
+      "currentName": "샤오미 라이드스토 음식물처리기 3L",
+      "currentPrice": null,
+      "priceText": "",
+      "promoText": "건조·분쇄 결과와 함께 연간 에너지비, 필터 교체비, 실측 소음을 비교하고 고르는 3L 음식물처리기",
+      "imageUrl": "./assets/lydsto-food-waste-yy-cyclq01-thumbnail.jpg",
+      "category": "kitchen",
+      "campaignBadges": [],
+      "isCampaign": false,
+      "hasCuratorLink": true,
+      "curatorUrl": "https://link.coupang.com/a/fvnO90lIlg",
+      "linkNote": "살림노트 릴스 속 제품",
+      "source": "coupang",
+      "instagramPosted": false,
+      "postType": "reel",
+      "publishedAt": null,
+      "pinned": false,
+      "syncError": "",
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-07-19T13:44:00+09:00"
     }
   ]
 }

@@ -784,7 +784,11 @@
         } catch (_) {}
         // Headless visual checks must never inflate real Instagram traffic,
         // even when the screenshot URL accidentally carries a production UTM.
-        const automatedBrowser = Boolean(navigator.webdriver);
+        const automatedBrowser = Boolean(
+          navigator.webdriver ||
+          /HeadlessChrome/i.test(navigator.userAgent || "") ||
+          params.get("qa") === "1"
+        );
         if (automatedBrowser) {
           inferredSource = "qa_visual";
         }

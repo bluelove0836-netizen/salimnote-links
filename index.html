@@ -460,7 +460,67 @@
       }
 
       @media (max-width: 760px) {
+        .hero {
+          padding: 20px 18px 18px;
+          border-radius: 24px;
+        }
+
+        .avatar {
+          width: 46px;
+          height: 46px;
+          border-radius: 16px;
+          font-size: 20px;
+        }
+
+        h1 {
+          margin-top: 12px;
+          font-size: 30px;
+        }
+
+        .hero-copy {
+          margin-top: 10px;
+          font-size: 14px;
+          line-height: 1.55;
+        }
+
+        .hero-actions {
+          margin-top: 14px;
+        }
+
+        .hero-button {
+          width: 100%;
+          min-height: 46px;
+        }
+
+        .hero-button.secondary,
         .hero-stats,
+        .sync-note {
+          display: none;
+        }
+
+        .featured-section {
+          margin-top: 12px;
+          padding: 18px 14px;
+        }
+
+        .posted-carousel .card-image {
+          height: 200px;
+        }
+
+        .posted-carousel .card p,
+        .posted-carousel .meta-line {
+          display: none;
+        }
+
+        .posted-carousel .card h3 {
+          font-size: 18px;
+        }
+
+        .posted-carousel .cta {
+          margin-top: 12px;
+          font-size: 16px;
+        }
+
         .campaign-grid,
         .all-grid,
         .category-grid {
@@ -483,7 +543,8 @@
           margin-top: 12px;
         }
 
-        .card-image {
+        .all-grid .card-image,
+        .campaign-grid .card-image {
           height: 280px;
         }
       }
@@ -522,7 +583,7 @@
         <div class="sync-note" id="sync-note">상품 정보를 불러오는 중입니다.</div>
       </section>
 
-      <section class="section" aria-labelledby="posted-title">
+      <section class="section featured-section" aria-labelledby="posted-title">
         <div class="section-top">
           <div>
             <h2 class="section-title" id="posted-title">영상·피드 연결 제품</h2>

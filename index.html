@@ -932,7 +932,6 @@
           return true;
         });
 
-        const campaignItems = items.filter((item) => item.isCampaign).slice(0, 8);
         const postedItems = items
           .filter((item) => item.instagramPosted || item.pinned || item.id === requestedProductId)
           .sort((a, b) => {
@@ -946,6 +945,12 @@
             }
             return Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0);
           });
+        // The profile landing page is a Reel conversion surface, not a catalog.
+        // Keep unposted, rights-held, or identity-unverified products out of every
+        // default section. A requested product can appear only through an explicit
+        // product URL, and scheduled publishing pins it before the Reel goes live.
+        const visibleItems = postedItems;
+        const campaignItems = visibleItems.filter((item) => item.isCampaign).slice(0, 8);
 
         const heroProductLink = document.getElementById("hero-product-link");
         const stickyProductLink = document.getElementById("sticky-product-link");
@@ -979,12 +984,12 @@
           setTimeout(updateStickyProduct, 500);
         }
 
-        document.getElementById("campaign-count").textContent = String(meta.campaignCount || campaignItems.length);
+        document.getElementById("campaign-count").textContent = String(campaignItems.length);
         document.getElementById("linked-count").textContent = String(postedItems.length);
-        document.getElementById("changed-count").textContent = String(meta.changedCount || 0);
-        document.getElementById("campaign-pill").textContent = "프로모션 " + String(meta.campaignCount || campaignItems.length) + "개";
+        document.getElementById("changed-count").textContent = String(visibleItems.filter((item) => item.changeDetected).length);
+        document.getElementById("campaign-pill").textContent = "프로모션 " + String(campaignItems.length) + "개";
         document.getElementById("featured-count").textContent = "게시 제품 " + postedItems.length + "개";
-        document.getElementById("total-count").textContent = "전체 " + items.length + "개";
+        document.getElementById("total-count").textContent = "전체 " + visibleItems.length + "개";
         document.getElementById("sync-note").textContent =
           "마지막 동기화: " + formatSyncTime(meta.generatedAt) + " · 제목, 가격, 프로모션 문구가 바뀌면 다시 반영됩니다.";
 
@@ -1013,7 +1018,7 @@
         });
 
         const grouped = { kitchen: [], storage: [], cleaning: [], living: [] };
-        items.forEach((item) => {
+        visibleItems.forEach((item) => {
           const key = grouped[item.category] ? item.category : "living";
           grouped[key].push(item);
         });
@@ -1030,7 +1035,7 @@
 
         function renderAll() {
           const keyword = normalizeText(searchInput.value);
-          let filtered = items;
+          let filtered = visibleItems;
           if (currentCategory) {
             filtered = filtered.filter((item) => item.category === currentCategory);
           }

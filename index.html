@@ -758,16 +758,21 @@
 
       function trackingContext() {
         const params = new URLSearchParams(window.location.search);
-        let inferredSource = "direct";
+        // This short landing page is the dedicated @sal.lim_note profile link.
+        // Instagram commonly strips referrers, so an untagged visit is still a
+        // profile-link visit unless an explicit UTM or another referrer proves otherwise.
+        let inferredSource = "instagram_profile";
         try {
           const referrerHost = document.referrer ? new URL(document.referrer).hostname : "";
-          if (referrerHost.includes("instagram.com")) inferredSource = "instagram";
+          if (referrerHost.includes("instagram.com")) inferredSource = "instagram_profile";
           else if (referrerHost) inferredSource = "referral";
         } catch (_) {}
+        const source = (params.get("utm_source") || inferredSource)
+          .toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40);
         return {
           visit_id: VISIT_ID,
-          source: (params.get("utm_source") || inferredSource).toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40),
-          campaign: (params.get("utm_campaign") || "").slice(0, 80),
+          source,
+          campaign: (params.get("utm_campaign") || (source === "instagram_profile" ? "profile_link" : "")).slice(0, 80),
           content: (params.get("utm_content") || "").slice(0, 80),
           page_path: window.location.pathname
         };

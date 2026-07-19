@@ -494,17 +494,16 @@
       <section class="hero">
         <div class="profile">
           <div class="avatar">살</div>
-          <div class="eyebrow">@sa.lim_note</div>
+          <div class="eyebrow">@sal.lim_note</div>
         </div>
-        <h1>살림노트가<br>직접 모아둔 추천 살림템</h1>
+        <h1>영상에서 본 살림템<br>바로 확인하세요</h1>
         <p class="hero-copy">
-          주방, 수납, 청소, 생활용품까지
-          인스타에서 자주 물어보셨던 제품만 보기 좋게 모아뒀어요.
-          기간 한정 딜은 따로 모아두고, 제목이나 가격이 바뀌면 다시 반영되도록 관리합니다.
+          실사용 장면으로 확인한 주방·청소·생활 제품을 모았습니다.
+          방금 본 영상의 제품을 맨 앞에 두고, 구매 전 확인할 특징도 함께 정리합니다.
         </p>
         <div class="hero-actions">
-          <a class="hero-button primary" href="https://store.ohou.se/exhibitions/12912?airbridge_referrer=airbridge%3Dtrue%26client_id%3Dbeaafd72-315d-4436-8752-067a5beecffb%26event_uuid%3D6c7d3add-1bc7-4d1b-a02f-4cf4a15c2383%26referrer_timestamp%3D1783606751691%26short_id%3Driblsz%26custom_short_id%3Dshort_recom%26channel%3Dohouseapp%26campaign%3Dbrand_affiliate%26tracking_template_id%3D9b7dba799b0ee1850bfff5f8ba18f9a3%26ad_group%3Drecomproduct%26ad_creative%3Dshortcut%26og_tag_id%3D85690767%26routing_short_id%3Dsfuiva&utm_source=ohouseapp&utm_campaign=brand_affiliate" target="_blank" rel="noopener noreferrer">이번 기획전 전체 보기</a>
-          <a class="hero-button secondary" href="#featured-grid">릴스 속 제품 보기</a>
+          <a class="hero-button primary" href="#featured-grid">방금 본 제품 확인</a>
+          <a class="hero-button secondary" href="#all-grid">전체 제품 보기</a>
         </div>
         <div class="hero-stats">
           <div class="stat">
@@ -513,7 +512,7 @@
           </div>
           <div class="stat">
             <strong id="linked-count">0</strong>
-            <span>피드 연결 링크</span>
+            <span>영상 연결 제품</span>
           </div>
           <div class="stat">
             <strong id="changed-count">0</strong>
@@ -526,8 +525,8 @@
       <section class="section" aria-labelledby="posted-title">
         <div class="section-top">
           <div>
-            <h2 class="section-title" id="posted-title">릴스·피드에서 본 제품</h2>
-            <p class="section-copy">인스타에 올린 제품을 최신순으로 모았어요. 옆으로 넘겨서 확인해 보세요.</p>
+            <h2 class="section-title" id="posted-title">영상·피드 연결 제품</h2>
+            <p class="section-copy">방금 본 제품을 맨 앞에 두었습니다. 옆으로 넘겨서 확인해 보세요.</p>
           </div>
           <div class="carousel-actions">
             <span class="pill" id="featured-count">게시 제품 0개</span>
@@ -642,7 +641,9 @@
         const url = item.curatorUrl || item.url;
         const category = CATEGORY_META[item.category] || CATEGORY_META.living;
         const badges = [];
-        if (item.source === "coupang") {
+        if (item.pinned) {
+          badges.push('<span class="tag primary">방금 본 제품</span>');
+        } else if (item.source === "coupang" && item.instagramPosted) {
           badges.push('<span class="tag primary">릴스 속 제품</span>');
         } else if (item.hasCuratorLink) {
           badges.push('<span class="tag primary">피드 소개 링크</span>');
@@ -707,7 +708,7 @@
 
         const campaignItems = items.filter((item) => item.isCampaign).slice(0, 8);
         const postedItems = items
-          .filter((item) => item.instagramPosted || item.hasCuratorLink)
+          .filter((item) => item.instagramPosted || item.pinned)
           .sort((a, b) => {
             const pinnedOrder = Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
             if (pinnedOrder) {

@@ -641,7 +641,47 @@
     </main>
 
     <script>
-      const CLICK_TRACKER_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1/click";
+      const TRACKER_BASE_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1";
+      const VISIT_ID = (() => {
+        try {
+          const key = "salimnote_visit_id";
+          const current = sessionStorage.getItem(key);
+          if (current) return current;
+          const created = crypto.randomUUID();
+          sessionStorage.setItem(key, created);
+          return created;
+        } catch (_) {
+          return crypto.randomUUID();
+        }
+      })();
+
+      function trackingContext() {
+        const params = new URLSearchParams(window.location.search);
+        return {
+          visit_id: VISIT_ID,
+          source: (params.get("utm_source") || "direct").toLowerCase().replace(/[^a-z0-9_-]/g, "_").slice(0, 40),
+          campaign: (params.get("utm_campaign") || "").slice(0, 80),
+          content: (params.get("utm_content") || "").slice(0, 80),
+          page_path: window.location.pathname
+        };
+      }
+
+      function sendTrackingEvent(path, payload) {
+        return fetch(TRACKER_BASE_URL + path, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain" },
+          body: JSON.stringify(payload),
+          keepalive: true,
+          mode: "cors"
+        }).catch(() => {});
+      }
+
+      sendTrackingEvent("/view", {
+        event_id: crypto.randomUUID(),
+        ...trackingContext(),
+        placement: "landing",
+        viewed_at: new Date().toISOString()
+      });
       const CATEGORY_META = {
         kitchen: { label: "주방", icon: "🍽️", description: "식탁, 조리도구, 식기처럼 집 분위기를 바꾸는 주방템" },
         storage: { label: "수납", icon: "🧺", description: "정리함, 트롤리, 행거처럼 공간 정리에 도움 되는 제품" },
@@ -867,24 +907,14 @@
         if (!link) {
           return;
         }
-        const params = new URLSearchParams(window.location.search);
         const payload = {
           event_id: crypto.randomUUID(),
+          ...trackingContext(),
           product_id: link.dataset.trackProduct,
-          source: "profile",
           placement: link.dataset.trackPlacement || "grid",
-          page_path: window.location.pathname,
-          campaign: params.get("utm_campaign") || "",
-          content: params.get("utm_content") || "",
           clicked_at: new Date().toISOString()
         };
-        fetch(CLICK_TRACKER_URL, {
-          method: "POST",
-          headers: { "Content-Type": "text/plain" },
-          body: JSON.stringify(payload),
-          keepalive: true,
-          mode: "cors"
-        }).catch(() => {});
+        sendTrackingEvent("/click", payload);
       }, { capture: true });
 
       main().catch((error) => {

@@ -47,6 +47,72 @@
         opacity: 0.24;
       }
 
+      .sticky-product {
+        position: fixed;
+        z-index: 30;
+        left: 50%;
+        bottom: max(12px, env(safe-area-inset-bottom));
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        width: min(calc(100% - 24px), 520px);
+        min-height: 66px;
+        padding: 11px 14px 11px 18px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 22px;
+        background: rgba(30, 23, 18, 0.96);
+        color: #fffdf9;
+        box-shadow: 0 18px 42px rgba(45, 31, 22, 0.28);
+        text-decoration: none;
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(-50%, 18px);
+        transition: opacity 180ms ease, transform 180ms ease;
+        backdrop-filter: blur(16px);
+      }
+
+      .sticky-product.is-visible {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translate(-50%, 0);
+      }
+
+      .sticky-product-copy {
+        min-width: 0;
+      }
+
+      .sticky-product-copy span,
+      .sticky-product-copy strong {
+        display: block;
+      }
+
+      .sticky-product-copy span {
+        color: #c9c1ba;
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .sticky-product-copy strong {
+        margin-top: 4px;
+        overflow: hidden;
+        font-size: 14px;
+        line-height: 1.25;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .sticky-product-cta {
+        flex: 0 0 auto;
+        padding: 12px 14px;
+        border-radius: 999px;
+        background: #b9f26b;
+        color: #18200f;
+        font-size: 13px;
+        font-weight: 900;
+        white-space: nowrap;
+      }
+
       main {
         position: relative;
         width: min(100%, 920px);
@@ -666,6 +732,14 @@
       </p>
     </main>
 
+    <a class="sticky-product" id="sticky-product-link" href="#featured-grid" aria-label="영상 속 제품 가격과 재고 확인">
+      <span class="sticky-product-copy">
+        <span>영상 속 제품</span>
+        <strong id="sticky-product-name">가격·재고 확인</strong>
+      </span>
+      <span class="sticky-product-cta">쿠팡에서 확인 →</span>
+    </a>
+
     <script>
       const TRACKER_BASE_URL = "https://salim-click-tracker.bluelove0836.workers.dev/v1";
       const VISIT_ID = (() => {
@@ -856,6 +930,7 @@
           });
 
         const heroProductLink = document.getElementById("hero-product-link");
+        const stickyProductLink = document.getElementById("sticky-product-link");
         const pinnedProduct = postedItems.find((item) => item.id === requestedProductId)
           || postedItems.find((item) => item.pinned)
           || postedItems[0];
@@ -865,6 +940,22 @@
           heroProductLink.rel = "nofollow sponsored noopener noreferrer";
           heroProductLink.dataset.trackProduct = pinnedProduct.id;
           heroProductLink.dataset.trackPlacement = "hero";
+          stickyProductLink.href = pinnedProduct.curatorUrl || pinnedProduct.url;
+          stickyProductLink.target = "_blank";
+          stickyProductLink.rel = "nofollow sponsored noopener noreferrer";
+          stickyProductLink.dataset.trackProduct = pinnedProduct.id;
+          stickyProductLink.dataset.trackPlacement = "sticky";
+          document.getElementById("sticky-product-name").textContent =
+            pinnedProduct.currentName || pinnedProduct.name || "가격·재고 확인";
+          const updateStickyProduct = () => {
+            const hero = document.querySelector(".hero");
+            const threshold = hero ? hero.offsetTop + hero.offsetHeight - 56 : 480;
+            stickyProductLink.classList.toggle("is-visible", window.scrollY > threshold);
+          };
+          window.addEventListener("scroll", updateStickyProduct, { passive: true });
+          window.addEventListener("hashchange", updateStickyProduct);
+          requestAnimationFrame(updateStickyProduct);
+          setTimeout(updateStickyProduct, 500);
         }
 
         document.getElementById("campaign-count").textContent = String(meta.campaignCount || campaignItems.length);

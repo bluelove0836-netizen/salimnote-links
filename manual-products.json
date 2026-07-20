@@ -195,15 +195,17 @@
       "curatorUrl": "https://link.coupang.com/a/fvhLY971BQ",
       "linkNote": "살림노트 릴스 속 제품",
       "source": "coupang",
-      "instagramPosted": false,
+      "instagramPosted": true,
       "postType": "reel",
-      "publishedAt": null,
+      "publishedAt": "2026-07-20T06:33:23+0000",
       "pinned": true,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-07-20T15:31:20+09:00",
-      "promotedAt": "2026-07-20T15:31:20+09:00"
+      "syncedAt": "2026-07-20T15:33:28+09:00",
+      "promotedAt": "2026-07-20T15:33:28+09:00",
+      "correctionPending": false,
+      "correctionReason": ""
     },
     {
       "id": "coupang-lydsto-food-waste-yy-cyclq01",

@@ -198,11 +198,12 @@
       "instagramPosted": false,
       "postType": "reel",
       "publishedAt": null,
-      "pinned": false,
+      "pinned": true,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-07-19T12:30:57+09:00"
+      "syncedAt": "2026-07-20T15:30:09+09:00",
+      "promotedAt": "2026-07-20T15:30:09+09:00"
     },
     {
       "id": "coupang-lydsto-food-waste-yy-cyclq01",
@@ -249,7 +250,7 @@
       "instagramPosted": true,
       "postType": "reel",
       "publishedAt": "2026-07-19T15:22:37+0000",
-      "pinned": true,
+      "pinned": false,
       "correctionPending": false,
       "correctionReason": "",
       "syncError": "",

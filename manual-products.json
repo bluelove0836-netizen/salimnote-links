@@ -17,15 +17,17 @@
       "curatorUrl": "https://link.coupang.com/a/fDWaw0LX9E",
       "linkNote": "살림노트 릴스 속 제품",
       "source": "coupang",
-      "instagramPosted": false,
+      "instagramPosted": true,
       "postType": "reel",
-      "publishedAt": null,
+      "publishedAt": "2026-07-24T08:19:44+0000",
       "pinned": true,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-07-24T17:18:34+09:00",
-      "promotedAt": "2026-07-24T17:18:34+09:00"
+      "syncedAt": "2026-07-24T17:19:49+09:00",
+      "promotedAt": "2026-07-24T17:19:49+09:00",
+      "correctionPending": false,
+      "correctionReason": ""
     },
     {
       "id": "coupang-cuckoo-cim-as09m10s",

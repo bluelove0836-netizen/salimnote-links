@@ -20,12 +20,12 @@
       "instagramPosted": false,
       "postType": "reel",
       "publishedAt": null,
-      "pinned": false,
+      "pinned": true,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-07-24T17:14:05+09:00",
-      "promotedAt": "2026-07-24T17:14:05+09:00"
+      "syncedAt": "2026-07-24T17:18:34+09:00",
+      "promotedAt": "2026-07-24T17:18:34+09:00"
     },
     {
       "id": "coupang-cuckoo-cim-as09m10s",
@@ -225,7 +225,7 @@
       "instagramPosted": true,
       "postType": "reel",
       "publishedAt": "2026-07-20T06:33:38+0000",
-      "pinned": true,
+      "pinned": false,
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,

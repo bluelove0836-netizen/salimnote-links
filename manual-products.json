@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "coupang-tineco-floor-one-switch-s6",
+      "url": "https://link.coupang.com/a/g3BeNypirA?subid=salimnote",
+      "name": "티네코 FLOOR ONE SWITCH S6 무선 물걸레청소기",
+      "currentName": "티네코 FLOOR ONE SWITCH S6 무선 물걸레청소기",
+      "promoText": "쏟은 자리를 한 번 밀어 닦고, 헤드가 눕혀져 가구 밑까지 들어가는 자동 세척 물걸레 무선청소기",
+      "imageUrl": "./assets/tineco-floor-one-switch-s6-thumbnail.jpg",
+      "imageSha256": "78be5300dbf532e2173fe01a8fc68e0e3dee8f5b6a9cae8ce6738d3085748d92",
+      "imageSourceUrl": "https://www.youtube.com/watch?v=2sPAwD4rMNk",
+      "imageLicense": "Creative Commons Attribution license (reuse allowed) — Tineco 공식 채널"
+    },
+    {
       "id": "coupang-dreame-aqua10-ultra-roller",
       "url": "https://link.coupang.com/a/g3jzlPYmwC?subid=salimnote",
       "name": "드리미 아쿠아10 울트라 롤러형 물걸레 로봇청소기",
@@ -9,7 +20,17 @@
       "imageUrl": "./assets/dreame-aqua10-ultra-roller-thumbnail.jpg",
       "imageSha256": "2eaf4290ad10c1868bc2ba6ff9a556c57dd2c4dc4f6a91a8be2220cc89723f47",
       "imageSourceUrl": "https://www.youtube.com/watch?v=EE1r2B8eBQ4",
-      "imageLicense": "Creative Commons Attribution license (reuse allowed) — Tech Steve"
+      "imageLicense": "Creative Commons Attribution license (reuse allowed) — Tech Steve",
+      "pinned": true,
+      "curatorUrl": "https://link.coupang.com/a/g3jzlPYmwC?subid=salimnote",
+      "hasCuratorLink": true,
+      "promotedAt": "2026-09-15T08:48:07+09:00",
+      "syncedAt": "2026-09-15T08:48:07+09:00",
+      "instagramPosted": true,
+      "postType": "reel",
+      "publishedAt": "2026-09-14T23:47:58+0000",
+      "correctionPending": false,
+      "correctionReason": ""
     },
     {
       "id": "coupang-hoto-precision-kitpro-qwlsd012",
@@ -21,7 +42,7 @@
       "imageSha256": "64d261f497c670442f00cc9c11fdedcfff2a349a45f49539d0f9eb4a4b7586b4",
       "imageSourceUrl": "https://www.youtube.com/watch?v=nafT40akxyg",
       "imageLicense": "Creative Commons Attribution license (reuse allowed) — HOTO 공식 채널",
-      "pinned": true,
+      "pinned": false,
       "curatorUrl": "https://link.coupang.com/a/g02xuDpQlw?subid=salimnote",
       "hasCuratorLink": true,
       "promotedAt": "2026-09-14T00:19:53+09:00",

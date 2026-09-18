@@ -35,9 +35,14 @@ This file is the gate for Salimnote reels. Read it before generating or publishi
 
 5. Affiliate disclosure is mandatory.
 
-   Caption must include:
+   The disclosure must be the **first line of the caption** (visible before "더보기"),
+   in definite wording. Conditional wording such as "받을 수 있습니다" is not allowed
+   (공정위 추천·보증 심사지침, 2024-12 개정 / 쿠팡 파트너스 가이드).
+   Reels also need an on-screen Korean disclosure for the first 3+ seconds and at the end.
 
-   `※ 제휴/큐레이터 활동의 일환으로 일정액의 수수료를 제공받을 수 있습니다.`
+   Caption first line:
+
+   `※ 이 포스팅은 쿠팡 파트너스·오늘의집 큐레이터 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.`
 
 6. Do not invent specs.
 

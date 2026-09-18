@@ -148,7 +148,7 @@ def build_caption(product: dict[str, Any], angle: dict[str, str], link_target: s
         f"{angle['difference']} 점도 보기 좋았고,\n"
         f"{angle['why_now']}이에요.\n\n"
         f"{link_target}는 프로필 링크에 같이 정리해둘게요.\n\n"
-        "※ 제휴/큐레이터 활동의 일환으로 일정액의 수수료를 제공받을 수 있습니다."
+        "※ 이 포스팅은 쿠팡 파트너스·오늘의집 큐레이터 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
     )
 
 

@@ -86,6 +86,8 @@ def sync() -> int:
             ], check=True, timeout=30)
         affiliate_source = spec.get("affiliateSource", old.get("source", "coupang"))
         affiliate_url = spec.get("affiliateUrl") or (old.get("url") if affiliate_source == "naver_connect" else row["link"])
+        if affiliate_source == "naver_connect" and not spec.get("affiliateChannelVerified"):
+            raise ValueError(f"Naver Connect channel ownership is not verified for {key}")
         if affiliate_source == "naver_connect" and not affiliate_url:
             raise ValueError(f"Missing verified Naver Connect link for {key}")
         updated = dict(old, id=key, url=affiliate_url, curatorUrl=affiliate_url,

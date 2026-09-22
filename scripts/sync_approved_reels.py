@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 IG_ROOT = Path(os.environ.get("SALIMNOTE_IG_ROOT", "/Users/sso/orca/projects/인스타그램"))
@@ -84,12 +85,12 @@ def sync() -> int:
                 "ffmpeg", "-y", "-loglevel", "error", "-ss", str(spec["frame_second"]),
                 "-i", str(video), "-frames:v", "1", "-vf", "scale=480:-1", str(thumb),
             ], check=True, timeout=30)
-        affiliate_source = spec.get("affiliateSource", old.get("source", "coupang"))
-        affiliate_url = spec.get("affiliateUrl") or (old.get("url") if affiliate_source == "naver_connect" else row["link"])
-        if affiliate_source == "naver_connect" and not spec.get("affiliateChannelVerified"):
-            raise ValueError(f"Naver Connect channel ownership is not verified for {key}")
-        if affiliate_source == "naver_connect" and not affiliate_url:
-            raise ValueError(f"Missing verified Naver Connect link for {key}")
+        # Salimnote fanout uses the reviewed Reel's exact Coupang Partners link.
+        affiliate_source = "coupang"
+        affiliate_url = row["link"]
+        parsed = urlparse(affiliate_url)
+        if parsed.scheme != "https" or parsed.netloc != "link.coupang.com":
+            raise ValueError(f"Missing Coupang Partners link for {key}")
         updated = dict(old, id=key, url=affiliate_url, curatorUrl=affiliate_url,
                        hasCuratorLink=True, name=spec["name"], currentName=spec["name"],
                        promoText=spec["promoText"], category=spec["category"],

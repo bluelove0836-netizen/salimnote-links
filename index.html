@@ -671,8 +671,8 @@
         </div>
         <h1>영상에서 본 살림템<br>바로 확인하세요</h1>
         <p class="hero-copy">
-          실사용 장면으로 확인한 제품만 모았습니다.
-          <span class="hero-detail">방금 본 영상의 제품을 맨 앞에 두고, 구매 전 확인할 특징도 함께 정리합니다.</span>
+          제조사 시연과 제품 정보를 확인해 정리했습니다.
+          <span class="hero-detail">영상별 제품과 구매 전 확인할 점을 모았습니다. 직접 사용한 후기는 별도로 표시합니다.</span>
         </p>
         <div class="hero-actions">
           <a class="hero-button primary" id="hero-product-link" href="#featured-grid">영상 속 제품 가격·재고 확인 →</a>
@@ -708,7 +708,7 @@
             <button class="carousel-button" id="carousel-next" type="button" aria-label="다음 제품">›</button>
           </div>
         </div>
-        <div class="posted-carousel" id="featured-grid" aria-label="인스타 릴스 연결 제품"></div>
+        <div class="posted-carousel" id="featured-grid" aria-label="살림노트 영상 연결 제품"></div>
         <p class="empty" id="featured-empty" hidden>릴스 연결 제품을 준비 중입니다.</p>
       </section>
 
@@ -924,7 +924,7 @@
         if (item.category === "cleaning") {
           return "집안일 동선을 조금 더 편하게 바꾸고 싶을 때 찾는 살림템";
         }
-        return "생활 만족도를 올려주는 실사용 위주의 추천 아이템";
+        return "제품 설명과 사용 조건을 확인하고 고르는 생활 아이템";
       }
 
       function buildCard(item, featured) {
@@ -981,7 +981,9 @@
       }
 
       async function main() {
-        const requestedProductId = new URLSearchParams(window.location.search).get("product") || "";
+        const pageParams = new URLSearchParams(window.location.search);
+        const requestedProductId = pageParams.get("product") || "";
+        const youtubeVisitor = pageParams.get("utm_source") === "youtube";
         const [liveData, manualData] = await Promise.all([
           loadJson("./live-products.json"),
           loadJson("./manual-products.json").catch(() => ({ items: [] }))
@@ -1013,13 +1015,13 @@
             if (requestedOrder) {
               return requestedOrder;
             }
-            const pinnedOrder = Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
+            const pinnedOrder = youtubeVisitor ? 0 : Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
             if (pinnedOrder) {
               return pinnedOrder;
             }
             return Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0);
           });
-        // The profile landing page is a Reel conversion surface, not a catalog.
+        // Show only published or editorially pinned products on the profile page.
         // Keep unposted, rights-held, or identity-unverified products out of every
         // default section. A requested product can move to the top only after it
         // has passed the same posted-or-pinned gate as every other visible item.
@@ -1029,10 +1031,12 @@
         const heroProductLink = document.getElementById("hero-product-link");
         const stickyProductLink = document.getElementById("sticky-product-link");
         const pinnedProduct = postedItems.find((item) => item.id === validatedRequestedProductId)
-          || postedItems.find((item) => item.pinned)
+          || (!youtubeVisitor && postedItems.find((item) => item.pinned))
           || postedItems[0];
         if (pinnedProduct) {
-          const heroCtaLabel = pinnedProduct.ctaLabel || "영상 속 제품 가격·재고 확인";
+          const heroCtaLabel = youtubeVisitor && !validatedRequestedProductId
+            ? "최근 영상 제품 가격·재고 확인"
+            : (pinnedProduct.ctaLabel || "영상 속 제품 가격·재고 확인");
           heroProductLink.href = trackedAffiliateUrl(pinnedProduct, "hero");
           heroProductLink.textContent = heroCtaLabel + " →";
           heroProductLink.setAttribute("aria-label", heroCtaLabel);

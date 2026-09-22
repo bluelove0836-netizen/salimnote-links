@@ -927,13 +927,17 @@
         return "제품 설명과 사용 조건을 확인하고 고르는 생활 아이템";
       }
 
-      function buildCard(item, featured) {
+      function buildCard(item, featured, youtubeVisitor = false) {
         const placement = featured ? "featured" : "grid";
         const url = trackedAffiliateUrl(item, placement);
         const category = CATEGORY_META[item.category] || CATEGORY_META.living;
         const badges = [];
-        if (item.pinned) {
+        if (item.id === validatedRequestedProductId) {
           badges.push('<span class="tag primary">방금 본 제품</span>');
+        } else if (youtubeVisitor && item.instagramPosted) {
+          badges.push('<span class="tag primary">영상 속 제품</span>');
+        } else if (item.pinned) {
+          badges.push('<span class="tag primary">추천 제품</span>');
         } else if (item.source === "coupang" && item.instagramPosted) {
           badges.push('<span class="tag primary">릴스 속 제품</span>');
         } else if (item.hasCuratorLink) {
@@ -951,7 +955,9 @@
           ? '<img class="card-image" src="' + escapeHtml(item.imageUrl) + '" alt="' + escapeHtml(item.currentName || item.name) + '" loading="lazy">'
           : "";
         const promoLine = item.promoText ? '<p>' + escapeHtml(item.promoText) + "</p>" : '<p>' + escapeHtml(shortCopy(item)) + "</p>";
-        const changedLine = item.changeDetected
+        const changedLine = item.sourceVideoSha256
+          ? '<div class="meta-line">가격·재고는 판매 페이지에서 확인하세요.</div>'
+          : item.changeDetected
           ? '<div class="meta-line">최근 제목/가격 변경이 감지되어 새로 반영됐어요.</div>'
           : '<div class="meta-line">마지막 확인: ' + escapeHtml(formatSyncTime(item.syncedAt)) + "</div>";
 
@@ -1075,7 +1081,7 @@
 
         const campaignGrid = document.getElementById("campaign-grid");
         if (campaignItems.length) {
-          campaignGrid.innerHTML = campaignItems.map((item) => buildCard(item, false)).join("");
+          campaignGrid.innerHTML = campaignItems.map((item) => buildCard(item, false, youtubeVisitor)).join("");
         } else {
           document.getElementById("campaign-section").hidden = true;
         }
@@ -1083,7 +1089,7 @@
         const featuredGrid = document.getElementById("featured-grid");
         const featuredEmpty = document.getElementById("featured-empty");
         if (postedItems.length) {
-          featuredGrid.innerHTML = postedItems.map((item) => buildCard(item, true)).join("");
+          featuredGrid.innerHTML = postedItems.map((item) => buildCard(item, true, youtubeVisitor)).join("");
         } else {
           featuredEmpty.hidden = false;
         }
@@ -1126,7 +1132,7 @@
           if (keyword) {
             filtered = filtered.filter((item) => normalizeText(item.currentName || item.name).includes(keyword));
           }
-          allGrid.innerHTML = filtered.map((item) => buildCard(item, false)).join("");
+          allGrid.innerHTML = filtered.map((item) => buildCard(item, false, youtubeVisitor)).join("");
           allEmpty.hidden = filtered.length > 0;
         }
 

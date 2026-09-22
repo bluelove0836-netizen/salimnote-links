@@ -31,6 +31,20 @@ PRODUCTS = {
         "category": "living",
         "frame_second": 4.2,
     },
+    "coupang-philips-lint-remover-gc026": {
+        "id": "coupang-philips-lint-remover-gc026",
+        "name": "필립스 보풀제거기 GC026",
+        "promoText": "영상 자료는 GC026/30 시연, 연결된 쿠팡 옵션은 GC026/00입니다. 색상·구성과 옷감별 사용법을 구매 전 확인하세요.",
+        "category": "cleaning",
+        "frame_second": 3.2,
+    },
+    "coupang-duplex-circulator-dpk55cf": {
+        "id": "coupang-duplex-circulator-dpk55cf",
+        "name": "듀플렉스 스탠드 에어서큘레이터 DPK-55CF",
+        "promoText": "받침대와 팬을 순서대로 조립하는 제조사 안내 영상. 실제 조립은 DPK-55CF 설명서를 확인하세요.",
+        "category": "living",
+        "frame_second": 4.2,
+    },
 }
 
 

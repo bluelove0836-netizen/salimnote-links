@@ -677,7 +677,7 @@
         <div class="hero-actions">
           <a class="hero-button primary" id="hero-product-link" href="#featured-grid">영상 속 제품 가격·재고 확인 →</a>
           <a class="hero-button secondary" href="#all-grid">전체 제품 보기</a>
-          <p class="hero-disclosure">이 페이지의 링크는 쿠팡 파트너스·오늘의집 큐레이터 활동의 일환으로, 구매 시 일정액의 수수료를 제공받습니다.</p>
+          <p class="hero-disclosure">이 페이지의 제휴 링크를 통한 구매 시 일정액의 수수료를 제공받습니다. 각 상품의 제휴처는 링크 카드에 표시합니다.</p>
         </div>
         <div class="hero-stats">
           <div class="stat">
@@ -750,6 +750,7 @@
       <p class="footnote">
         이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.<br>
         오늘의집 링크는 오늘의집 큐레이터 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+        <br>네이버 쇼핑 커넥트 링크에는 해당 상품 카드에 제휴 사실을 표시합니다.
       </p>
     </main>
 
@@ -758,7 +759,7 @@
         <span>영상 속 제품</span>
         <strong id="sticky-product-name">가격·재고 확인</strong>
       </span>
-      <span class="sticky-product-cta">쿠팡에서 확인 →</span>
+      <span class="sticky-product-cta">제품 확인 →</span>
     </a>
 
     <script>
@@ -887,8 +888,8 @@
         const context = trackingContext();
         const outboundSource = /^(?:qa|test|smoke)(?:_|$)/.test(context.source)
           ? "smoke"
-          : context.source === "instagram_comment_dm"
-            ? "instagram_comment_dm"
+          : ["youtube", "naver", "instagram_comment_dm"].includes(context.source)
+            ? context.source
             : "instagram_profile";
         const url = new URL("/go/" + encodeURIComponent(String(item.id || "")), TRACKER_REDIRECT_BASE_URL);
         url.searchParams.set("source", outboundSource);
@@ -961,7 +962,11 @@
           ? '<div class="meta-line">최근 제목/가격 변경이 감지되어 새로 반영됐어요.</div>'
           : '<div class="meta-line">마지막 확인: ' + escapeHtml(formatSyncTime(item.syncedAt)) + "</div>";
 
-        const cta = item.source === "coupang" ? "쿠팡에서 가격·재고 확인 →" : "제품 보러 가기 →";
+        const cta = item.source === "coupang" ? "쿠팡에서 가격·재고 확인 →"
+          : item.source === "naver_connect" ? "네이버 쇼핑에서 확인 →" : "제품 보러 가기 →";
+        const connectDisclosure = item.source === "naver_connect"
+          ? '<div class="meta-line">이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.</div>'
+          : "";
         return [
           '<a class="card" href="' + escapeHtml(url) + '" target="_blank" rel="nofollow sponsored noopener noreferrer" data-track-product="' + escapeHtml(item.id) + '" data-track-placement="' + placement + '" data-server-tracked="true">',
           image,
@@ -970,6 +975,7 @@
           price,
           promoLine,
           changedLine,
+          connectDisclosure,
           '<div class="cta">' + cta + "</div>",
           "</a>"
         ].join("");
@@ -1059,6 +1065,9 @@
           stickyProductLink.dataset.serverTracked = "true";
           document.getElementById("sticky-product-name").textContent =
             pinnedProduct.currentName || pinnedProduct.name || "가격·재고 확인";
+          document.querySelector(".sticky-product-cta").textContent =
+            pinnedProduct.source === "coupang" ? "쿠팡에서 확인 →"
+            : pinnedProduct.source === "naver_connect" ? "네이버 쇼핑에서 확인 →" : "제품 확인 →";
           const updateStickyProduct = () => {
             const hero = document.querySelector(".hero");
             const threshold = hero ? hero.offsetTop + hero.offsetHeight - 56 : 480;

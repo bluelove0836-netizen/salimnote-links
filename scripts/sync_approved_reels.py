@@ -84,13 +84,17 @@ def sync() -> int:
                 "ffmpeg", "-y", "-loglevel", "error", "-ss", str(spec["frame_second"]),
                 "-i", str(video), "-frames:v", "1", "-vf", "scale=480:-1", str(thumb),
             ], check=True, timeout=30)
-        updated = dict(old, id=key, url=row["link"], curatorUrl=row["link"],
+        affiliate_source = spec.get("affiliateSource", old.get("source", "coupang"))
+        affiliate_url = spec.get("affiliateUrl") or (old.get("url") if affiliate_source == "naver_connect" else row["link"])
+        if affiliate_source == "naver_connect" and not affiliate_url:
+            raise ValueError(f"Missing verified Naver Connect link for {key}")
+        updated = dict(old, id=key, url=affiliate_url, curatorUrl=affiliate_url,
                        hasCuratorLink=True, name=spec["name"], currentName=spec["name"],
                        promoText=spec["promoText"], category=spec["category"],
                        imageUrl=f"./assets/{thumb.name}", imageSha256=sha256(thumb),
                        imageSourceUrl=(row.get("sourceUrls") or [""])[0],
                        imageLicense="살림노트가 편집·검수한 제조사 시연 영상 프레임",
-                       source="coupang", linkNote="살림노트 영상 속 제품",
+                       source=affiliate_source, linkNote="살림노트 영상 속 제품",
                        instagramPosted=True, postType="reel", publishedAt=row["publishedAt"],
                        sourceVideoSha256=video_hash,
                        thumbnailFrameSecond=spec["frame_second"], correctionPending=False)

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-10-14T16:38:57+00:00",
+    "generatedAt": "2026-10-14T21:19:15+00:00",
     "sourceCount": 139,
     "campaignCount": 27,
     "curatorLinkedCount": 1,
-    "changedCount": 91
+    "changedCount": 44
   },
   "items": [
     {
@@ -14,7 +14,7 @@
       "currentName": "몬스터랙 사이즈 맞춤제작 철제선반 조립식 앵글선반 수납선반 베란다 팬트리",
       "currentPrice": 18500,
       "priceText": "18,500원",
-      "promoText": "-69% 18,500원, 무료배송. 리뷰 4.7점, 21,863개",
+      "promoText": "-69% 18,500원, 무료배송. 리뷰 4.7점, 21,864개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-480030166249472.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -23,9 +23,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "107013",
@@ -34,7 +36,7 @@
       "currentName": "new30컬러 유아KC인증 스탠다드/항균 WP워터쉴드 방수매트리스커버 13사이즈",
       "currentPrice": 6900,
       "priceText": "6,900원",
-      "promoText": "-71% 6,900원, 무료배송. 리뷰 4.8점, 98,732개",
+      "promoText": "-71% 6,900원, 무료배송. 리뷰 4.8점, 98,733개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-455984975794304.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -43,9 +45,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "169814",
@@ -54,7 +58,7 @@
       "currentName": "[오늘의집 단독] [1+1]100% 완벽 빛차단 거실 안방 방한방풍 암막커튼",
       "currentPrice": 29350,
       "priceText": "29,350원",
-      "promoText": "-38% 29,350원. 리뷰 4.7점, 45,223개",
+      "promoText": "-38% 29,350원. 리뷰 4.7점, 45,224개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-552319404290112.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -63,9 +67,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "212240",
@@ -85,7 +91,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "264565",
@@ -94,7 +100,7 @@
       "currentName": "[맞춤] 방한차단 방풍차단 브라우니 린넨 암막커튼 핀형/아일렛형/형상기억 49색상",
       "currentPrice": 20200,
       "priceText": "20,200원",
-      "promoText": "-49% 20,200원, 무료배송. 리뷰 4.7점, 27,862개",
+      "promoText": "-49% 20,200원, 무료배송. 리뷰 4.7점, 27,864개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-432635648557056.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -107,7 +113,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "265127",
@@ -125,11 +131,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "306933",
@@ -147,11 +151,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "318856",
@@ -169,11 +171,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "329364",
@@ -191,11 +191,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "335226",
@@ -204,7 +202,7 @@
       "currentName": "틈새공간까지 알차게, 모노서랍장 ~5단 8colors",
       "currentPrice": 21900,
       "priceText": "21,900원",
-      "promoText": "-31% 21,900원, 무료배송. 리뷰 4.4점, 29,610개",
+      "promoText": "-31% 21,900원, 무료배송. 리뷰 4.4점, 29,611개",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/deals/169441418777116645.PNG?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -217,7 +215,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "345755",
@@ -226,7 +224,7 @@
       "currentName": "[단하루!최대혜택35%][단독] 10장세트 40수 코마사 호텔컬렉션 200g 타월",
       "currentPrice": 34900,
       "priceText": "34,900원",
-      "promoText": "-56% 34,900원, 무료배송. 리뷰 4.8점, 127,663개",
+      "promoText": "-56% 34,900원, 무료배송. 리뷰 4.8점, 127,668개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-537786507227264.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -238,11 +236,10 @@
       "linkNote": "",
       "syncError": "",
       "changedFields": [
-        "currentName",
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "348334",
@@ -251,7 +248,7 @@
       "currentName": "헤링본 워셔블 사이잘룩 사계절 러그 카페트 9size 8colors",
       "currentPrice": 9900,
       "priceText": "9,900원",
-      "promoText": "-33% 9,900원, 무료배송. 리뷰 4.8점, 65,781개",
+      "promoText": "-33% 9,900원, 무료배송. 리뷰 4.8점, 65,783개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-485691593797632.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -264,7 +261,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "412330",
@@ -282,11 +279,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "438192",
@@ -306,7 +301,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "438398",
@@ -315,7 +310,7 @@
       "currentName": "BEST 그릇세트 모음전",
       "currentPrice": 159000,
       "priceText": "159,000원",
-      "promoText": "-35% 159,000원, 무료배송. 리뷰 4.8점, 52,911개",
+      "promoText": "-35% 159,000원, 무료배송. 리뷰 4.8점, 52,912개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-552411965128832.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -328,7 +323,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "443649",
@@ -348,7 +343,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "444838",
@@ -368,7 +363,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "447141",
@@ -377,7 +372,7 @@
       "currentName": "[10/14 단하루] 일상의 낭만 데일리 식기의 정석, 니코트 BEST 모음",
       "currentPrice": 42500,
       "priceText": "42,500원",
-      "promoText": "-29% 42,500원. 리뷰 4.8점, 20,076개",
+      "promoText": "-29% 42,500원. 리뷰 4.8점, 20,077개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-552319458893952.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [
@@ -392,7 +387,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "639769",
@@ -401,7 +396,7 @@
       "currentName": "플레이팅의 완성! 시라쿠스 그릇/세트 모음전 메이플/뉴욕 외",
       "currentPrice": 6600,
       "priceText": "6,600원",
-      "promoText": "-20% 6,600원. 리뷰 4.9점, 63,930개",
+      "promoText": "-20% 6,600원. 리뷰 4.9점, 63,928개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-551958441750656.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -414,7 +409,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "676405",
@@ -423,7 +418,7 @@
       "currentName": "[단하루15%] 고밀도 순면60수 호텔침구 클린코튼 옥수수솜 사계절/한파용 차렵이불세트",
       "currentPrice": 76800,
       "priceText": "76,800원",
-      "promoText": "-31% 76,800원, 무료배송. 리뷰 4.8점, 24,759개",
+      "promoText": "-31% 76,800원, 무료배송. 리뷰 4.8점, 24,760개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-431208595652608.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -434,9 +429,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "685694",
@@ -454,11 +451,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "767440",
@@ -467,7 +462,7 @@
       "currentName": "[최대19%쿠폰+사은품] 카스테라 워싱 옥수수솜 간절기/사계절/한파 차렵이불세트-43컬러",
       "currentPrice": 39900,
       "priceText": "39,900원",
-      "promoText": "-50% 39,900원. 리뷰 4.8점, 82,115개",
+      "promoText": "-50% 39,900원. 리뷰 4.8점, 82,118개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-536724574257216.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -479,9 +474,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "861834",
@@ -499,11 +496,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "880212",
@@ -512,7 +507,7 @@
       "currentName": "드라이시트 건조기용피죤 시그니처 3종 혼합 120매+120매 P 추가증정 (총 240매)",
       "currentPrice": 17950,
       "priceText": "17,950원",
-      "promoText": "-49% 17,950원, 무료배송. 리뷰 4.9점, 6,076개",
+      "promoText": "-49% 17,950원, 무료배송. 리뷰 4.9점, 6,078개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-540257882767424.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -525,7 +520,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1026292",
@@ -534,7 +529,7 @@
       "currentName": "항균 방수 가죽 식탁보 테이블보 식탁 테이블 매트 커버",
       "currentPrice": 12900,
       "priceText": "12,900원",
-      "promoText": "-41% 12,900원. 리뷰 4.8점, 24,022개",
+      "promoText": "-41% 12,900원. 리뷰 4.8점, 24,023개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-415995895439360.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -547,7 +542,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1068005",
@@ -565,11 +560,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1087580",
@@ -578,7 +571,7 @@
       "currentName": "미드센츄리 모던 이동식싱글/더블선반/리퍼 트롤리 모음전",
       "currentPrice": 107900,
       "priceText": "107,900원",
-      "promoText": "-77% 107,900원. 리뷰 4.7점, 14,234개",
+      "promoText": "-77% 107,900원. 리뷰 4.7점, 14,235개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-411494146740224.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -591,7 +584,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1102710",
@@ -611,11 +604,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1132252",
@@ -633,11 +624,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1132309",
@@ -655,11 +644,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1132906",
@@ -668,7 +655,7 @@
       "currentName": "[오늘의집 단독] 입체 V배수 이탈방지 리뉴얼! 304올스텐 물빠짐 수세미거치대 6종",
       "currentPrice": 12900,
       "priceText": "12,900원",
-      "promoText": "-20% 12,900원, 무료배송. 리뷰 4.8점, 24,358개",
+      "promoText": "-20% 12,900원, 무료배송. 리뷰 4.8점, 24,359개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-549171030822912.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -677,9 +664,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1154009",
@@ -697,11 +686,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1181383",
@@ -723,7 +710,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1335095",
@@ -741,11 +728,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1384503",
@@ -763,11 +748,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1387575",
@@ -776,7 +759,7 @@
       "currentName": "BEST 가구 모음전 | 선반·행거·책상·쇼파·식탁·책장",
       "currentPrice": 18500,
       "priceText": "18,500원",
-      "promoText": "-69% 18,500원, 무료배송. 리뷰 4.7점, 78,060개",
+      "promoText": "-69% 18,500원, 무료배송. 리뷰 4.7점, 78,061개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-491806189748224.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -789,7 +772,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1403437",
@@ -809,7 +792,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1423120",
@@ -818,7 +801,7 @@
       "currentName": "우리집을 호텔처럼,인기 생활용품 모음",
       "currentPrice": 36900,
       "priceText": "36,900원",
-      "promoText": "-50% 36,900원, 무료배송. 리뷰 4.8점, 19,809개",
+      "promoText": "-50% 36,900원, 무료배송. 리뷰 4.8점, 19,810개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-552295449210880.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -831,7 +814,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1432708",
@@ -851,11 +834,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1466913",
@@ -873,11 +854,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1481777",
@@ -895,11 +874,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1484379",
@@ -917,11 +894,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1487254",
@@ -930,7 +905,7 @@
       "currentName": "자동물빠짐 연마제없는 304올스텐 2단 식기건조대 + 수저통 + 접시꽂이 + 도마걸이",
       "currentPrice": 59800,
       "priceText": "59,800원",
-      "promoText": "-14% 59,800원, 무료배송. 리뷰 4.8점, 18,361개",
+      "promoText": "-14% 59,800원, 무료배송. 리뷰 4.8점, 18,362개",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/165882093087605655.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -943,7 +918,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1558218",
@@ -963,11 +938,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1590911",
@@ -985,11 +958,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1611425",
@@ -1007,11 +978,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1612956",
@@ -1031,7 +1000,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1613424",
@@ -1049,11 +1018,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1722006",
@@ -1071,11 +1038,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1748267",
@@ -1093,11 +1058,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1761241",
@@ -1117,11 +1080,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1786951",
@@ -1143,7 +1104,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1819851",
@@ -1163,7 +1124,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1981438",
@@ -1181,11 +1142,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "1981440",
@@ -1203,11 +1162,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2010198",
@@ -1225,11 +1182,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2019608",
@@ -1247,11 +1202,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2041273",
@@ -1260,7 +1213,7 @@
       "currentName": "[MUJI] 가구 & 수납정리 카테고리 특가 모음전/ 바스켓 선반 책장 소파 모듈",
       "currentPrice": 249000,
       "priceText": "249,000원",
-      "promoText": "249,000원. 리뷰 4.8점, 12,072개",
+      "promoText": "249,000원. 리뷰 4.8점, 12,076개",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/deals/168238842504655322.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [
@@ -1275,7 +1228,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2093235",
@@ -1293,11 +1246,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2109112",
@@ -1315,11 +1266,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2111199",
@@ -1339,7 +1288,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2145546",
@@ -1359,7 +1308,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2158304",
@@ -1368,7 +1317,7 @@
       "currentName": "10L/20L/30L 자동센서 쓰레기통 냄새차단",
       "currentPrice": 39900,
       "priceText": "39,900원",
-      "promoText": "-42% 39,900원, 무료배송. 리뷰 4.8점, 16,840개",
+      "promoText": "-42% 39,900원, 무료배송. 리뷰 4.8점, 16,841개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-329372630925376.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1381,7 +1330,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2166181",
@@ -1402,11 +1351,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2180249",
@@ -1415,7 +1362,7 @@
       "currentName": "[10+10팩] 프리미엄 73평량 클래스 캡형 70매 20팩",
       "currentPrice": 36700,
       "priceText": "36,700원",
-      "promoText": "-52% 36,700원, 무료배송. 리뷰 4.9점, 18,910개",
+      "promoText": "-52% 36,700원, 무료배송. 리뷰 4.9점, 18,912개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-214675716886528.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1428,7 +1375,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2227855",
@@ -1446,11 +1393,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2315335",
@@ -1459,7 +1404,7 @@
       "currentName": "[오늘의집 단독] 푸벨드마망 자동센서 휴지통9L/20L",
       "currentPrice": 36500,
       "priceText": "36,500원",
-      "promoText": "-58% 36,500원, 무료배송. 리뷰 4.8점, 11,405개",
+      "promoText": "-58% 36,500원, 무료배송. 리뷰 4.8점, 11,406개",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/169415845780575818.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -1472,7 +1417,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2318560",
@@ -1492,7 +1437,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2352818",
@@ -1514,7 +1459,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2390698",
@@ -1534,7 +1479,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2543773",
@@ -1543,7 +1488,7 @@
       "currentName": "1+1 냄새차단 스마트 자동 센서 휴지통 쓰레기통 12L+16L",
       "currentPrice": 29900,
       "priceText": "29,900원",
-      "promoText": "-38% 29,900원, 무료배송. 리뷰 4.8점, 20,246개",
+      "promoText": "-38% 29,900원, 무료배송. 리뷰 4.8점, 20,247개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-199482524262528.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -1556,7 +1501,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2545282",
@@ -1576,7 +1521,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2628191",
@@ -1596,7 +1541,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2636441",
@@ -1614,11 +1559,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2636624",
@@ -1638,11 +1581,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2639869",
@@ -1662,7 +1603,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2667236",
@@ -1682,11 +1623,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2715483",
@@ -1706,7 +1645,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2804924",
@@ -1726,11 +1665,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2820734",
@@ -1739,7 +1676,7 @@
       "currentName": "[단하루17,910원/82고평량] 시그니앙 골드퍼플 70매 20팩 캡형 아기물티슈",
       "currentPrice": 42000,
       "priceText": "42,000원",
-      "promoText": "-12% 42,000원, 무료배송. 리뷰 4.9점, 14,687개",
+      "promoText": "-12% 42,000원, 무료배송. 리뷰 4.9점, 14,689개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-241565499920512.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -1754,7 +1691,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2866140",
@@ -1776,7 +1713,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2868834",
@@ -1785,7 +1722,7 @@
       "currentName": "15mm 롱파일 부드러운 자카드 미끄럼방지 발매트 주방매트 욕실 현관 미니 러그 19종",
       "currentPrice": 9900,
       "priceText": "9,900원",
-      "promoText": "-50% 9,900원, 무료배송. 리뷰 4.8점, 8,764개",
+      "promoText": "-50% 9,900원, 무료배송. 리뷰 4.8점, 8,766개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-433357571579968.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -1798,7 +1735,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2881695",
@@ -1818,7 +1755,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2902642",
@@ -1836,11 +1773,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2940065",
@@ -1849,7 +1784,7 @@
       "currentName": "[단하루 쿠폰] 질레트 스킨텍 & 프로쉴드 옐로우 면도날 12 입 외 대용량 특가 모음전!",
       "currentPrice": 70900,
       "priceText": "70,900원",
-      "promoText": "70,900원, 무료배송. 리뷰 4.9점, 7,133개",
+      "promoText": "70,900원, 무료배송. 리뷰 4.9점, 7,134개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-403688222818432.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -1866,7 +1801,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2958313",
@@ -1886,11 +1821,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "2993564",
@@ -1908,11 +1841,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3011495",
@@ -1921,7 +1852,7 @@
       "currentName": "무타공마켓 인기 생활용품 욕실선반/욕실화/미끄럼방지/발매트 등 BEST 모음전",
       "currentPrice": 2850,
       "priceText": "2,850원",
-      "promoText": "-18% 2,850원, 무료배송. 리뷰 4.7점, 181,110개",
+      "promoText": "-18% 2,850원, 무료배송. 리뷰 4.7점, 181,114개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-517896072401024.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -1934,7 +1865,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3051695",
@@ -1952,11 +1883,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3091712",
@@ -1965,7 +1894,7 @@
       "currentName": "옥수수솜 클래식스트라이프 부드러운 간절기/사계절/한파용 차렵이불",
       "currentPrice": 47900,
       "priceText": "47,900원",
-      "promoText": "-46% 47,900원, 무료배송. 리뷰 4.9점, 7,586개",
+      "promoText": "-46% 47,900원, 무료배송. 리뷰 4.9점, 7,589개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-533212441747584.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1974,9 +1903,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3102674",
@@ -1996,7 +1927,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3288309",
@@ -2005,7 +1936,7 @@
       "currentName": "세렌티 400/600/800/1200 미드센츄리 모듈 수납장 높은 거실 서랍 선반장 협탁",
       "currentPrice": 78000,
       "priceText": "78,000원",
-      "promoText": "-55% 78,000원. 리뷰 4.8점, 4,609개",
+      "promoText": "-55% 78,000원. 리뷰 4.8점, 4,610개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-509774044262528.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -2018,7 +1949,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3294625",
@@ -2040,7 +1971,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3312834",
@@ -2049,7 +1980,7 @@
       "currentName": "[오늘의집 단독] 잘풀리는오늘의집 키친타월 150매 12롤 * 2팩 (총 24롤)",
       "currentPrice": 25000,
       "priceText": "25,000원",
-      "promoText": "-44% 25,000원, 무료배송. 리뷰 4.9점, 11,915개",
+      "promoText": "-44% 25,000원, 무료배송. 리뷰 4.9점, 11,916개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-398625282375680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2062,7 +1993,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3325168",
@@ -2080,11 +2011,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3334968",
@@ -2093,7 +2022,7 @@
       "currentName": "단독 매직캔 오브제 올화이트 휴지통, 매직캔 정품 리필 봉투 모음전",
       "currentPrice": 59000,
       "priceText": "59,000원",
-      "promoText": "-10% 59,000원, 무료배송. 리뷰 4.9점, 20,359개",
+      "promoText": "-10% 59,000원, 무료배송. 리뷰 4.9점, 20,360개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-487896569274496.png?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2106,7 +2035,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3335483",
@@ -2115,7 +2044,7 @@
       "currentName": "히포/오토실링/애니블리 냄새 차단 국민휴지통 모음",
       "currentPrice": 59000,
       "priceText": "59,000원",
-      "promoText": "-10% 59,000원, 무료배송. 리뷰 4.9점, 25,019개",
+      "promoText": "-10% 59,000원, 무료배송. 리뷰 4.9점, 25,020개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-398328035663872.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2128,7 +2057,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3340675",
@@ -2146,11 +2075,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3368060",
@@ -2168,11 +2095,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3391275",
@@ -2192,7 +2117,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3394297",
@@ -2201,7 +2126,7 @@
       "currentName": "베베숲 75gsm카밍 10팩&일회용수건&생분해원단 에코블루 휴대 특가",
       "currentPrice": 13900,
       "priceText": "13,900원",
-      "promoText": "13,900원, 무료배송. 리뷰 4.9점, 2,960개",
+      "promoText": "13,900원, 무료배송. 리뷰 4.9점, 2,961개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-532832637853760.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -2216,7 +2141,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3418039",
@@ -2225,7 +2150,7 @@
       "currentName": "포인트 되는 BEST 테이블웨어 공기/파스타볼/접시 모음",
       "currentPrice": 68900,
       "priceText": "68,900원",
-      "promoText": "-52% 68,900원, 무료배송. 리뷰 4.8점, 68,390개",
+      "promoText": "-52% 68,900원, 무료배송. 리뷰 4.8점, 68,391개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-552279399362688.avif?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -2238,7 +2163,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3443428",
@@ -2258,7 +2183,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3464119",
@@ -2278,11 +2203,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3510800",
@@ -2291,7 +2214,7 @@
       "currentName": "[오늘의집 단독] 코마사 디자인 수건/욕실화/욕실용품 모음전",
       "currentPrice": 56900,
       "priceText": "56,900원",
-      "promoText": "-52% 56,900원, 무료배송. 리뷰 4.7점, 21,956개",
+      "promoText": "-52% 56,900원, 무료배송. 리뷰 4.7점, 21,960개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-548812805472384.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2301,11 +2224,10 @@
       "linkNote": "",
       "syncError": "",
       "changedFields": [
-        "currentPrice",
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3535331",
@@ -2325,7 +2247,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3535471",
@@ -2334,7 +2256,7 @@
       "currentName": "[오늘의집 단독] 무표 물티슈 82평량 70매 20팩",
       "currentPrice": 39900,
       "priceText": "39,900원",
-      "promoText": "-50% 39,900원, 무료배송. 리뷰 4.9점, 3,975개",
+      "promoText": "-50% 39,900원, 무료배송. 리뷰 4.9점, 3,979개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-374319009185856.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2347,7 +2269,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3550577",
@@ -2367,7 +2289,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3550622",
@@ -2376,7 +2298,7 @@
       "currentName": "[오늘의집 단독] 오브제 올화이트 에디션 히포/오토실링 21L/ 27L 국민휴지통",
       "currentPrice": 59000,
       "priceText": "59,000원",
-      "promoText": "-10% 59,000원, 무료배송. 리뷰 4.9점, 15,399개",
+      "promoText": "-10% 59,000원, 무료배송. 리뷰 4.9점, 15,400개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-539855724527680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2389,7 +2311,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3552556",
@@ -2407,11 +2329,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3585611",
@@ -2420,7 +2340,7 @@
       "currentName": "틈새 공간 활용 인기 약통정리함/ 옷 압축 파우치/바지걸이/속옷정리함 특가",
       "currentPrice": 15900,
       "priceText": "15,900원",
-      "promoText": "-30% 15,900원. 리뷰 4.7점, 71,470개",
+      "promoText": "-30% 15,900원. 리뷰 4.7점, 71,472개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-478248051372160.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [
@@ -2435,7 +2355,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3586260",
@@ -2453,11 +2373,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3630540",
@@ -2475,11 +2393,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3640258",
@@ -2499,11 +2415,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3688795",
@@ -2523,7 +2437,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3802848",
@@ -2543,11 +2457,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3830448",
@@ -2567,7 +2479,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3841622",
@@ -2585,11 +2497,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3919961",
@@ -2598,7 +2508,7 @@
       "currentName": "refine / 쉽게 세탁하는 사계절 러그, 3colors,3sizes",
       "currentPrice": 26800,
       "priceText": "26,800원",
-      "promoText": "-44% 26,800원, 무료배송. 리뷰 4.9점, 2,316개",
+      "promoText": "-44% 26,800원, 무료배송. 리뷰 4.9점, 2,317개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-500309740871680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2607,9 +2517,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3942620",
@@ -2627,11 +2539,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3959175",
@@ -2640,7 +2550,7 @@
       "currentName": "[농장직송] 500개 한정 탱글촉촉 맥반석 구운란 30구+30구 대란",
       "currentPrice": 17730,
       "priceText": "17,730원",
-      "promoText": "-50% 17,730원, 무료배송. 리뷰 4.8점, 4,688개",
+      "promoText": "-50% 17,730원, 무료배송. 리뷰 4.8점, 4,689개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-539088233087104.webp?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2653,7 +2563,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "3980447",
@@ -2671,11 +2581,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4013160",
@@ -2695,7 +2603,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4018472",
@@ -2704,7 +2612,7 @@
       "currentName": "[최종가 11,915원] 프리미엄 토망고 500g x 4팩 GAP 청포도/망고향",
       "currentPrice": 13790,
       "priceText": "13,790원",
-      "promoText": "-53% 13,790원, 무료배송. 리뷰 4.7점, 4,625개",
+      "promoText": "-53% 13,790원, 무료배송. 리뷰 4.7점, 4,627개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-538867618865152.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2717,7 +2625,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4028552",
@@ -2737,7 +2645,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4029436",
@@ -2757,7 +2665,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4043198",
@@ -2777,7 +2685,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4054074",
@@ -2795,11 +2703,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4054654",
@@ -2817,11 +2723,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4055202",
@@ -2841,7 +2745,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4090996",
@@ -2861,11 +2765,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4098697",
@@ -2874,7 +2776,7 @@
       "currentName": "프리미엄 니치 향수 방향제 자동분사기 디스펜서 SET 특별전",
       "currentPrice": 29800,
       "priceText": "29,800원",
-      "promoText": "-16% 29,800원, 무료배송. 리뷰 4.8점, 2,393개",
+      "promoText": "-16% 29,800원, 무료배송. 리뷰 4.8점, 2,396개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-507106263302208.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2883,9 +2785,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4106487",
@@ -2905,7 +2809,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4123452",
@@ -2925,7 +2829,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4125798",
@@ -2945,7 +2849,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4132044",
@@ -2963,11 +2867,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4137118",
@@ -2987,7 +2889,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4137119",
@@ -3007,7 +2909,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     },
     {
       "id": "4137158",
@@ -3016,7 +2918,7 @@
       "currentName": "베베가드 썸머 팬티 4단계 ~ 7단계 1BOX(3팩)",
       "currentPrice": 57500,
       "priceText": "57,500원",
-      "promoText": "-34% 57,500원, 무료배송. 리뷰 4.9점, 221개",
+      "promoText": "-34% 57,500원, 무료배송. 리뷰 4.9점, 222개",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-538768977899648.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -3025,9 +2927,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-10-14T16:38:57+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-10-14T21:19:15+00:00"
     }
   ]
 }

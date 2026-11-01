@@ -667,6 +667,14 @@
           height: 280px;
         }
       }
+      .number-search{width:100%;font:inherit;font-size:18px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--surface-strong);color:var(--ink);margin:6px 0 14px}
+      .number-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+      .number-item{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+      .number-item.hit{border-color:var(--accent);background:var(--accent-soft)}
+      .number-no{font-weight:800;font-size:22px;color:var(--accent);min-width:56px}
+      .number-body{flex:1;min-width:0;word-break:keep-all}
+      .number-body small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+      .number-go{flex:none;font-weight:700;font-size:14px;color:#fff;background:var(--accent);border-radius:999px;padding:9px 14px;text-decoration:none}
     </style>
   </head>
   <body>
@@ -703,6 +711,18 @@
           </div>
         </div>
         <div class="sync-note" id="sync-note">상품 정보를 불러오는 중입니다.</div>
+      </section>
+
+      <section class="section" id="number-section" aria-labelledby="number-title" hidden>
+        <div class="section-top">
+          <div>
+            <h2 class="section-title" id="number-title">릴스 번호로 찾기</h2>
+            <p class="section-copy">릴스 끝에 나온 번호를 넣으면 그 제품 링크가 바로 보여요.</p>
+          </div>
+        </div>
+        <input class="number-search" id="number-search" type="search" inputmode="numeric" placeholder="번호 입력 (예: 3)" aria-label="릴스 번호">
+        <ol class="number-list" id="number-list"></ol>
+        <p class="hero-disclosure">[광고] 번호 모음의 링크는 쇼핑커넥트·쿠팡 파트너스 제휴 링크로, 구매하시면 수수료를 받을 수 있어요.</p>
       </section>
 
       <section class="section featured-section" aria-labelledby="posted-title">
@@ -1001,6 +1021,34 @@
         ].join("");
       }
 
+      async function renderNumbers() {
+        let data;
+        try { data = await loadJson("./numbers.json"); } catch (e) { return; }
+        const rows = (Array.isArray(data.items) ? data.items : []).filter((x) => x && x.no && x.link && /^https:\/\//.test(x.link));
+        if (!rows.length) return;
+        rows.sort((a, b) => b.no - a.no);
+        const list = document.getElementById("number-list");
+        const esc = (s) => String(s || "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+        list.innerHTML = rows.map((x) =>
+          '<li class="number-item" id="n' + Number(x.no) + '" data-no="' + Number(x.no) + '">' +
+          '<span class="number-no">' + Number(x.no) + '번</span>' +
+          '<span class="number-body">[광고] ' + esc(x.name) + '<small>' + esc(x.via || "") + (x.reel ? " · " + esc(x.reel) + " 릴스" : "") + '</small></span>' +
+          '<a class="number-go" href="' + esc(x.link) + '" target="_blank" rel="noopener sponsored">보러 가기</a></li>').join("");
+        document.getElementById("number-section").hidden = false;
+        const box = document.getElementById("number-search");
+        const pick = (v) => {
+          const n = String(v || "").replace(/[^0-9]/g, "");
+          list.querySelectorAll(".number-item").forEach((li) => {
+            const hit = n && li.dataset.no === n;
+            li.classList.toggle("hit", !!hit);
+            li.hidden = !!n && !hit;
+          });
+        };
+        box.addEventListener("input", () => pick(box.value));
+        const q = new URLSearchParams(window.location.search).get("n") || (window.location.hash.match(/^#n?(\d+)$/) || [])[1];
+        if (q) { box.value = q; pick(q); document.getElementById("number-section").scrollIntoView(); }
+      }
+
       async function main() {
         const pageParams = new URLSearchParams(window.location.search);
         const requestedProductId = pageParams.get("product") || "";
@@ -1027,6 +1075,7 @@
         );
         validatedRequestedProductId = requestedProduct ? requestedProduct.id : "";
         trackPageView();
+        renderNumbers();
 
         const postedItems = items
           .filter((item) => item.instagramPosted || item.pinned)

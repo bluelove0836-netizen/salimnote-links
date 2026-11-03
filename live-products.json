@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-11-03T13:42:35+00:00",
+    "generatedAt": "2026-11-03T22:56:43+00:00",
     "sourceCount": 139,
     "campaignCount": 22,
     "curatorLinkedCount": 1,
-    "changedCount": 95
+    "changedCount": 110
   },
   "items": [
     {
@@ -14,7 +14,7 @@
       "currentName": "몬스터랙 사이즈 맞춤제작 철제선반 조립식 앵글선반 수납선반 베란다 팬트리",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 앵글·조립식선반 스토어, 몬스터랙 사이즈 맞춤제작 철제선반 조립식 앵글선반 수납선반 베란다 팬트리. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 22,203개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 앵글·조립식선반 스토어, 몬스터랙 사이즈 맞춤제작 철제선반 조립식 앵글선반 수납선반 베란다 팬트리. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 22,205개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-480030166249472.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -23,9 +23,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "107013",
@@ -34,7 +36,7 @@
       "currentName": "new30컬러 유아KC인증 스탠다드/항균 WP워터쉴드 방수매트리스커버 13사이즈",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 매트리스커버 스토어, new30컬러 유아KC인증 스탠다드/항균 WP워터쉴드 방수매트리스커버 13사이즈. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 99,746개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 매트리스커버 스토어, new30컬러 유아KC인증 스탠다드/항균 WP워터쉴드 방수매트리스커버 13사이즈. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 99,758개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-455984975794304.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -47,7 +49,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "169814",
@@ -56,7 +58,7 @@
       "currentName": "[오늘의집 단독] [1+1]100% 완벽 빛차단 거실 안방 방한방풍 암막커튼",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 암막커튼 스토어, [오늘의집 단독] [1+1]100% 완벽 빛차단 거실 안방 방한방풍 암막커튼. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 45,684개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 암막커튼 스토어, [오늘의집 단독] [1+1]100% 완벽 빛차단 거실 안방 방한방풍 암막커튼. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 45,687개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-552319404290112.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -65,9 +67,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "212240",
@@ -76,7 +80,7 @@
       "currentName": "맞춤 비침없는 도톰 레이스/쉬폰커튼(나비주름/핀형/봉집)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 레이스·속커튼 스토어, 맞춤 비침없는 도톰 레이스/쉬폰커튼(나비주름/핀형/봉집). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 58,700개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 레이스·속커튼 스토어, 맞춤 비침없는 도톰 레이스/쉬폰커튼(나비주름/핀형/봉집). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 58,704개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-445789980655744.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -85,9 +89,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "264565",
@@ -96,7 +102,7 @@
       "currentName": "[맞춤] 방한차단 방풍차단 브라우니 린넨 암막커튼 핀형/아일렛형/형상기억 49색상",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 암막커튼 스토어, [맞춤] 방한차단 방풍차단 브라우니 린넨 암막커튼 핀형/아일렛형/형상기억 49색상. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 28,334개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 암막커튼 스토어, [맞춤] 방한차단 방풍차단 브라우니 린넨 암막커튼 핀형/아일렛형/형상기억 49색상. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 28,338개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-432635648557056.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -109,7 +115,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "265127",
@@ -118,7 +124,7 @@
       "currentName": "80L 대용량! 그란데 정리함/분리수거함 2단 2colors",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 분리수거함 스토어, 80L 대용량! 그란데 정리함/분리수거함 2단 2colors. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 13,528개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 분리수거함 스토어, 80L 대용량! 그란데 정리함/분리수거함 2단 2colors. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 13,530개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-428080386211840.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -131,7 +137,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "306933",
@@ -140,7 +146,7 @@
       "currentName": "하우스레시피 휴지통/건조대/욕실용품 생활용품 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, 하우스레시피 휴지통/건조대/욕실용품 생활용품 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 49,914개와 유저들이 직접 찍은 스타일링샷 24,324개를  확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, 하우스레시피 휴지통/건조대/욕실용품 생활용품 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 49,920개와 유저들이 직접 찍은 스타일링샷 24,334개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-494171729145856.png?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -153,7 +159,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "318856",
@@ -162,7 +168,7 @@
       "currentName": "[1+1세트/국내제작] 수비르 서랍장 슬라이딩 리빙박스 옷 수납 정리함",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 플라스틱서랍장 스토어, [1+1세트/국내제작] 수비르 서랍장 슬라이딩 리빙박스 옷 수납 정리함. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 35,647개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 플라스틱서랍장 스토어, [1+1세트/국내제작] 수비르 서랍장 슬라이딩 리빙박스 옷 수납 정리함. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 35,655개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-549811014565952.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -175,7 +181,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "329364",
@@ -195,7 +201,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "335226",
@@ -204,7 +210,7 @@
       "currentName": "틈새공간까지 알차게, 모노서랍장 ~5단 8colors",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 플라스틱서랍장 스토어, 틈새공간까지 알차게, 모노서랍장 ~5단 8colors. 살까 말까 고민 될 땐 평균 4.4점의 리얼 리뷰 29,873개와 유저들이 직접 찍은 스타일링샷 16,159개를  확인해보세요!",
+      "promoText": "오늘의집 플라스틱서랍장 스토어, 틈새공간까지 알차게, 모노서랍장 ~5단 8colors. 살까 말까 고민 될 땐 평균 4.4점의 리얼 리뷰 29,874개와 유저들이 직접 찍은 스타일링샷 16,163개를  확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/deals/169441418777116645.PNG?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -217,7 +223,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "345755",
@@ -226,7 +232,7 @@
       "currentName": "[오마트/최종혜택가25,728원] 10장세트 40수 코마사 호텔컬렉션 200g 타월",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 세면타월 스토어, [오마트/최종혜택가25,728원] 10장세트 40수 코마사 호텔컬렉션 200g 타월. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 128,659개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 세면타월 스토어, [오마트/최종혜택가25,728원] 10장세트 40수 코마사 호텔컬렉션 200g 타월. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 128,666개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-559652031635520.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -236,11 +242,10 @@
       "linkNote": "",
       "syncError": "",
       "changedFields": [
-        "currentName",
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "348334",
@@ -249,7 +254,7 @@
       "currentName": "헤링본 워셔블 사이잘룩 사계절 러그 카페트 9size 8colors",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 사이잘룩러그 스토어, 헤링본 워셔블 사이잘룩 사계절 러그 카페트 9size 8colors. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 66,152개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 사이잘룩러그 스토어, 헤링본 워셔블 사이잘룩 사계절 러그 카페트 9size 8colors. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 66,157개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-485691593797632.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -258,9 +263,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "412330",
@@ -269,7 +276,7 @@
       "currentName": "시그니처 레드 70매 20팩(80gsm/맘가이드A등급)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 물티슈 스토어, 시그니처 레드 70매 20팩(80gsm/맘가이드A등급). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 25,532개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 물티슈 스토어, 시그니처 레드 70매 20팩(80gsm/맘가이드A등급). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 25,537개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-465176214245504.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -282,7 +289,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "438192",
@@ -291,7 +298,7 @@
       "currentName": "[1+1] 국내산 빨아쓰는 호텔식 마이크로화이바 항균 소프트 베개솜",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 베개솜 스토어, [1+1] 국내산 빨아쓰는 호텔식 마이크로화이바 항균 소프트 베개솜. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 18,200개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 베개솜 스토어, [1+1] 국내산 빨아쓰는 호텔식 마이크로화이바 항균 소프트 베개솜. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 18,203개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-299612109643776.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -304,7 +311,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "438398",
@@ -313,7 +320,7 @@
       "currentName": "BEST 그릇세트 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 4인~6인세트 스토어, BEST 그릇세트 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 53,168개와 유저들이 직접 찍은 스타일링샷 34,536개를  확인해보세요!",
+      "promoText": "오늘의집 4인~6인세트 스토어, BEST 그릇세트 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 53,170개와 유저들이 직접 찍은 스타일링샷 34,548개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-559652854796416.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -326,7 +333,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "443649",
@@ -346,7 +353,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "444838",
@@ -355,7 +362,7 @@
       "currentName": "[오늘의집 단독] 뮤즈 편한 팔걸이 컴퓨터 메쉬 사무용 책상 의자",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 학생·사무용의자 스토어, [오늘의집 단독] 뮤즈 편한 팔걸이 컴퓨터 메쉬 사무용 책상 의자. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 19,765개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 학생·사무용의자 스토어, [오늘의집 단독] 뮤즈 편한 팔걸이 컴퓨터 메쉬 사무용 책상 의자. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 19,767개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-206238575861824.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -368,7 +375,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "447141",
@@ -377,7 +384,7 @@
       "currentName": "일상의 낭만 데일리 식기의 정석, 니코트 BEST 모음",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 접시세트 스토어, 일상의 낭만 데일리 식기의 정석, 니코트 BEST 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,019개와 유저들이 직접 찍은 스타일링샷 17,185개를  확인해보세요!",
+      "promoText": "오늘의집 접시세트 스토어, 일상의 낭만 데일리 식기의 정석, 니코트 BEST 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,020개와 유저들이 직접 찍은 스타일링샷 17,195개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-561421441003648.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -390,7 +397,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "639769",
@@ -399,7 +406,7 @@
       "currentName": "플레이팅의 완성! 시라쿠스 그릇/세트 모음전 메이플/뉴욕 외",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 공기·밥그릇 스토어, 플레이팅의 완성! 시라쿠스 그릇/세트 모음전 메이플/뉴욕 외. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 64,650개와 유저들이 직접 찍은 스타일링샷 46,824개를  확인해보세요!",
+      "promoText": "오늘의집 공기·밥그릇 스토어, 플레이팅의 완성! 시라쿠스 그릇/세트 모음전 메이플/뉴욕 외. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 64,662개와 유저들이 직접 찍은 스타일링샷 46,851개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-551958441750656.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -412,7 +419,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "676405",
@@ -421,7 +428,7 @@
       "currentName": "[오늘의집 단독] 국내생산 고밀도60수 옥수수솜 클린코튼 호텔 차렵이불세트 사계절/한파용",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 차렵이불 스토어, [오늘의집 단독] 국내생산 고밀도60수 옥수수솜 클린코튼 호텔 차렵이불세트 사계절/한파용. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 25,121개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 차렵이불 스토어, [오늘의집 단독] 국내생산 고밀도60수 옥수수솜 클린코튼 호텔 차렵이불세트 사계절/한파용. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 25,124개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-431208595652608.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -434,7 +441,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "685694",
@@ -443,7 +450,7 @@
       "currentName": "타원볼 4P+미니볼 2P 총 6P세트 外 99종",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 그라탕기·오븐접시 스토어, 타원볼 4P+미니볼 2P 총 6P세트 外 99종. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 17,238개와 유저들이 직접 찍은 스타일링샷 15,359개를  확인해보세요!",
+      "promoText": "오늘의집 그라탕기·오븐접시 스토어, 타원볼 4P+미니볼 2P 총 6P세트 外 99종. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 17,242개와 유저들이 직접 찍은 스타일링샷 15,368개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-558558497951744.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -456,7 +463,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "767440",
@@ -465,7 +472,7 @@
       "currentName": "[최대19%쿠폰+사은품] 국내생산 카스테라워싱 사계절/한파용 옥수수솜 차렵이불세트 43컬러",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 차렵이불 스토어, [최대19%쿠폰+사은품] 국내생산 카스테라워싱 사계절/한파용 옥수수솜 차렵이불세트 43컬러. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 83,412개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 차렵이불 스토어, [최대19%쿠폰+사은품] 국내생산 카스테라워싱 사계절/한파용 옥수수솜 차렵이불세트 43컬러. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 83,419개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-536724574257216.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -477,9 +484,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "861834",
@@ -488,7 +497,7 @@
       "currentName": "앱연동 BLDC 저소음 AI모드 서큘레이터 선풍기 LZEF-DCS2",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 스탠드형 스토어, 앱연동 BLDC 저소음 AI모드 서큘레이터 선풍기 LZEF-DCS2. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 11,519개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 스탠드형 스토어, 앱연동 BLDC 저소음 AI모드 서큘레이터 선풍기 LZEF-DCS2. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 11,522개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-517543226556544.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -501,7 +510,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "880212",
@@ -510,7 +519,7 @@
       "currentName": "드라이시트 건조기용피죤 시그니처 3종 혼합 120매+120매 P 추가증정 (총 240매)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 시트섬유유연제 스토어, 드라이시트 건조기용피죤 시그니처 3종 혼합 120매+120매 P 추가증정 (총 240매). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,197개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 시트섬유유연제 스토어, 드라이시트 건조기용피죤 시그니처 3종 혼합 120매+120매 P 추가증정 (총 240매). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,198개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-540257882767424.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -523,7 +532,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1026292",
@@ -532,7 +541,7 @@
       "currentName": "항균 방수 가죽 식탁보 테이블보 식탁 테이블 매트 커버",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 식탁보·러너 스토어, 항균 방수 가죽 식탁보 테이블보 식탁 테이블 매트 커버. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 24,407개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 식탁보·러너 스토어, 항균 방수 가죽 식탁보 테이블보 식탁 테이블 매트 커버. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 24,409개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-415995895439360.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -541,9 +550,11 @@
       "curatorUrl": "https://ozip.me/MOi5Obp?af",
       "linkNote": "식탁보 제휴 링크 확인 완료",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1068005",
@@ -552,7 +563,7 @@
       "currentName": "[1+1] 도브 대용량 바디워시 1L 2개",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 바디워시 스토어, [1+1] 도브 대용량 바디워시 1L 2개. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 3,696개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 바디워시 스토어, [1+1] 도브 대용량 바디워시 1L 2개. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 3,697개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-541331122729024.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -565,7 +576,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1087580",
@@ -574,7 +585,7 @@
       "currentName": "미드센츄리 모던 이동식싱글/더블선반/리퍼 트롤리 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 트롤리·이동식선반 스토어, 미드센츄리 모던 이동식싱글/더블선반/리퍼 트롤리 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 14,781개와 유저들이 직접 찍은 스타일링샷 11,005개를  확인해보세요!",
+      "promoText": "오늘의집 트롤리·이동식선반 스토어, 미드센츄리 모던 이동식싱글/더블선반/리퍼 트롤리 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 14,782개와 유저들이 직접 찍은 스타일링샷 11,023개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-411494146740224.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -587,7 +598,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1102710",
@@ -596,7 +607,7 @@
       "currentName": "[11/4일 단하루] 옷장/침대/소파/식탁 외 종합가구 BIG SALE~67%",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 드레스룸 스토어, [11/4일 단하루] 옷장/침대/소파/식탁 외 종합가구 BIG SALE~67%. 살까 말까 고민 될 땐 평균 4.6점의 리얼 리뷰 9,107개와 유저들이 직접 찍은 스타일링샷 4,643개를  확인해보세요!",
+      "promoText": "오늘의집 드레스룸 스토어, [11/4일 단하루] 옷장/침대/소파/식탁 외 종합가구 BIG SALE~67%. 살까 말까 고민 될 땐 평균 4.6점의 리얼 리뷰 9,107개와 유저들이 직접 찍은 스타일링샷 4,648개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-556187451944960.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [
@@ -608,11 +619,10 @@
       "linkNote": "",
       "syncError": "",
       "changedFields": [
-        "currentName",
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1132252",
@@ -621,7 +631,7 @@
       "currentName": "논슬립 어깨뿔방지 옷걸이 30개 6colors (니트/정장/맨투맨)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 옷걸이 스토어, 논슬립 어깨뿔방지 옷걸이 30개 6colors (니트/정장/맨투맨). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 38,735개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 옷걸이 스토어, 논슬립 어깨뿔방지 옷걸이 30개 6colors (니트/정장/맨투맨). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 38,740개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-400770869043200.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -634,7 +644,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1132309",
@@ -643,7 +653,7 @@
       "currentName": "논슬립 어깨뿔방지 옷걸이 50개 6colors (니트/정장/맨투맨)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 옷걸이 스토어, 논슬립 어깨뿔방지 옷걸이 50개 6colors (니트/정장/맨투맨). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 33,511개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 옷걸이 스토어, 논슬립 어깨뿔방지 옷걸이 50개 6colors (니트/정장/맨투맨). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 33,514개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-342107971604480.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -656,7 +666,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1132906",
@@ -665,7 +675,7 @@
       "currentName": "[오늘의집 단독] 입체 V배수 이탈방지 리뉴얼! 304올스텐 물빠짐 수세미거치대 6종",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 수세미걸이 스토어, [오늘의집 단독] 입체 V배수 이탈방지 리뉴얼! 304올스텐 물빠짐 수세미거치대 6종. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 24,709개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 수세미걸이 스토어, [오늘의집 단독] 입체 V배수 이탈방지 리뉴얼! 304올스텐 물빠짐 수세미거치대 6종. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 24,713개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-549171030822912.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -674,9 +684,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1154009",
@@ -685,7 +697,7 @@
       "currentName": "리스테린 원데이! 귀염뽀짝 케어베어 키링 선착순 증정~",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 구강청결제 스토어, 리스테린 원데이! 귀염뽀짝 케어베어 키링 선착순 증정~. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 14,071개와 유저들이 직접 찍은 스타일링샷 7,292개를  확인해보세요!",
+      "promoText": "오늘의집 구강청결제 스토어, 리스테린 원데이! 귀염뽀짝 케어베어 키링 선착순 증정~. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 14,075개와 유저들이 직접 찍은 스타일링샷 7,294개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-561450958311552.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -695,11 +707,10 @@
       "linkNote": "",
       "syncError": "",
       "changedFields": [
-        "currentName",
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1181383",
@@ -708,7 +719,7 @@
       "currentName": "[쿠폰가 7900원]식세기O 압도적 품질력 / 퀴진드마망 순수 4인 수저세트(5color)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 한식수저세트 스토어, [쿠폰가 7900원]식세기O 압도적 품질력 / 퀴진드마망 순수 4인 수저세트(5color). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 27,206개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 한식수저세트 스토어, [쿠폰가 7900원]식세기O 압도적 품질력 / 퀴진드마망 순수 4인 수저세트(5color). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 27,210개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-556829706383488.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -719,9 +730,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1335095",
@@ -730,7 +743,7 @@
       "currentName": "무타공 접착식 욕실선반 코너형/일자형 2colors",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 욕실선반·욕실정리 스토어, 무타공 접착식 욕실선반 코너형/일자형 2colors. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 18,958개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 욕실선반·욕실정리 스토어, 무타공 접착식 욕실선반 코너형/일자형 2colors. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 18,959개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-393439295852608.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -743,7 +756,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1384503",
@@ -752,7 +765,7 @@
       "currentName": "국내생산 간편설치 원터치 필터샤워기+ 샤워호스(1.5M/2M)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 샤워기·필터샤워기 스토어, 국내생산 간편설치 원터치 필터샤워기+ 샤워호스(1.5M/2M). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 25,315개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 샤워기·필터샤워기 스토어, 국내생산 간편설치 원터치 필터샤워기+ 샤워호스(1.5M/2M). 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 25,318개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-544128462761984.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -765,7 +778,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1387575",
@@ -774,7 +787,7 @@
       "currentName": "BEST 가구 모음전 | 선반·행거·책상·쇼파·식탁·책장",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 앵글·조립식선반 스토어, BEST 가구 모음전 | 선반·행거·책상·쇼파·식탁·책장. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 82,041개와 유저들이 직접 찍은 스타일링샷 48,515개를  확인해보세요!",
+      "promoText": "오늘의집 앵글·조립식선반 스토어, BEST 가구 모음전 | 선반·행거·책상·쇼파·식탁·책장. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 82,059개와 유저들이 직접 찍은 스타일링샷 48,563개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-491806189748224.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -787,7 +800,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1403437",
@@ -805,11 +818,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1423120",
@@ -818,7 +829,7 @@
       "currentName": "[단독특가] 우리집을 호텔처럼, 베스트 모음",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 욕실화 스토어, [단독특가] 우리집을 호텔처럼, 베스트 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,216개와 유저들이 직접 찍은 스타일링샷 10,117개를  확인해보세요!",
+      "promoText": "오늘의집 욕실화 스토어, [단독특가] 우리집을 호텔처럼, 베스트 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,222개와 유저들이 직접 찍은 스타일링샷 10,130개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-560105657700480.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -833,7 +844,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1432708",
@@ -842,7 +853,7 @@
       "currentName": "사은품 증정! 컴팩트 에어프라이어 오븐 TOA-52KR 외 주방가전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 에어프라이어 스토어, 사은품 증정! 컴팩트 에어프라이어 오븐 TOA-52KR 외 주방가전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 4,608개와 유저들이 직접 찍은 스타일링샷 3,229개를  확인해보세요!",
+      "promoText": "오늘의집 에어프라이어 스토어, 사은품 증정! 컴팩트 에어프라이어 오븐 TOA-52KR 외 주방가전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 4,608개와 유저들이 직접 찍은 스타일링샷 3,230개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-331745105440768.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [
@@ -853,9 +864,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1466913",
@@ -864,7 +877,7 @@
       "currentName": "BEST 호텔 침대& 수납장& 리클라이너& 프리미엄 소파&  식탁",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 수납침대 스토어, BEST 호텔 침대& 수납장& 리클라이너& 프리미엄 소파&  식탁. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 18,891개와 유저들이 직접 찍은 스타일링샷 14,288개를  확인해보세요!",
+      "promoText": "오늘의집 수납침대 스토어, BEST 호텔 침대& 수납장& 리클라이너& 프리미엄 소파&  식탁. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 18,895개와 유저들이 직접 찍은 스타일링샷 14,304개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-550199336509568.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -877,7 +890,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1481777",
@@ -886,7 +899,7 @@
       "currentName": "[오늘의집 단독] 싱크대에 밀착하는 완벽 고정, 세균걱정 없는 스텐도마",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 스테인리스도마 스토어, [오늘의집 단독] 싱크대에 밀착하는 완벽 고정, 세균걱정 없는 스텐도마. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 8,900개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 스테인리스도마 스토어, [오늘의집 단독] 싱크대에 밀착하는 완벽 고정, 세균걱정 없는 스텐도마. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 8,901개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-557600963014784.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -899,7 +912,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1484379",
@@ -908,7 +921,7 @@
       "currentName": "3겹 데코&소프트 롤화장지(28Mx24롤)x2팩",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 롤화장지 스토어, 3겹 데코&소프트 롤화장지(28Mx24롤)x2팩. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 7,676개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 롤화장지 스토어, 3겹 데코&소프트 롤화장지(28Mx24롤)x2팩. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 7,677개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-381411491143680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -921,7 +934,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1487254",
@@ -930,7 +943,7 @@
       "currentName": "자동물빠짐 연마제없는 304올스텐 2단 식기건조대 + 수저통 + 접시꽂이 + 도마걸이",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 이동식건조대 스토어, 자동물빠짐 연마제없는 304올스텐 2단 식기건조대 + 수저통 + 접시꽂이 + 도마걸이. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 18,631개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 이동식건조대 스토어, 자동물빠짐 연마제없는 304올스텐 2단 식기건조대 + 수저통 + 접시꽂이 + 도마걸이. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 18,636개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/165882093087605655.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -943,7 +956,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1558218",
@@ -952,7 +965,7 @@
       "currentName": "철제 빨래바구니 양문형수납박스/폴리 바스켓/수납용품 특가",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 빨래바구니·햄퍼 스토어, 철제 빨래바구니 양문형수납박스/폴리 바스켓/수납용품 특가. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 31,160개와 유저들이 직접 찍은 스타일링샷 18,028개를  확인해보세요!",
+      "promoText": "오늘의집 빨래바구니·햄퍼 스토어, 철제 빨래바구니 양문형수납박스/폴리 바스켓/수납용품 특가. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 31,160개와 유저들이 직접 찍은 스타일링샷 18,031개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-452441180979264.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [
@@ -967,7 +980,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1590911",
@@ -976,7 +989,7 @@
       "currentName": "허리 디스크 환자가 만든 매트리스 S/SS/Q/K/LK 미디엄하드 S",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 스프링매트리스 스토어, 허리 디스크 환자가 만든 매트리스 S/SS/Q/K/LK 미디엄하드 S. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 22,929개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 스프링매트리스 스토어, 허리 디스크 환자가 만든 매트리스 S/SS/Q/K/LK 미디엄하드 S. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 22,936개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-346060453515392.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -985,9 +998,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1611425",
@@ -1005,11 +1020,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1612956",
@@ -1029,7 +1042,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1613424",
@@ -1038,7 +1051,7 @@
       "currentName": "[20+20] 라인바싸 탄산수 500ml 20입*2박스",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 탄산수 스토어, [20+20] 라인바싸 탄산수 500ml 20입*2박스. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 16,381개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 탄산수 스토어, [20+20] 라인바싸 탄산수 500ml 20입*2박스. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 16,386개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-549849828651008.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -1051,7 +1064,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1722006",
@@ -1060,7 +1073,7 @@
       "currentName": "프리미엄 규조토 세라믹 원형 칫솔꽂이 3P세트",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 양치용품 스토어, 프리미엄 규조토 세라믹 원형 칫솔꽂이 3P세트. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 35,344개와 유저들이 직접 찍은 스타일링샷 21,405개를  확인해보세요!",
+      "promoText": "오늘의집 양치용품 스토어, 프리미엄 규조토 세라믹 원형 칫솔꽂이 3P세트. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 35,349개와 유저들이 직접 찍은 스타일링샷 21,425개를  확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/deals/168195499945008079.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1073,7 +1086,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1748267",
@@ -1082,7 +1095,7 @@
       "currentName": "수압상승! 퓨어썸 필터샤워기+컬러 실리콘커버+컬러호스 1.5m/2m (색상조합가능)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 샤워기·필터샤워기 스토어, 수압상승! 퓨어썸 필터샤워기+컬러 실리콘커버+컬러호스 1.5m/2m (색상조합가능). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 7,446개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 샤워기·필터샤워기 스토어, 수압상승! 퓨어썸 필터샤워기+컬러 실리콘커버+컬러호스 1.5m/2m (색상조합가능). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 7,447개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-490780418003072.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1095,7 +1108,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1761241",
@@ -1104,7 +1117,7 @@
       "currentName": "독일 세탁·청소세제 품절대란템 쿠폰할인전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 액체세탁세제 스토어, 독일 세탁·청소세제 품절대란템 쿠폰할인전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 17,443개와 유저들이 직접 찍은 스타일링샷 5,199개를  확인해보세요!",
+      "promoText": "오늘의집 액체세탁세제 스토어, 독일 세탁·청소세제 품절대란템 쿠폰할인전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 17,446개와 유저들이 직접 찍은 스타일링샷 5,209개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-557236803616832.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [
@@ -1119,7 +1132,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1786951",
@@ -1128,7 +1141,7 @@
       "currentName": "[오늘의집 단독] 단하루 91,560원 노아 06 빅서랍 수납침대 프레임 SS/Q 매트선택",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 수납침대 스토어, [오늘의집 단독] 단하루 91,560원 노아 06 빅서랍 수납침대 프레임 SS/Q 매트선택. 살까 말까 고민 될 땐 평균 4.6점의 리얼 리뷰 9,508개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 수납침대 스토어, [오늘의집 단독] 단하루 91,560원 노아 06 빅서랍 수납침대 프레임 SS/Q 매트선택. 살까 말까 고민 될 땐 평균 4.6점의 리얼 리뷰 9,513개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-500560533073984.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [
@@ -1143,7 +1156,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1819851",
@@ -1152,7 +1165,7 @@
       "currentName": "프리미엄 더쉼 진드기차단 침대 방수 매트리스커버 12사이즈 10컬러",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 매트리스커버 스토어, 프리미엄 더쉼 진드기차단 침대 방수 매트리스커버 12사이즈 10컬러. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,532개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 매트리스커버 스토어, 프리미엄 더쉼 진드기차단 침대 방수 매트리스커버 12사이즈 10컬러. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,536개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-470460347686976.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1165,7 +1178,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1981438",
@@ -1185,7 +1198,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "1981440",
@@ -1194,7 +1207,7 @@
       "currentName": "골든그램 2단계 800g 3통",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 분유 스토어, 골든그램 2단계 800g 3통. 살까 말까 고민 될 땐 평균 5.0점의 리얼 리뷰 3,770개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 분유 스토어, 골든그램 2단계 800g 3통. 살까 말까 고민 될 땐 평균 5.0점의 리얼 리뷰 3,771개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-558406738972736.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1207,7 +1220,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2010198",
@@ -1216,7 +1229,7 @@
       "currentName": "간편 분리보관 저소음 스탠드 리모컨 선풍기",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 스탠드형 스토어, 간편 분리보관 저소음 스탠드 리모컨 선풍기. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,523개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 스탠드형 스토어, 간편 분리보관 저소음 스탠드 리모컨 선풍기. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,526개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-472707207000128.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1229,7 +1242,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2019608",
@@ -1238,7 +1251,7 @@
       "currentName": "빠른배송! 우드레이 BEST상품 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 접이식테이블 스토어, 빠른배송! 우드레이 BEST상품 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 101,995개와 유저들이 직접 찍은 스타일링샷 80,811개를  확인해보세요!",
+      "promoText": "오늘의집 접이식테이블 스토어, 빠른배송! 우드레이 BEST상품 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 102,016개와 유저들이 직접 찍은 스타일링샷 80,853개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-467005140967488.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1251,7 +1264,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2041273",
@@ -1260,7 +1273,7 @@
       "currentName": "[MUJI] 가구 & 수납정리 카테고리 특가 모음전/ 바스켓 선반 책장 소파 모듈",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 스탠드선반 스토어, [MUJI] 가구 & 수납정리 카테고리 특가 모음전/ 바스켓 선반 책장 소파 모듈. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 12,443개와 유저들이 직접 찍은 스타일링샷 27,581개를  확인해보세요!",
+      "promoText": "오늘의집 스탠드선반 스토어, [MUJI] 가구 & 수납정리 카테고리 특가 모음전/ 바스켓 선반 책장 소파 모듈. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 12,450개와 유저들이 직접 찍은 스타일링샷 27,606개를  확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/deals/168238842504655322.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [
@@ -1275,7 +1288,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2093235",
@@ -1295,7 +1308,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2109112",
@@ -1304,7 +1317,7 @@
       "currentName": "1+1 확장형 후라이팬/냄비 정리대 2p세트",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 프라이팬정리대 스토어, 1+1 확장형 후라이팬/냄비 정리대 2p세트. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 6,644개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 프라이팬정리대 스토어, 1+1 확장형 후라이팬/냄비 정리대 2p세트. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 6,645개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/168560229386450372.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1317,7 +1330,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2111199",
@@ -1326,7 +1339,7 @@
       "currentName": "삼성 김치냉장고 RP13C1022S9 뚜껑형 126L 소형 미니 김치플러스",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 김치냉장고 스토어, 삼성 김치냉장고 RP13C1022S9 뚜껑형 126L 소형 미니 김치플러스. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 277개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 김치냉장고 스토어, 삼성 김치냉장고 RP13C1022S9 뚜껑형 126L 소형 미니 김치플러스. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 278개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-518804955811904.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1335,9 +1348,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2145546",
@@ -1357,7 +1372,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2158304",
@@ -1366,7 +1381,7 @@
       "currentName": "10/20/30L 자동 센서 냄새 차단 스마트 쓰레기통 휴지통",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, 10/20/30L 자동 센서 냄새 차단 스마트 쓰레기통 휴지통. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 17,055개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, 10/20/30L 자동 센서 냄새 차단 스마트 쓰레기통 휴지통. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 17,057개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-560020499034240.png?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -1379,7 +1394,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2166181",
@@ -1388,7 +1403,7 @@
       "currentName": "[공식] 휘슬러 스테인레스 IH 냄비/프라이팬",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 냄비프라이팬세트 스토어, [공식] 휘슬러 스테인레스 IH 냄비/프라이팬. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,559개와 유저들이 직접 찍은 스타일링샷 3,788개를  확인해보세요!",
+      "promoText": "오늘의집 냄비프라이팬세트 스토어, [공식] 휘슬러 스테인레스 IH 냄비/프라이팬. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,560개와 유저들이 직접 찍은 스타일링샷 3,791개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-552309348356224.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1401,7 +1416,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2180249",
@@ -1410,7 +1425,7 @@
       "currentName": "[10+10팩] 프리미엄 73평량 클래스 캡형 70매 20팩",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 물티슈 스토어, [10+10팩] 프리미엄 73평량 클래스 캡형 70매 20팩. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 19,359개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 물티슈 스토어, [10+10팩] 프리미엄 73평량 클래스 캡형 70매 20팩. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 19,363개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-214675716886528.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1423,7 +1438,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2227855",
@@ -1432,7 +1447,7 @@
       "currentName": "생수 500ml*80병 무라벨",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 생수 스토어, 생수 500ml*80병 무라벨. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 10,842개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 생수 스토어, 생수 500ml*80병 무라벨. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 10,845개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-435169466114176.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1445,7 +1460,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2315335",
@@ -1454,7 +1469,7 @@
       "currentName": "[오늘의집 단독] 푸벨드마망 자동센서 휴지통9L/20L",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, [오늘의집 단독] 푸벨드마망 자동센서 휴지통9L/20L. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 11,535개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, [오늘의집 단독] 푸벨드마망 자동센서 휴지통9L/20L. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 11,537개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/169415845780575818.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -1467,7 +1482,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2318560",
@@ -1476,7 +1491,7 @@
       "currentName": "언더티 행주 머스타드 2개입 1세트",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 행주 스토어, 언더티 행주 머스타드 2개입 1세트. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 2,538개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 행주 스토어, 언더티 행주 머스타드 2개입 1세트. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 2,539개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-271247592681472.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1489,7 +1504,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2352818",
@@ -1498,7 +1513,7 @@
       "currentName": "[오늘의집 단독] 20%쿠폰ㅣ드레스덴 조야패브릭 호텔식 침대프레임 SS/Q/K/LK/CK",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 일반침대 스토어, [오늘의집 단독] 20%쿠폰ㅣ드레스덴 조야패브릭 호텔식 침대프레임 SS/Q/K/LK/CK. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 17,103개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 일반침대 스토어, [오늘의집 단독] 20%쿠폰ㅣ드레스덴 조야패브릭 호텔식 침대프레임 SS/Q/K/LK/CK. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 17,108개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-220003987431552.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -1509,9 +1524,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2390698",
@@ -1520,7 +1537,7 @@
       "currentName": "BEST 인테리어 이동식 트롤리 5종 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 트롤리·이동식선반 스토어, BEST 인테리어 이동식 트롤리 5종 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 5,566개와 유저들이 직접 찍은 스타일링샷 3,614개를  확인해보세요!",
+      "promoText": "오늘의집 트롤리·이동식선반 스토어, BEST 인테리어 이동식 트롤리 5종 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 5,567개와 유저들이 직접 찍은 스타일링샷 3,617개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-534288476635200.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -1533,7 +1550,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2543773",
@@ -1542,7 +1559,7 @@
       "currentName": "1+1 냄새차단 스마트 자동 센서 휴지통 쓰레기통 12L+16L",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, 1+1 냄새차단 스마트 자동 센서 휴지통 쓰레기통 12L+16L. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,485개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, 1+1 냄새차단 스마트 자동 센서 휴지통 쓰레기통 12L+16L. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,488개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-199482524262528.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -1555,7 +1572,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2545282",
@@ -1564,7 +1581,7 @@
       "currentName": "제주 삼다수 그린 2L 12입 (무라벨/유라벨 랜덤발송)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 생수 스토어, 제주 삼다수 그린 2L 12입 (무라벨/유라벨 랜덤발송). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 16,180개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 생수 스토어, 제주 삼다수 그린 2L 12입 (무라벨/유라벨 랜덤발송). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 16,181개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-359100976656448.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1573,9 +1590,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2628191",
@@ -1595,7 +1614,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2636441",
@@ -1604,7 +1623,7 @@
       "currentName": "높은 재구매율 퐁신퐁신 18컬러 유어메이트 워싱 차렵이불 패드 매트리스커버 풀세트",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 차렵이불 스토어, 높은 재구매율 퐁신퐁신 18컬러 유어메이트 워싱 차렵이불 패드 매트리스커버 풀세트. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,692개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 차렵이불 스토어, 높은 재구매율 퐁신퐁신 18컬러 유어메이트 워싱 차렵이불 패드 매트리스커버 풀세트. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 20,696개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-559470801125504.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1617,7 +1636,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2636624",
@@ -1626,7 +1645,7 @@
       "currentName": "[국내 탈취제 브랜드 1위] BAS 바스 탈취제 외 전상품 특가 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 공기·새집증후군탈취제 스토어, [국내 탈취제 브랜드 1위] BAS 바스 탈취제 외 전상품 특가 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 23,542개와 유저들이 직접 찍은 스타일링샷 11,722개를  확인해보세요!",
+      "promoText": "오늘의집 공기·새집증후군탈취제 스토어, [국내 탈취제 브랜드 1위] BAS 바스 탈취제 외 전상품 특가 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 23,549개와 유저들이 직접 찍은 스타일링샷 11,739개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-413615653806144.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -1641,7 +1660,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2639869",
@@ -1661,7 +1680,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2667236",
@@ -1670,7 +1689,7 @@
       "currentName": "[사은품+적립]브레인 IH압력밥솥/제로핏 음식물처리기 외 모음",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 음식물처리기 스토어, [사은품+적립]브레인 IH압력밥솥/제로핏 음식물처리기 외 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 15,551개와 유저들이 직접 찍은 스타일링샷 11,274개를  확인해보세요!",
+      "promoText": "오늘의집 음식물처리기 스토어, [사은품+적립]브레인 IH압력밥솥/제로핏 음식물처리기 외 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 15,552개와 유저들이 직접 찍은 스타일링샷 11,279개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-549447137779840.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [
@@ -1685,7 +1704,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2715483",
@@ -1694,7 +1713,7 @@
       "currentName": "[오늘의집 단독] 엔비 타올 스트라이프 포인트! 워셔블 층간소음 논슬립 실내화 룸슈즈",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 실내화 스토어, [오늘의집 단독] 엔비 타올 스트라이프 포인트! 워셔블 층간소음 논슬립 실내화 룸슈즈. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 26,541개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 실내화 스토어, [오늘의집 단독] 엔비 타올 스트라이프 포인트! 워셔블 층간소음 논슬립 실내화 룸슈즈. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 26,557개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-461748792979520.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1703,9 +1722,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2804924",
@@ -1725,7 +1746,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2820734",
@@ -1734,7 +1755,7 @@
       "currentName": "[82평량] 시그니앙 골드퍼플 70매 20팩 캡형 아기물티슈",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 물티슈 스토어, [82평량] 시그니앙 골드퍼플 70매 20팩 캡형 아기물티슈. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 14,944개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 물티슈 스토어, [82평량] 시그니앙 골드퍼플 70매 20팩 캡형 아기물티슈. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 14,947개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-241565499920512.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1747,7 +1768,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2866140",
@@ -1756,7 +1777,7 @@
       "currentName": "[쿠폰+결제할인 최대10%] BLDC 무선청소기 PTC 히터 스테이션청소기 원룸청소기",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 온풍기 스토어, [쿠폰+결제할인 최대10%] BLDC 무선청소기 PTC 히터 스테이션청소기 원룸청소기. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 4,666개와 유저들이 직접 찍은 스타일링샷 1,839개를  확인해보세요!",
+      "promoText": "오늘의집 온풍기 스토어, [쿠폰+결제할인 최대10%] BLDC 무선청소기 PTC 히터 스테이션청소기 원룸청소기. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 4,670개와 유저들이 직접 찍은 스타일링샷 1,842개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-525053888671808.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [
@@ -1771,16 +1792,16 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2868834",
       "url": "https://store.ohou.se/goods/2868834",
       "name": "[7/6 최대 특별가] 15mm롱파일 부드러운 자카드 발매트 주방 욕실 현관 미니 러그",
-      "currentName": "[11/3 하루 특별가격] 15mm 롱파일 자카드 발매트 주방매트 욕실 현관 러그 19종",
+      "currentName": "15mm 롱파일 부드러운 자카드 미끄럼방지 발매트 주방매트 욕실 현관 미니 러그 19종",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 현관·발매트 스토어, [11/3 하루 특별가격] 15mm 롱파일 자카드 발매트 주방매트 욕실 현관 러그 19종. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 9,200개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 현관·발매트 스토어, 15mm 롱파일 부드러운 자카드 미끄럼방지 발매트 주방매트 욕실 현관 미니 러그 19종. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 9,203개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-433357571579968.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -1789,9 +1810,12 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "currentName",
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2881695",
@@ -1811,7 +1835,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2902642",
@@ -1820,7 +1844,7 @@
       "currentName": "잘풀리는집 도톰한 3겹 베스트 화장지 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 롤화장지 스토어, 잘풀리는집 도톰한 3겹 베스트 화장지 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 15,337개와 유저들이 직접 찍은 스타일링샷 6,324개를  확인해보세요!",
+      "promoText": "오늘의집 롤화장지 스토어, 잘풀리는집 도톰한 3겹 베스트 화장지 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 15,338개와 유저들이 직접 찍은 스타일링샷 6,330개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-538980138123392.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -1833,7 +1857,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2940065",
@@ -1842,7 +1866,7 @@
       "currentName": "[단하루 쿠폰] 질레트 스킨텍 & 프로쉴드 옐로우 면도날 12 입 외 대용량 특가 모음전!",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 면도기날·액세서리 스토어, [단하루 쿠폰] 질레트 스킨텍 & 프로쉴드 옐로우 면도날 12 입 외 대용량 특가 모음전!. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 7,297개와 유저들이 직접 찍은 스타일링샷 1,581개를  확인해보세요!",
+      "promoText": "오늘의집 면도기날·액세서리 스토어, [단하루 쿠폰] 질레트 스킨텍 & 프로쉴드 옐로우 면도날 12 입 외 대용량 특가 모음전!. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 7,297개와 유저들이 직접 찍은 스타일링샷 1,582개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-403688222818432.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -1859,7 +1883,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2958313",
@@ -1868,7 +1892,7 @@
       "currentName": "환절기 두피 케어! 헤드앤숄더 특가 모음딜",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 샴푸 스토어, 환절기 두피 케어! 헤드앤숄더 특가 모음딜. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 20,172개와 유저들이 직접 찍은 스타일링샷 9,052개를  확인해보세요!",
+      "promoText": "오늘의집 샴푸 스토어, 환절기 두피 케어! 헤드앤숄더 특가 모음딜. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 20,177개와 유저들이 직접 찍은 스타일링샷 9,062개를  확인해보세요!",
       "imageUrl": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/deals/172066133020205699.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -1883,7 +1907,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "2993564",
@@ -1892,7 +1916,7 @@
       "currentName": "펩시 제로슈거 라임향 500ml*20개 (업소용) 외 골라담기",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 탄산음료 스토어, 펩시 제로슈거 라임향 500ml*20개 (업소용) 외 골라담기. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 8,731개와 유저들이 직접 찍은 스타일링샷 3,793개를  확인해보세요!",
+      "promoText": "오늘의집 탄산음료 스토어, 펩시 제로슈거 라임향 500ml*20개 (업소용) 외 골라담기. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 8,734개와 유저들이 직접 찍은 스타일링샷 3,799개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-557144757203072.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1905,7 +1929,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3011495",
@@ -1914,7 +1938,7 @@
       "currentName": "무타공마켓 인기 생활용품 욕실선반/욕실화/미끄럼방지/발매트 등 BEST 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 욕실매트·발판 스토어, 무타공마켓 인기 생활용품 욕실선반/욕실화/미끄럼방지/발매트 등 BEST 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 180,590개와 유저들이 직접 찍은 스타일링샷 87,227개를  확인해보세요!",
+      "promoText": "오늘의집 욕실매트·발판 스토어, 무타공마켓 인기 생활용품 욕실선반/욕실화/미끄럼방지/발매트 등 BEST 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 180,615개와 유저들이 직접 찍은 스타일링샷 87,293개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-517896072401024.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -1927,7 +1951,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3051695",
@@ -1936,7 +1960,7 @@
       "currentName": "독일 식기세척기세제 미니 50개입 3개 6인용 (주방세제 랜덤+펌프 증정)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 식기세척기용세제 스토어, 독일 식기세척기세제 미니 50개입 3개 6인용 (주방세제 랜덤+펌프 증정). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 1,982개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 식기세척기용세제 스토어, 독일 식기세척기세제 미니 50개입 3개 6인용 (주방세제 랜덤+펌프 증정). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 1,986개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-560080457633920.jpg?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -1949,7 +1973,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3091712",
@@ -1958,7 +1982,7 @@
       "currentName": "옥수수솜 클래식스트라이프 부드러운 차렵이불세트 간절기/사계절/한파 S/SS/Q/K 12컬러",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 차렵이불 스토어, 옥수수솜 클래식스트라이프 부드러운 차렵이불세트 간절기/사계절/한파 S/SS/Q/K 12컬러. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 7,971개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 차렵이불 스토어, 옥수수솜 클래식스트라이프 부드러운 차렵이불세트 간절기/사계절/한파 S/SS/Q/K 12컬러. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 7,982개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-533212441747584.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -1967,9 +1991,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3102674",
@@ -1978,7 +2004,7 @@
       "currentName": "컴피 주방 빨아쓰는 규조토 발매트 5size",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 욕실매트·발판 스토어, 컴피 주방 빨아쓰는 규조토 발매트 5size. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,687개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 욕실매트·발판 스토어, 컴피 주방 빨아쓰는 규조토 발매트 5size. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,688개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-441187470454848.png?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [],
@@ -1991,7 +2017,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3288309",
@@ -2009,11 +2035,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3294625",
@@ -2035,7 +2059,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3312834",
@@ -2044,7 +2068,7 @@
       "currentName": "[오늘의집 단독] 잘풀리는오늘의집 키친타월 150매 12롤 * 2팩 (총 24롤)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 롤키친타올 스토어, [오늘의집 단독] 잘풀리는오늘의집 키친타월 150매 12롤 * 2팩 (총 24롤). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 12,236개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 롤키친타올 스토어, [오늘의집 단독] 잘풀리는오늘의집 키친타월 150매 12롤 * 2팩 (총 24롤). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 12,237개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-398625282375680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2057,7 +2081,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3325168",
@@ -2066,7 +2090,7 @@
       "currentName": "극세사출시!말랑말랑 두부 누빔 올인원 패드일체형 매트리스커버 S/SS/Q/K/LK 12컬러",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 매트리스커버 스토어, 극세사출시!말랑말랑 두부 누빔 올인원 패드일체형 매트리스커버 S/SS/Q/K/LK 12컬러. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 6,288개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 매트리스커버 스토어, 극세사출시!말랑말랑 두부 누빔 올인원 패드일체형 매트리스커버 S/SS/Q/K/LK 12컬러. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 6,294개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-430856310276160.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2075,9 +2099,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3334968",
@@ -2086,7 +2112,7 @@
       "currentName": "단독 매직캔 오브제 올화이트 휴지통, 매직캔 정품 리필 봉투 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, 단독 매직캔 오브제 올화이트 휴지통, 매직캔 정품 리필 봉투 모음전. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 20,846개와 유저들이 직접 찍은 스타일링샷 10,400개를  확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, 단독 매직캔 오브제 올화이트 휴지통, 매직캔 정품 리필 봉투 모음전. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 20,852개와 유저들이 직접 찍은 스타일링샷 10,419개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-487896569274496.png?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2099,7 +2125,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3335483",
@@ -2108,7 +2134,7 @@
       "currentName": "히포/오토실링/애니블리 냄새 차단 국민휴지통 모음",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, 히포/오토실링/애니블리 냄새 차단 국민휴지통 모음. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 25,536개와 유저들이 직접 찍은 스타일링샷 33,996개를  확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, 히포/오토실링/애니블리 냄새 차단 국민휴지통 모음. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 25,542개와 유저들이 직접 찍은 스타일링샷 34,018개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-398328035663872.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2121,7 +2147,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3340675",
@@ -2130,7 +2156,7 @@
       "currentName": "오브제 반원형 빨아쓰는 규조토 발매트",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 욕실매트·발판 스토어, 오브제 반원형 빨아쓰는 규조토 발매트. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 7,847개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 욕실매트·발판 스토어, 오브제 반원형 빨아쓰는 규조토 발매트. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 7,849개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-331834325061632.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2143,7 +2169,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3368060",
@@ -2152,7 +2178,7 @@
       "currentName": "304올스텐 프리미엄 이동 빨래바구니 단독 틈새/2단/3단풀세트",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 빨래바구니·햄퍼 스토어, 304올스텐 프리미엄 이동 빨래바구니 단독 틈새/2단/3단풀세트. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,865개와 유저들이 직접 찍은 스타일링샷 3,110개를  확인해보세요!",
+      "promoText": "오늘의집 빨래바구니·햄퍼 스토어, 304올스텐 프리미엄 이동 빨래바구니 단독 틈새/2단/3단풀세트. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,867개와 유저들이 직접 찍은 스타일링샷 3,118개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-452506210865280.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -2165,7 +2191,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3391275",
@@ -2185,7 +2211,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3394297",
@@ -2207,7 +2233,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3418039",
@@ -2216,7 +2242,7 @@
       "currentName": "[11/2 단하루] 포인트 되는 BEST 테이블웨어 공기/파스타볼/접시 모음",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 1인세트 스토어, [11/2 단하루] 포인트 되는 BEST 테이블웨어 공기/파스타볼/접시 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 64,529개와 유저들이 직접 찍은 스타일링샷 46,378개를  확인해보세요!",
+      "promoText": "오늘의집 1인세트 스토어, [11/2 단하루] 포인트 되는 BEST 테이블웨어 공기/파스타볼/접시 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 64,536개와 유저들이 직접 찍은 스타일링샷 46,408개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-561087483900032.avif?w=720&h=480",
       "category": "kitchen",
       "campaignBadges": [
@@ -2231,7 +2257,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3443428",
@@ -2240,7 +2266,7 @@
       "currentName": "신상출시! 더 부드러워진 무한타올의 데일리 프리미엄 타월 모음",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 세면타월 스토어, 신상출시! 더 부드러워진 무한타올의 데일리 프리미엄 타월 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 3,177개와 유저들이 직접 찍은 스타일링샷 1,482개를  확인해보세요!",
+      "promoText": "오늘의집 세면타월 스토어, 신상출시! 더 부드러워진 무한타올의 데일리 프리미엄 타월 모음. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 3,178개와 유저들이 직접 찍은 스타일링샷 1,483개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-558669333389376.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2253,7 +2279,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3464119",
@@ -2262,7 +2288,7 @@
       "currentName": "울샴푸/리큐/바세린/케라시스/2080 초특가!",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 액체섬유유연제 스토어, 울샴푸/리큐/바세린/케라시스/2080 초특가!. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 9,054개와 유저들이 직접 찍은 스타일링샷 2,669개를  확인해보세요!",
+      "promoText": "오늘의집 액체섬유유연제 스토어, 울샴푸/리큐/바세린/케라시스/2080 초특가!. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 9,055개와 유저들이 직접 찍은 스타일링샷 2,672개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-361472513577024.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -2277,7 +2303,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3510800",
@@ -2286,7 +2312,7 @@
       "currentName": "[오늘의집 단독] 코마사 디자인 수건/욕실화/욕실용품 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 세면타월 스토어, [오늘의집 단독] 코마사 디자인 수건/욕실화/욕실용품 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 22,675개와 유저들이 직접 찍은 스타일링샷 10,858개를  확인해보세요!",
+      "promoText": "오늘의집 세면타월 스토어, [오늘의집 단독] 코마사 디자인 수건/욕실화/욕실용품 모음전. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 22,679개와 유저들이 직접 찍은 스타일링샷 10,884개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-548812805472384.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2299,7 +2325,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3535331",
@@ -2308,7 +2334,7 @@
       "currentName": "언더티 드라이틱 다용도 물기제거",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 행주 스토어, 언더티 드라이틱 다용도 물기제거. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 2,585개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 행주 스토어, 언더티 드라이틱 다용도 물기제거. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 2,588개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-395435220090880.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2321,7 +2347,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3535471",
@@ -2330,7 +2356,7 @@
       "currentName": "[오늘의집 단독] 무표 물티슈 82평량 70매 20팩",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 물티슈 스토어, [오늘의집 단독] 무표 물티슈 82평량 70매 20팩. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 4,220개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 물티슈 스토어, [오늘의집 단독] 무표 물티슈 82평량 70매 20팩. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 4,225개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-374319009185856.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2343,7 +2369,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3550577",
@@ -2352,7 +2378,7 @@
       "currentName": "[오늘의집 단독] 토리 와이드 3단/5단 서랍장 800/1000/1200 수납장",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 서랍장 스토어, [오늘의집 단독] 토리 와이드 3단/5단 서랍장 800/1000/1200 수납장. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 3,770개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 서랍장 스토어, [오늘의집 단독] 토리 와이드 3단/5단 서랍장 800/1000/1200 수납장. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 3,772개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-398451974422592.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -2361,9 +2387,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3550622",
@@ -2372,7 +2400,7 @@
       "currentName": "[오늘의집 단독] 오브제 올화이트 에디션 히포/오토실링 21L/ 27L 국민휴지통",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 휴지통 스토어, [오늘의집 단독] 오브제 올화이트 에디션 히포/오토실링 21L/ 27L 국민휴지통. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 15,812개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 휴지통 스토어, [오늘의집 단독] 오브제 올화이트 에디션 히포/오토실링 21L/ 27L 국민휴지통. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 15,818개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-539855724527680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2385,7 +2413,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3552556",
@@ -2394,7 +2422,7 @@
       "currentName": "아이깨끗해 핸드워시 리필 1.8L+용기 250ml (+250ml 공용기 증정)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 핸드워시 스토어, 아이깨끗해 핸드워시 리필 1.8L+용기 250ml (+250ml 공용기 증정). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,435개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 핸드워시 스토어, 아이깨끗해 핸드워시 리필 1.8L+용기 250ml (+250ml 공용기 증정). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,437개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-419946531266688.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2407,7 +2435,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3585611",
@@ -2416,7 +2444,7 @@
       "currentName": "4리터 대용량 세제 수납 넓이 조절 트롤리/옷압축파우치/길이조절 정리함 특가",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 옷커버·압축팩 스토어, 4리터 대용량 세제 수납 넓이 조절 트롤리/옷압축파우치/길이조절 정리함 특가. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 71,475개와 유저들이 직접 찍은 스타일링샷 42,118개를  확인해보세요!",
+      "promoText": "오늘의집 옷커버·압축팩 스토어, 4리터 대용량 세제 수납 넓이 조절 트롤리/옷압축파우치/길이조절 정리함 특가. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 71,479개와 유저들이 직접 찍은 스타일링샷 42,129개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-559866342408320.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [
@@ -2431,7 +2459,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3586260",
@@ -2440,7 +2468,7 @@
       "currentName": "[오늘의집 단독] 라온 이동식 3단 사각 철제 빨래바구니트롤리 4color 후크 증정",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 빨래바구니·햄퍼 스토어, [오늘의집 단독] 라온 이동식 3단 사각 철제 빨래바구니트롤리 4color 후크 증정. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,242개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 빨래바구니·햄퍼 스토어, [오늘의집 단독] 라온 이동식 3단 사각 철제 빨래바구니트롤리 4color 후크 증정. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 6,246개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-427385634349120.png?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -2453,7 +2481,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3630540",
@@ -2462,7 +2490,7 @@
       "currentName": "[오늘의집 단독] 특대형 고체 탈취제 퓨어화이트 300g 1개",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 공기·새집증후군탈취제 스토어, [오늘의집 단독] 특대형 고체 탈취제 퓨어화이트 300g 1개. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 1,994개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 공기·새집증후군탈취제 스토어, [오늘의집 단독] 특대형 고체 탈취제 퓨어화이트 300g 1개. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 1,998개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-556820402585728.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2475,7 +2503,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3640258",
@@ -2493,12 +2521,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "currentName",
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3688795",
@@ -2507,7 +2532,7 @@
       "currentName": "[50개] 아이스크림 바류 10종x5개(아맛나/돼지바/메가톤/와일드바디/빙빙바 등)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 아이스크림 스토어, [50개] 아이스크림 바류 10종x5개(아맛나/돼지바/메가톤/와일드바디/빙빙바 등). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 3,327개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 아이스크림 스토어, [50개] 아이스크림 바류 10종x5개(아맛나/돼지바/메가톤/와일드바디/빙빙바 등). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 3,328개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-529637629296640.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2516,9 +2541,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3802848",
@@ -2527,7 +2554,7 @@
       "currentName": "[스페셜특가] 피에브 에어워셔 고체탈취제 모음전",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 공기·새집증후군탈취제 스토어, [스페셜특가] 피에브 에어워셔 고체탈취제 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 1,483개와 유저들이 직접 찍은 스타일링샷 1,730개를  확인해보세요!",
+      "promoText": "오늘의집 공기·새집증후군탈취제 스토어, [스페셜특가] 피에브 에어워셔 고체탈취제 모음전. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 1,483개와 유저들이 직접 찍은 스타일링샷 1,735개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-549121655279616.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [
@@ -2542,7 +2569,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3830448",
@@ -2551,7 +2578,7 @@
       "currentName": "유한락스 NEW 욕실청소용 600ml 4개 + 후레쉬 500ml 증정",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 욕실세정제 스토어, 유한락스 NEW 욕실청소용 600ml 4개 + 후레쉬 500ml 증정. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 2,339개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 욕실세정제 스토어, 유한락스 NEW 욕실청소용 600ml 4개 + 후레쉬 500ml 증정. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 2,341개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-558959389798528.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2564,7 +2591,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3841622",
@@ -2573,7 +2600,7 @@
       "currentName": "[전품목 무료배송] 튼튼한 BEST 인기 빨래건조대 오늘의집 단독 출시",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 빨래건조대 스토어, [전품목 무료배송] 튼튼한 BEST 인기 빨래건조대 오늘의집 단독 출시. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 15,993개와 유저들이 직접 찍은 스타일링샷 7,944개를  확인해보세요!",
+      "promoText": "오늘의집 빨래건조대 스토어, [전품목 무료배송] 튼튼한 BEST 인기 빨래건조대 오늘의집 단독 출시. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 15,998개와 유저들이 직접 찍은 스타일링샷 7,953개를  확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/commerce/store/deal/v1-440059564118016.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2586,7 +2613,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3919961",
@@ -2595,7 +2622,7 @@
       "currentName": "쉽게 세탁하는 사계절 루프 직조 러그, 3colors,6sizes",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 사이잘룩러그 스토어, 쉽게 세탁하는 사계절 루프 직조 러그, 3colors,6sizes. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 2,602개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 사이잘룩러그 스토어, 쉽게 세탁하는 사계절 루프 직조 러그, 3colors,6sizes. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 2,605개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-500309740871680.jpg?w=720&h=480",
       "category": "cleaning",
       "campaignBadges": [],
@@ -2604,9 +2631,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3942620",
@@ -2615,7 +2644,7 @@
       "currentName": "[박스포장] 특등급 26년 햅쌀 밥맛좋은 새청무 10kg / 최근도정",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 쌀·채소 스토어, [박스포장] 특등급 26년 햅쌀 밥맛좋은 새청무 10kg / 최근도정. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 7,091개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 쌀·채소 스토어, [박스포장] 특등급 26년 햅쌀 밥맛좋은 새청무 10kg / 최근도정. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 7,093개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-560140355190848.jpg?w=720&h=480",
       "category": "storage",
       "campaignBadges": [],
@@ -2628,7 +2657,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3959175",
@@ -2637,7 +2666,7 @@
       "currentName": "[선착순600명] 탱글촉촉 맥반석 구운란 30구+30구 대란",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 정육·계란 스토어, [선착순600명] 탱글촉촉 맥반석 구운란 30구+30구 대란. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,010개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 정육·계란 스토어, [선착순600명] 탱글촉촉 맥반석 구운란 30구+30구 대란. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 5,011개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-539088233087104.webp?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2650,7 +2679,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "3980447",
@@ -2659,7 +2688,7 @@
       "currentName": "[순차출고] 노르웨이 슈페리어등급 생연어 슬라이스 1kg / 500g / 300g 항공직송",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 수산·건해산 스토어, [순차출고] 노르웨이 슈페리어등급 생연어 슬라이스 1kg / 500g / 300g 항공직송. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 1,013개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 수산·건해산 스토어, [순차출고] 노르웨이 슈페리어등급 생연어 슬라이스 1kg / 500g / 300g 항공직송. 살까 말까 고민 될 땐 평균 4.8점의 리얼 리뷰 1,014개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-532161035276416.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2672,7 +2701,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4013160",
@@ -2692,7 +2721,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4018472",
@@ -2712,7 +2741,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4028552",
@@ -2730,11 +2759,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4029436",
@@ -2752,11 +2779,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4043198",
@@ -2776,7 +2801,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4054074",
@@ -2785,7 +2810,7 @@
       "currentName": "시그니앙75 선셋 70매 20팩 캡형 75평량 아기물티슈",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 물티슈 스토어, 시그니앙75 선셋 70매 20팩 캡형 75평량 아기물티슈. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 717개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 물티슈 스토어, 시그니앙75 선셋 70매 20팩 캡형 75평량 아기물티슈. 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 718개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-508072793346176.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2798,7 +2823,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4054654",
@@ -2807,7 +2832,7 @@
       "currentName": "초록매실 스파클링 제로 350ml 20개/24캔 외 매실제로 골라담기(유/무라벨 랜덤발송)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 탄산음료 스토어, 초록매실 스파클링 제로 350ml 20개/24캔 외 매실제로 골라담기(유/무라벨 랜덤발송). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 1,452개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 탄산음료 스토어, 초록매실 스파클링 제로 350ml 20개/24캔 외 매실제로 골라담기(유/무라벨 랜덤발송). 살까 말까 고민 될 땐 평균 4.9점의 리얼 리뷰 1,456개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-494282094669952.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2820,7 +2845,7 @@
         "promoText"
       ],
       "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4055202",
@@ -2838,11 +2863,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4090996",
@@ -2864,7 +2887,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4098697",
@@ -2884,7 +2907,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4106487",
@@ -2893,7 +2916,7 @@
       "currentName": "[부여] 달콤아삭 세도 대추방울토마토 2kg 로얄과 / 소과 실중량",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 과일 스토어, [부여] 달콤아삭 세도 대추방울토마토 2kg 로얄과 / 소과 실중량. 살까 말까 고민 될 땐 평균 4.4점의 리얼 리뷰 1,073개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 과일 스토어, [부여] 달콤아삭 세도 대추방울토마토 2kg 로얄과 / 소과 실중량. 살까 말까 고민 될 땐 평균 4.4점의 리얼 리뷰 1,075개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-527895329194112.png?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2902,9 +2925,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4123452",
@@ -2924,7 +2949,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4125798",
@@ -2944,7 +2969,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4132044",
@@ -2953,7 +2978,7 @@
       "currentName": "[공식수입] 특대과 제스프리 썬 골드키위 24입 3.3kg 외 벌크 대용량",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 과일 스토어, [공식수입] 특대과 제스프리 썬 골드키위 24입 3.3kg 외 벌크 대용량. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 515개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 과일 스토어, [공식수입] 특대과 제스프리 썬 골드키위 24입 3.3kg 외 벌크 대용량. 살까 말까 고민 될 땐 평균 4.7점의 리얼 리뷰 516개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-525333997236352.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -2962,9 +2987,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4137118",
@@ -2984,7 +3011,7 @@
       "syncError": "",
       "changedFields": [],
       "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4137119",
@@ -2993,7 +3020,7 @@
       "currentName": "오슬림 에어 팬티형 4단계 ~ 7단계 1BOX(4팩)",
       "currentPrice": null,
       "priceText": "",
-      "promoText": "오늘의집 일회용·수영장기저귀 스토어, 오슬림 에어 팬티형 4단계 ~ 7단계 1BOX(4팩). 살까 말까 고민 될 땐 평균 5.0점의 리얼 리뷰 1,317개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
+      "promoText": "오늘의집 일회용·수영장기저귀 스토어, 오슬림 에어 팬티형 4단계 ~ 7단계 1BOX(4팩). 살까 말까 고민 될 땐 평균 5.0점의 리얼 리뷰 1,318개와 유저들이 직접 찍은 스타일링샷을 확인해보세요!",
       "imageUrl": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-538769090916480.jpg?w=720&h=480",
       "category": "living",
       "campaignBadges": [],
@@ -3002,9 +3029,11 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [],
-      "changeDetected": false,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [
+        "promoText"
+      ],
+      "changeDetected": true,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     },
     {
       "id": "4137158",
@@ -3022,11 +3051,9 @@
       "curatorUrl": "",
       "linkNote": "",
       "syncError": "",
-      "changedFields": [
-        "promoText"
-      ],
-      "changeDetected": true,
-      "syncedAt": "2026-11-03T13:42:35+00:00"
+      "changedFields": [],
+      "changeDetected": false,
+      "syncedAt": "2026-11-03T22:56:43+00:00"
     }
   ]
 }

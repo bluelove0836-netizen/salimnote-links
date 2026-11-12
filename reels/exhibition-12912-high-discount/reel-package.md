@@ -2,7 +2,7 @@
 
 ## 사용 영상
 
-- 릴스 MP4: `reels/exhibition-12912-high-discount/output/salimnote-exhibition-12912-high-discount-reel.mp4`
+- 릴스 MP4: `output/salimnote-exhibition-12912-high-discount-reel.mp4`
 
 ## 영상 구성
 

@@ -11,7 +11,7 @@ import subprocess
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-IG_ROOT = Path(os.environ.get("SALIMNOTE_IG_ROOT", "../인스타그램"))
+IG_ROOT = Path(os.environ.get("SALIMNOTE_IG_ROOT", str(ROOT.parent / "인스타그램")))
 QUEUE = IG_ROOT / "data/reels-queue.json"
 MANUAL = ROOT / "manual-products.json"
 

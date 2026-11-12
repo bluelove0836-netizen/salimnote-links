@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -euo pipefail
 
-repo="../salimnote-links"
+repo="${0:A:h:h}"
 lock="/tmp/salimnote-links-sync.lock"
 if ! mkdir "$lock" 2>/dev/null; then
   echo "Salimnote link sync already running"
